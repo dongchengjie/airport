@@ -38,20 +38,26 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '0|-https://t.me/MrXbin-1', 'server': '54.203.0.206', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|-https://t.me/MrXbin-2', 'server': '34.215.84.62', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|-https://t.me/MrXbin-3', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|-https://t.me/MrXbin-4', 'server': '23.251.121.242', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|-https://t.me/MrXbin-5', 'server': '194.5.215.59', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|-https://t.me/MrXbin-6', 'server': '217.30.10.18', 'port': 9026, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'QWDDvVE9npNurQfA'}
-- {'name': '0|-https://t.me/MrXbin-7', 'server': '212.102.53.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
-- {'name': '0|-https://t.me/MrXbin-8', 'server': '217.30.10.18', 'port': 9041, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'U6qnYRhfyDmn8sgn'}
-- {'name': '0|-https://t.me/MrXbin-9', 'server': '18.237.72.225', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|-https://t.me/MrXbin-10', 'server': '217.30.10.18', 'port': 9079, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'TPqX8edgbAURcAMb'}
-- {'name': '0|-https://t.me/MrXbin-11', 'server': '217.30.10.18', 'port': 9003, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'JdmRK9gMEqFgs8nP'}
-- {'name': '0|-https://t.me/MrXbin-13', 'server': '217.30.10.18', 'port': 9093, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'wfLC2y7rzZyCmuyt'}
-- {'name': '0|-https://t.me/MrXbin-14', 'server': '217.30.10.18', 'port': 9031, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BwcAUZk8hUFAkDGN'}
-- {'name': '0|-https://t.me/MrXbin-51', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '0|-https://t.me/MrXbin-1', 'server': '217.30.10.18', 'port': 9045, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'Lp27rqyJq72bZsqX'}
+- {'name': '0|-https://t.me/MrXbin-2', 'server': '217.30.10.18', 'port': 9024, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BejrQvtu9sqUeNuZ'}
+- {'name': '0|-https://t.me/MrXbin-3', 'server': '92.118.205.85', 'port': 20022, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'dongtaiwang.com'}
+- {'name': '0|-https://t.me/MrXbin-4', 'server': '54.202.63.77', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|-https://t.me/MrXbin-5', 'server': '217.30.10.18', 'port': 9020, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BNmAXXxAHYpTRdzu'}
+- {'name': '0|-https://t.me/MrXbin-6', 'server': '34.215.84.62', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|-https://t.me/MrXbin-8', 'server': '212.102.53.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '0|-https://t.me/MrXbin-9', 'server': '217.30.10.18', 'port': 9026, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'QWDDvVE9npNurQfA'}
+- {'name': '0|-https://t.me/MrXbin-10', 'server': '68.183.227.236', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|-https://t.me/MrXbin-11', 'server': '18.237.72.225', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|-https://t.me/MrXbin-12', 'server': '35.91.173.159', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|-https://t.me/MrXbin-13', 'server': '217.30.10.18', 'port': 9011, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'M3t2ZEQcMGRWBjRa'}
+- {'name': '0|-https://t.me/MrXbin-14', 'server': '137.175.97.159', 'port': 8388, 'type': 'ss', 'cipher': 'chacha20-ietf', 'password': 'asd123456'}
+- {'name': '0|-https://t.me/MrXbin-15', 'server': '184.170.241.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-cfb', 'password': 'shadowsocks'}
+- {'name': '0|-https://t.me/MrXbin-16', 'server': '18.141.184.102', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|-https://t.me/MrXbin-17', 'server': '193.108.119.230', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|-https://t.me/MrXbin-18', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|-https://t.me/MrXbin-19', 'server': '217.30.10.18', 'port': 9003, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'JdmRK9gMEqFgs8nP'}
+- {'name': '0|-https://t.me/MrXbin-36', 'server': '15.235.50.172', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc', 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': 'baradiha.com'}}}
+- {'name': '0|-https://t.me/MrXbin-38', 'server': '38.174.190.80', 'port': 38007, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/102206282005'}}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14,15|CN_speednode_0004', 'server': '36.151.192.203', 'port': 25241, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '13,14|香港3|@ripaojiedian', 'server': 'hk1.tiljkc.top', 'port': 41002, 'type': 'vmess', 'uuid': 'edd1ca31-bdf4-377e-bc3a-76635a33c9cd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'urydh.ljricbrd.top', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['hk1.tiljkc.top']}}}

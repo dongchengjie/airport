@@ -39,17 +39,15 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
-- {'name': '0|--1', 'server': '194.5.215.59', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|--2', 'server': '184.170.241.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-cfb', 'password': 'shadowsocks'}
-- {'name': '0|--3', 'server': '103.36.91.32', 'port': 8388, 'type': 'ss', 'cipher': 'chacha20-ietf', 'password': 'asd123456'}
-- {'name': '0|--4', 'server': '217.30.10.18', 'port': 9042, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'S7KwUu7yBy58S3Ga'}
-- {'name': '0|--6', 'server': '217.30.10.18', 'port': 9020, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BNmAXXxAHYpTRdzu'}
-- {'name': '0|--8', 'server': '54.169.221.38', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--9', 'server': '193.108.119.230', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|--10', 'server': '217.30.10.18', 'port': 9010, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'f63gg8EruDnUrmz4'}
-- {'name': '0|--11', 'server': '217.30.10.18', 'port': 9026, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'QWDDvVE9npNurQfA'}
-- {'name': '0|--12', 'server': '217.30.10.18', 'port': 9003, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'JdmRK9gMEqFgs8nP'}
-- {'name': '0|--13', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--1', 'server': '193.108.119.230', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--2', 'server': '217.30.10.18', 'port': 9079, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'TPqX8edgbAURcAMb'}
+- {'name': '0|--3', 'server': '54.203.0.206', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--4', 'server': '23.251.121.242', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--5', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--6', 'server': '54.169.221.38', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--7', 'server': '194.5.215.59', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--8', 'server': '68.183.227.236', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--28', 'server': '23.158.56.39', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': '23.158.56.39'}}}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14,15|CN_speednode_0004', 'server': '36.151.192.203', 'port': 25241, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '13,14|香港3|@ripaojiedian', 'server': 'hk1.tiljkc.top', 'port': 41002, 'type': 'vmess', 'uuid': 'edd1ca31-bdf4-377e-bc3a-76635a33c9cd', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'urydh.ljricbrd.top', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['hk1.tiljkc.top']}}}
