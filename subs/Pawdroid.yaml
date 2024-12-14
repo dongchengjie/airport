@@ -38,16 +38,21 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '美国科罗拉多州布隆菲尔德市 Level3', 'server': 'service.ouluyun9803.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
-- {'name': '美国 AOL美国在线公司', 'server': 'abf4a13f063dfe2373df11fe8b9ba0b4.v1.cac.node-is.green', 'port': 45181, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'de1.bilibili.com'}
-- {'name': '拉脱维亚 V2CROSS.COM', 'server': '46.183.217.232', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
-- {'name': '法国 法国计算机科学大学', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
-- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '2ff97c6d-8557-42a4-b43f-19c77c5959ea', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'irsoft.sytes.net'}}}
-- {'name': '江苏省 移动', 'server': 'hk1.tiljkc.top', 'port': 41001, 'type': 'vmess', 'uuid': '8995f5b8-6ad5-3c29-836f-ec8baa292ba0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'urydh.ljricbrd.top', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['hk1.tiljkc.top']}}}
-- {'name': '江苏省 移动 2', 'server': 'sg1.tiljkc.top', 'port': 21005, 'type': 'vmess', 'uuid': '8995f5b8-6ad5-3c29-836f-ec8baa292ba0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'urydh.ljricbrd.top', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['sg1.tiljkc.top']}}}
+- {'name': '美国 Sprint网络', 'server': '63.176.118.192', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '伊朗 V2CROSS.COM', 'server': '2.189.59.3', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'obdii.cfd'}}}
 - {'name': '美国 CloudFlare节点', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}}
-- {'name': '美国 CloudFlare节点 2', 'server': '104.26.15.16', 'port': 2087, 'type': 'vmess', 'uuid': '39e8b783-b378-4789-9813-d1b49af11da3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'OfFeR.MirAclestORy.tOP.'}}}
-- {'name': '美国 RF Engineering', 'server': 'cdn1.bpcdn.cc', 'port': 2086, 'type': 'vmess', 'uuid': 'b2295415-b953-4959-8be0-88b358111e95', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'jpjhve0r3125kg1xmz.lovebaipiao.com'}}}
+- {'name': '韩国 首尔Oracle云计算数据中心', 'server': '140.238.10.177', 'port': 21115, 'type': 'trojan', 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'sale.alibaba.com'}
+- {'name': '法国 法国计算机科学大学', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '广东省广州市 移动', 'server': '183.236.51.23', 'port': 46602, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '118287d2-e968-42e1-80d0-12fa2f5d38d6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'sahand.serveminecraft.net'}}}
+- {'name': '美国 CloudFlare节点 2', 'server': '162.159.45.246', 'port': 8880, 'type': 'vmess', 'uuid': '90f8f4dc-8092-4355-9047-05f506f5e9ab', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'm20.155857.xyz'}}}
+- {'name': '美国 CloudFlare节点 3', 'server': 'www.darkroom.lol', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.darkroom.lol'}}}
+- {'name': '江苏省 移动', 'server': 'hk1.tiljkc.top', 'port': 41001, 'type': 'vmess', 'uuid': '8995f5b8-6ad5-3c29-836f-ec8baa292ba0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'urydh.ljricbrd.top', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['hk1.tiljkc.top']}}}
+- {'name': '英国 社会保险安全部', 'server': 'series-a2-mec.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
+- {'name': '北美地区 V2CROSS.COM', 'server': '23.158.56.227', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': '23.158.56.227'}}}
+- {'name': '法国 法国计算机科学大学 2', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '江苏省 移动 2', 'server': 'jp1.tiljkc.top', 'port': 53892, 'type': 'vmess', 'uuid': '8995f5b8-6ad5-3c29-836f-ec8baa292ba0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['jp1.tiljkc.top']}}}
+- {'name': '荷兰 V2CROSS.COM', 'server': 'loving-boa.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'loving-boa.treefrog761.one', 'skip-cert-verify': false}
 
 
 # 代理组
