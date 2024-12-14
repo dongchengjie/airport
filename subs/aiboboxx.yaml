@@ -39,22 +39,23 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
-- {'name': '0|--1', 'server': '54.203.0.206', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--2', 'server': '35.91.173.159', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--3', 'server': '194.5.215.59', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|--4', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|--5', 'server': '23.251.121.242', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|--6', 'server': '51.158.252.130', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ongZotTbkFtDICYZyi63nA'}
-- {'name': '0|--7', 'server': '52.196.152.62', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--8', 'server': '184.170.241.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-cfb', 'password': 'shadowsocks'}
-- {'name': '0|--10', 'server': '45.87.175.188', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '1RWwXhwfAB5gAEozU4G2Pg'}
-- {'name': '0|--13', 'server': '212.102.53.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
-- {'name': '0|--14', 'server': '51.120.12.78', 'port': 34137, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'KrIV7QIoQmMps6L21IrbLv'}
-- {'name': '0|--15', 'server': '34.215.84.62', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--16', 'server': '18.141.184.102', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--37', 'server': '104.248.206.166', 'port': 20826, 'type': 'vmess', 'uuid': 'c105b540-27b2-4211-bf8b-3850166a84af', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '0,15|US_speednode_0031', 'server': '35.168.124.79', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'humble-rodent.treefrog761.one', 'skip-cert-verify': true}
+- {'name': '0|--1', 'server': '184.170.241.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-cfb', 'password': 'shadowsocks'}
+- {'name': '0|--2', 'server': '217.30.10.18', 'port': 9003, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'JdmRK9gMEqFgs8nP'}
+- {'name': '0|--3', 'server': '51.158.252.130', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ongZotTbkFtDICYZyi63nA'}
+- {'name': '0|--4', 'server': '35.91.173.159', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--5', 'server': '54.203.0.206', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--7', 'server': '18.237.72.225', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--8', 'server': '217.30.10.18', 'port': 9094, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'rpgbNnU9rDDU4aWZ'}
+- {'name': '0|--9', 'server': '194.5.215.59', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--10', 'server': '193.108.119.230', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--11', 'server': '18.141.184.102', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--12', 'server': '212.102.53.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '0|--13', 'server': '23.251.121.242', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--14', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--36', 'server': '23.158.56.227', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': '23.158.56.227'}}}
 - {'name': '0,15|US_speednode_0032', 'server': '45.32.137.6', 'port': 443, 'type': 'trojan', 'password': 'wkmY1R4EcP', 'skip-cert-verify': true}
+- {'name': '0,15|US_speednode_0031', 'server': '35.168.124.79', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'humble-rodent.treefrog761.one', 'skip-cert-verify': true}
+- {'name': '0,15|SG_speednode_0016', 'server': '54.251.144.236', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'enabling-heron.treefrog761.one', 'skip-cert-verify': true}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14|香港2|@ripaojiedian', 'server': '36.151.192.203', 'port': 25241, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '13|🇭🇰 香港3|@ripaojiedian', 'server': 'hk02.51feitu.com', 'port': 10002, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '718b6119-17fb-4700-a3ed-32e8417a3daa'}
@@ -78,7 +79,6 @@ proxies:
 - {'name': '13|🇸🇬 狮城特殊|@ripaojiedian', 'server': '54.151.196.32', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '13,14|越南|@ripaojiedian', 'server': 'vn.mjt000.com', 'port': 443, 'type': 'trojan', 'password': '1ba48a0e-af2e-45fb-9e15-2b2d4134657c', 'sni': 'vn.mjt000.com', 'skip-cert-verify': false}
 - {'name': '15|CN_speednode_0003', 'server': '219.135.231.205', 'port': 18147, 'type': 'trojan', 'password': '6307d00e-56e0-4d0d-afe9-254155638bdf', 'skip-cert-verify': true}
-- {'name': '15|SG_speednode_0016', 'server': '54.251.144.236', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'enabling-heron.treefrog761.one', 'skip-cert-verify': true}
 - {'name': '16|d*********g.com_2', 'server': '42.236.73.72', 'port': 443, 'type': 'vmess', 'uuid': '044f0177-0675-4dcf-89d4-804b6788e518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'www.zitian.cn'}
 - {'name': '16|d*********g.com_3', 'server': '42.236.73.72', 'port': 443, 'type': 'trojan', 'password': 'fuck', 'sni': 'www.zitian.cn'}
 
