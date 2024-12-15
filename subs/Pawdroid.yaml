@@ -38,40 +38,32 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '美国 CloudFlare节点', 'server': '104.18.114.119', 'port': 2086, 'type': 'vmess', 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'e1.285581.xyz'}}}
-- {'name': '伊朗 V2CROSS.COM', 'server': '2.189.59.7', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'obdii.cfd'}}}
-- {'name': '美国 CloudFlare节点 2', 'server': '104.21.238.193', 'port': 8880, 'type': 'vmess', 'uuid': '90f8f4dc-8092-4355-9047-05f506f5e9ab', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'm20.155857.xyz'}}}
-- {'name': '英国 伦敦Amazon数据中心', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
-- {'name': '美国 CloudFlare公司CDN节点(iPower)', 'server': '66.235.200.22', 'port': 8443, 'type': 'vmess', 'uuid': '8241ddc8-b5c5-4778-9635-331700c6ff48', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'jk.ylka.us.kg'}}}
-- {'name': '美国 CloudFlare节点 3', 'server': '104.21.238.46', 'port': 2086, 'type': 'vmess', 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'e1.285581.xyz'}}}
-- {'name': '香港 ThinkDream数据中心', 'server': '27.50.48.188', 'port': 8443, 'type': 'vmess', 'uuid': '8241ddc8-b5c5-4778-9635-331700c6ff48', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'jk.ylka.us.kg'}}}
-- {'name': '德国 V2CROSS.COM', 'server': '193.227.99.160', 'port': 8443, 'type': 'vmess', 'uuid': '8241ddc8-b5c5-4778-9635-331700c6ff48', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'jk.ylka.us.kg'}}}
-- {'name': '南非 V2CROSS.COM', 'server': '154.197.121.35', 'port': 8443, 'type': 'vmess', 'uuid': '8241ddc8-b5c5-4778-9635-331700c6ff48', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'jk.ylka.us.kg'}}}
-- {'name': '香港 环球全域电讯国际互联节点', 'server': '218.190.230.207', 'port': 43373, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com', 'skip-cert-verify': true}
-- {'name': '拉脱维亚 V2CROSS.COM', 'server': '46.183.217.232', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
-- {'name': '伊朗 V2CROSS.COM 2', 'server': '2.189.59.2', 'port': 443, 'type': 'vmess', 'uuid': '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'obdii.cfd'}}}
-- {'name': '俄罗斯 V2CROSS.COM', 'server': '77.232.140.180', 'port': 8443, 'type': 'vmess', 'uuid': '8241ddc8-b5c5-4778-9635-331700c6ff48', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'jk.ylka.us.kg'}}}
-- {'name': '加拿大 V2CROSS.COM', 'server': '142.202.49.122', 'port': 7306, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP'}
-- {'name': '美国 CloudFlare节点 4', 'server': '162.159.45.100', 'port': 8880, 'type': 'vmess', 'uuid': '90f8f4dc-8092-4355-9047-05f506f5e9ab', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'm20.155857.xyz'}}}
-- {'name': '江苏省 移动', 'server': 'zfa04.333210.xyz', 'port': 40380, 'type': 'vmess', 'uuid': '13364789-a8b2-4bcd-8df7-a794fb6f87e5', 'alterId': 0, 'cipher': 'auto', 'tls': true}
+- {'name': '美国 CloudFlare节点', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}}
+- {'name': '德国下萨克森州萨尔茨吉特 德国电信', 'server': 'service.ouluyun9803.com', 'port': 20005, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
+- {'name': '香港 环球全域电讯国际互联节点', 'server': '218.190.230.207', 'port': 48169, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856'}
+- {'name': '美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
+- {'name': '美国 CloudFlare节点 2', 'server': 'www.darkroom.lol', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.darkroom.lol'}}}
+- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '118287d2-e968-42e1-80d0-12fa2f5d38d6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'sahand.serveminecraft.net'}}}
+- {'name': '美国 纽约(Prudential)', 'server': 'f46b3f65e076124c635c50538527e26d.v1.cac.node-is.green', 'port': 41143, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'ca1.bilibili.com'}
+- {'name': '美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 2', 'server': 'series-a2.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg'}
+- {'name': '美国 加利福尼亚州圣何塞PEG TECH数据中心', 'server': '192.74.244.181', 'port': 31003, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1733563342767'}}
+- {'name': '加拿大 V2CROSS.COM', 'server': '142.202.49.122', 'port': 8008, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'XKFKl2rULjIp74'}
+- {'name': '广东省广州市荔湾区 /天河区电信', 'server': '219.135.227.209', 'port': 15011, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'ANTGT74MO57KLLLE'}
+- {'name': '加拿大 V2CROSS.COM 2', 'server': '142.202.49.122', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
+- {'name': '美国 华盛顿州西雅图市亚马逊(Amazon)公司数据中心 3', 'server': 'series-a2.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
+- {'name': '美国 V2CROSS.COM', 'server': '131.186.19.239', 'port': 21109, 'type': 'trojan', 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'sale.alibaba.com'}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': '194.87.68.196', 'port': 48696, 'type': 'vmess', 'uuid': 'f5dc8f26-f472-4089-82f8-7af58ea887d3', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
+- {'name': '美国 CloudFlare节点 3', 'server': 'gost.cloudflare.182682.xyz', 'port': 80, 'type': 'vmess', 'uuid': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'gost.naiunclient.top'}}}
+- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '54.195.14.108', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '英国 社会保险安全部', 'server': '51.24.52.48', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 V2CROSS.COM 2', 'server': '137.175.38.243', 'port': 36003, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/1733651459092'}}
+- {'name': '日本 东京Fastly节点', 'server': 'root.mid.al', 'port': 80, 'type': 'vmess', 'uuid': 'a983c698-cae4-4254-d047-51898ccd8ee7', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/aries?ed=2048', 'headers': {'Host': 'kim.gov.kp'}}}
+- {'name': '香港 环球全域电讯国际互联节点 2', 'server': '218.190.230.207', 'port': 43373, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856'}
 - {'name': '广东省广州市 移动', 'server': 'soonjp.soon.guru', 'port': 40003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ab8b625c-efb8-45cd-b509-c7cceabe0cc6'}
-- {'name': '香港 环球全域电讯国际互联节点 2', 'server': '218.190.230.207', 'port': 42534, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com', 'skip-cert-verify': true}
-- {'name': '美国 CloudFlare节点 5', 'server': '104.21.82.183', 'port': 8880, 'type': 'vmess', 'uuid': '5a7021e0-26b4-45d6-b175-fe551601ca97', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server26.beheshtbaneh.com'}}}
-- {'name': '德国 V2CROSS.COM 2', 'server': 'service.ouluyun9803.com', 'port': 26667, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
-- {'name': '江苏省 移动 2', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
-- {'name': '香港 环球全域电讯国际互联节点 3', 'server': 'hgc.node-is.green', 'port': 48777, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
-- {'name': '加拿大 V2CROSS.COM 2', 'server': '142.202.49.122', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'name': '意大利 V2CROSS.COM', 'server': '92.60.74.148', 'port': 8443, 'type': 'vmess', 'uuid': '8241ddc8-b5c5-4778-9635-331700c6ff48', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'jk.ylka.us.kg'}}}
-- {'name': '美国 CloudFlare节点 6', 'server': '104.26.0.133', 'port': 8880, 'type': 'vmess', 'uuid': '90f8f4dc-8092-4355-9047-05f506f5e9ab', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'm8.155857.xyz'}}}
-- {'name': '俄罗斯 V2CROSS.COM 2', 'server': '194.87.68.196', 'port': 48696, 'type': 'vmess', 'uuid': 'f5dc8f26-f472-4089-82f8-7af58ea887d3', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/'}}
-- {'name': '美国 CloudFlare节点 7', 'server': '104.18.114.97', 'port': 8880, 'type': 'vmess', 'uuid': '90f8f4dc-8092-4355-9047-05f506f5e9ab', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'm1.155857.xyz'}}}
-- {'name': '加拿大 V2CROSS.COM 3', 'server': '142.202.49.122', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
-- {'name': '法国 法国计算机科学大学', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
-- {'name': '江苏省 移动 3', 'server': '36.151.192.203', 'port': 25241, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
-- {'name': '美国 CloudFlare节点 8', 'server': '104.21.238.203', 'port': 8880, 'type': 'vmess', 'uuid': '90f8f4dc-8092-4355-9047-05f506f5e9ab', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'm20.155857.xyz'}}}
+- {'name': '香港 环球全域电讯国际互联节点 3', 'server': '218.190.230.207', 'port': 45590, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
 - {'name': '香港 环球全域电讯国际互联节点 4', 'server': '218.190.230.207', 'port': 41288, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
-- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '54.155.157.23', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '美国 CloudFlare节点 9', 'server': '104.18.114.147', 'port': 8880, 'type': 'vmess', 'uuid': '90f8f4dc-8092-4355-9047-05f506f5e9ab', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/github.com/Alvin9999', 'headers': {'Host': 'm20.155857.xyz'}}}
+- {'name': '澳大利亚 V2CROSS.COM', 'server': '160.30.21.105', 'port': 443, 'type': 'trojan', 'password': '94d219c9-1afc-4d42-b090-8b3794764380', 'sni': 'std1.loadingip.com'}
+- {'name': '波兰 V2CROSS.COM', 'server': '193.243.147.128', 'port': 40368, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '7BcLdsO1WweoGD0X'}
 
 
 # 代理组
