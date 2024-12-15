@@ -38,29 +38,26 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '🇷🇺_RU_俄罗斯', 'type': 'ss', 'server': '217.30.10.18', 'port': 9027, 'cipher': 'aes-256-cfb', 'password': 'EXN3S3eQpjE7EJu8'}
-- {'name': '🇺🇸_US_美国', 'type': 'ss', 'server': '51.120.12.152', 'port': 49023, 'cipher': 'chacha20-ietf-poly1305', 'password': 'TdjTu9dRAjFH3hd8WuJLaf'}
-- {'name': '🇩🇪_DE_德国->🇦🇺_AU_澳大利亚', 'type': 'ss', 'server': '46.101.103.208', 'port': 80, 'cipher': 'chacha20-ietf-poly1305', 'password': 'D8TWmJaVi3CWdwqOatzGlw'}
-- {'name': '🇷🇺_RU_俄罗斯_1', 'type': 'ss', 'server': '217.30.10.18', 'port': 9024, 'cipher': 'aes-256-cfb', 'password': 'BejrQvtu9sqUeNuZ'}
-- {'name': '🇬🇧_GB_英国->🇺🇸_US_美国', 'type': 'ss', 'server': '212.102.53.193', 'port': 443, 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
-- {'name': '🇷🇺_RU_俄罗斯_2', 'type': 'ss', 'server': '217.30.10.18', 'port': 9011, 'cipher': 'aes-256-cfb', 'password': 'M3t2ZEQcMGRWBjRa'}
-- {'name': '🇷🇺_RU_俄罗斯_3', 'type': 'ss', 'server': '217.30.10.18', 'port': 9031, 'cipher': 'aes-256-cfb', 'password': 'BwcAUZk8hUFAkDGN'}
-- {'name': '🇷🇺_RU_俄罗斯_4', 'type': 'ss', 'server': '217.30.10.18', 'port': 9033, 'cipher': 'aes-256-cfb', 'password': 'UTJA57ypk2XKQpnm'}
-- {'name': '🇷🇺_RU_俄罗斯_5', 'type': 'ss', 'server': '217.30.10.18', 'port': 9042, 'cipher': 'aes-256-cfb', 'password': 'S7KwUu7yBy58S3Ga'}
-- {'name': '🇺🇸_US_美国_3', 'type': 'ss', 'server': '92.118.205.85', 'port': 20022, 'cipher': 'aes-256-gcm', 'password': 'dongtaiwang.com'}
-- {'name': '🇺🇸_US_美国_4', 'type': 'ss', 'server': '23.251.121.242', 'port': 8080, 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '🇧🇬_BG_保加利亚->🇦🇺_AU_澳大利亚', 'type': 'ss', 'server': '149.34.244.68', 'port': 443, 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
-- {'name': '🇺🇸_US_美国_5', 'type': 'ss', 'server': '18.236.148.85', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '🇺🇸_US_美国_7', 'type': 'ss', 'server': '52.89.164.115', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇨🇭_CH_瑞士', 'type': 'ss', 'server': '138.124.51.236', 'port': 59923, 'cipher': 'chacha20-ietf-poly1305', 'password': '3Vkbowf0PLHJkVMmPFjcA7i/j0ABb6EbYtbe/Xrwuds='}
+- {'name': '🇺🇸_US_美国', 'type': 'ss', 'server': '169.150.210.233', 'port': 8080, 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
 - {'name': '🇷🇴_RO_罗马尼亚', 'type': 'ss', 'server': '194.5.215.59', 'port': 8080, 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '🇸🇬_SG_新加坡', 'type': 'ss', 'server': '18.143.139.72', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '🇺🇸_US_美国_8', 'type': 'ss', 'server': '169.150.210.233', 'port': 8080, 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '🇷🇺_RU_俄罗斯_6', 'type': 'ss', 'server': '217.30.10.18', 'port': 9060, 'cipher': 'aes-256-cfb', 'password': 'ueLXVkvh4hckhErQ'}
-- {'name': '🇷🇺_RU_俄罗斯_7', 'type': 'ss', 'server': '217.30.10.18', 'port': 9093, 'cipher': 'aes-256-cfb', 'password': 'wfLC2y7rzZyCmuyt'}
-- {'name': '🇷🇺_RU_俄罗斯_8', 'type': 'ss', 'server': '217.30.10.18', 'port': 9001, 'cipher': 'aes-256-cfb', 'password': 'UkXRsXvR6buDMG2Y'}
-- {'name': '🇺🇸_US_美国_9', 'type': 'ss', 'server': '18.237.72.225', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '🇷🇺_RU_俄罗斯_9', 'type': 'ss', 'server': '217.30.10.18', 'port': 9050, 'cipher': 'aes-256-cfb', 'password': 'FG5ddLsMPbV5CutE'}
-- {'name': '🇷🇺_RU_俄罗斯_10', 'type': 'ss', 'server': '217.30.10.18', 'port': 9010, 'cipher': 'aes-256-cfb', 'password': 'f63gg8EruDnUrmz4'}
+- {'name': '🇷🇺_RU_俄罗斯', 'type': 'ss', 'server': '217.30.10.18', 'port': 9042, 'cipher': 'aes-256-cfb', 'password': 'S7KwUu7yBy58S3Ga'}
+- {'name': '🇷🇺_RU_俄罗斯_1', 'type': 'ss', 'server': '217.30.10.18', 'port': 9019, 'cipher': 'aes-256-cfb', 'password': 'GA9KzeEgvfxNrgmM'}
+- {'name': '🇷🇺_RU_俄罗斯_2', 'type': 'ss', 'server': '217.30.10.18', 'port': 9033, 'cipher': 'aes-256-cfb', 'password': 'UTJA57ypk2XKQpnm'}
+- {'name': '🇷🇺_RU_俄罗斯_3', 'type': 'ss', 'server': '217.30.10.18', 'port': 9010, 'cipher': 'aes-256-cfb', 'password': 'f63gg8EruDnUrmz4'}
+- {'name': '🇳🇱_NL_荷兰', 'type': 'trojan', 'server': '5.8.35.208', 'port': 443, 'sni': 'loving-boa.treefrog761.one', 'password': '3648425794742788096', 'skip-cert-verify': false}
+- {'name': '🇬🇧_GB_英国', 'type': 'trojan', 'server': '51.21.144.79', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-directvpn', 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇺🇸_US_美国_3', 'type': 'ss', 'server': '35.91.173.159', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇳🇱_NL_荷兰_1', 'type': 'trojan', 'server': '5.8.35.140', 'port': 443, 'sni': 'prime-gator.treefrog761.one', 'password': '3648425794742788096', 'skip-cert-verify': false}
+- {'name': '🇳🇱_NL_荷兰_2', 'type': 'trojan', 'server': 'prime-gator.treefrog761.one', 'port': 443, 'sni': 'prime-gator.treefrog761.one', 'password': '3648425794742788096', 'skip-cert-verify': false}
+- {'name': '🇺🇸_US_美国_6', 'type': 'ss', 'server': '52.89.164.115', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇸🇪_SE_瑞典->🇺🇸_US_美国', 'type': 'trojan', 'server': '13.53.219.1', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns', 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇬🇧_GB_英国_1', 'type': 'trojan', 'server': '18.135.56.233', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns', 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇷🇺_RU_俄罗斯_4', 'type': 'ss', 'server': '217.30.10.18', 'port': 9079, 'cipher': 'aes-256-cfb', 'password': 'TPqX8edgbAURcAMb'}
+- {'name': '🇺🇸_US_美国_7', 'type': 'ss', 'server': '34.215.84.62', 'port': 443, 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '🇺🇸_US_美国_9', 'type': 'trojan', 'server': '13.42.222.251', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-privatevpns', 'network': 'tcp', 'alpn': ['http/1.1']}
+- {'name': '🇷🇺_RU_俄罗斯_5', 'type': 'ss', 'server': '217.30.10.18', 'port': 9024, 'cipher': 'aes-256-cfb', 'password': 'BejrQvtu9sqUeNuZ'}
+- {'name': '🇺🇸_US_美国_10', 'type': 'trojan', 'server': '63.176.226.168', 'port': 22222, 'sni': 'trojan.burgerip.co.uk', 'password': 'telegram-id-directvpn', 'network': 'tcp', 'alpn': ['http/1.1']}
 
 
 # 代理组

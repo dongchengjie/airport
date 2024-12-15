@@ -40,8 +40,10 @@ geox-url:
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
 - {'name': '0|--1', 'server': '169.150.210.233', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|--2', 'server': '18.237.72.225', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--3', 'server': '23.251.121.242', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--2', 'server': '194.5.215.59', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|--3', 'server': '18.237.72.225', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--4', 'server': '23.251.121.242', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0,15|IN_speednode_0004', 'server': 'prime-gator.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'prime-gator.treefrog761.one', 'skip-cert-verify': false}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14|香港2|@ripaojiedian', 'server': '36.151.192.203', 'port': 25241, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '13|🇭🇰 香港3|@ripaojiedian', 'server': 'hk02.51feitu.com', 'port': 10002, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '718b6119-17fb-4700-a3ed-32e8417a3daa'}
@@ -65,7 +67,6 @@ proxies:
 - {'name': '13|🇸🇬 狮城特殊|@ripaojiedian', 'server': '54.151.196.32', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '13,14|越南|@ripaojiedian', 'server': 'vn.mjt000.com', 'port': 443, 'type': 'trojan', 'password': '1ba48a0e-af2e-45fb-9e15-2b2d4134657c', 'sni': 'vn.mjt000.com', 'skip-cert-verify': false}
 - {'name': '15|IN_speednode_0003', 'server': 'loving-boa.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'loving-boa.treefrog761.one', 'skip-cert-verify': false}
-- {'name': '15|IN_speednode_0004', 'server': 'prime-gator.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'prime-gator.treefrog761.one', 'skip-cert-verify': false}
 - {'name': '16|d*********g.com_2', 'server': '42.236.73.72', 'port': 443, 'type': 'vmess', 'uuid': '044f0177-0675-4dcf-89d4-804b6788e518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'www.zitian.cn'}
 - {'name': '16|d*********g.com_3', 'server': '42.236.73.72', 'port': 443, 'type': 'trojan', 'password': 'fuck', 'sni': 'www.zitian.cn'}
 
