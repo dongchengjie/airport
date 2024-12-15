@@ -38,28 +38,17 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '北美地区 V2CROSS.COM', 'server': '23.158.56.227', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': '23.158.56.227'}}}
-- {'name': '广东省广州市荔湾区 /天河区电信', 'server': '219.135.227.209', 'port': 17003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TTK8DSO6MZREEJQ1'}
-- {'name': '法国 OVH SAS', 'server': '217.182.198.219', 'port': 2376, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'faBAoD54k87UJG7'}
-- {'name': '江苏省 移动', 'server': '36.151.192.203', 'port': 25241, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
-- {'name': '美国 V2CROSS.COM', 'server': '65.75.193.154', 'port': 14491, 'type': 'trojan', 'password': 'ouo', 'sni': 'tr.koiok.us.kg', 'network': 'ws', 'ws-opts': {'path': '/?ed=2560', 'headers': {'Host': 'tr.koiok.us.kg'}}}
-- {'name': '美国 华盛顿Cogent通信公司', 'server': '38.174.190.75', 'port': 38007, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/path/251724052818'}}
 - {'name': '拉脱维亚 V2CROSS.COM', 'server': '46.183.217.232', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
-- {'name': '法国 OVH SAS 2', 'server': '217.182.198.219', 'port': 8119, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
-- {'name': '广东省广州市 移动', 'server': '183.236.51.23', 'port': 53002, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '荷兰 V2CROSS.COM', 'server': 'loving-boa.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'loving-boa.treefrog761.one'}
-- {'name': '广东省广州市荔湾区 /天河区电信 2', 'server': '219.135.227.209', 'port': 16015, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'OWLCP6DOQ4PZ5M7G'}
-- {'name': '美国 惠普公司', 'server': '15.237.17.29', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '美国 CloudFlare节点', 'server': 'hsj.lbxjc.online', 'port': 80, 'type': 'vmess', 'uuid': 'e6543319-0574-42ac-b778-1c4325d626f5', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'chunchuan.kejixiaoqi666.store'}}}
-- {'name': '美国 CloudFlare节点 2', 'server': '104.16.155.10', 'port': 80, 'type': 'vmess', 'uuid': 'e6543319-0574-42ac-b778-1c4325d626f5', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'chunchuan.kejixiaoqi666.store'}}}
-- {'name': '荷兰 V2CROSS.COM 2', 'server': '5.8.35.208', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'loving-boa.treefrog761.one'}
-- {'name': '美国 CloudFlare节点 3', 'server': 'server31.beheshtbaneh.com', 'port': 8880, 'type': 'vmess', 'uuid': '4154143c-bbba-47a4-9f79-c2ed087cbcc9', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server31.beheshtbaneh.com'}}}
-- {'name': '香港 Amazon数据中心', 'server': '18.162.246.4', 'port': 18443, 'type': 'trojan', 'password': 'ouo', 'sni': 'tr.koiok.us.kg', 'network': 'ws', 'ws-opts': {'path': '', 'headers': {'Host': 'tr.koiok.us.kg'}}}
-- {'name': '江苏省 移动 2', 'server': 'hk1.tiljkc.top', 'port': 41001, 'type': 'vmess', 'uuid': '8995f5b8-6ad5-3c29-836f-ec8baa292ba0', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'urydh.ljricbrd.top', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/'], 'headers': {'Host': ['hk1.tiljkc.top']}}}
-- {'name': '台湾省桃园市 中华电信', 'server': '210.61.97.241', 'port': 81, 'type': 'trojan', 'password': 'ouo', 'sni': 'tr.koiok.us.kg', 'network': 'ws', 'ws-opts': {'path': '/?ed=2560', 'headers': {'Host': 'tr.koiok.us.kg'}}}
-- {'name': '韩国 KT电信', 'server': 'service.ouluyun9803.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
-- {'name': '荷兰 V2CROSS.COM 3', 'server': 'prime-gator.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'prime-gator.treefrog761.one'}
-- {'name': '法国 OVH SAS 3', 'server': '217.182.198.219', 'port': 8091, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'PCnnH6SQSnfoS27'}
+- {'name': '德国 V2CROSS.COM', 'server': '84.19.31.63', 'port': 50841, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb'}
+- {'name': '江苏省 移动', 'server': '36.151.192.198', 'port': 38698, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
+- {'name': '挪威 V2CROSS.COM', 'server': '138.124.51.236', 'port': 59923, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '3Vkbowf0PLHJkVMmPFjcA7i/j0ABb6EbYtbe/Xrwuds='}
+- {'name': '江苏省 移动 2', 'server': 'hk1.tiljkc.top', 'port': 39041, 'type': 'vmess', 'uuid': '8995f5b8-6ad5-3c29-836f-ec8baa292ba0', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '荷兰 V2CROSS.COM', 'server': '5.8.35.140', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'prime-gator.treefrog761.one'}
+- {'name': '美国 Fastly全球Anycast节点', 'server': 'gov.uk', 'port': 443, 'type': 'vmess', 'uuid': '77848824-93b7-4b89-ffd0-e91afff406ce', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/77848824', 'headers': {'Host': 'zheshiscp.com'}}}
+- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '2ff97c6d-8557-42a4-b43f-19c77c5959ea', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'irsoft.sytes.net'}}}
+- {'name': '美国 CloudFlare节点', 'server': '104.16.61.8', 'port': 8880, 'type': 'vmess', 'uuid': 'f584de15-2034-4170-a723-f48c2bae5e0f', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/afrhms16v.bestxray.buzz/linkws', 'headers': {'Host': '8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev'}}}
+- {'name': '德国下萨克森州萨尔茨吉特 德国电信', 'server': 'service.ouluyun9803.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': '185.242.86.156', 'port': 54170, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '36ZCHeabUSfKjfQEvJ4HDV'}
 
 
 # 代理组
