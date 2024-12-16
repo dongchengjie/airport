@@ -39,23 +39,19 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
-- {'name': '0|--1', 'server': '45.87.175.164', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '4a2rfixophdjffa8KVA4Aa'}
-- {'name': '0|--2', 'server': '3.1.79.116', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--3', 'server': '54.180.232.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--4', 'server': '79.110.53.169', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|--6', 'server': '52.79.248.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--7', 'server': '3.38.182.255', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--8', 'server': '43.203.141.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--9', 'server': '3.38.212.48', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--1', 'server': '217.30.10.18', 'port': 9001, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'UkXRsXvR6buDMG2Y'}
+- {'name': '0|--2', 'server': '217.30.10.18', 'port': 9093, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'wfLC2y7rzZyCmuyt'}
+- {'name': '0|--3', 'server': '217.30.10.18', 'port': 9026, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'QWDDvVE9npNurQfA'}
+- {'name': '0|--4', 'server': '43.203.141.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--5', 'server': '3.1.79.116', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--6', 'server': '54.191.252.235', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--7', 'server': '34.222.132.123', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--8', 'server': '54.180.232.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '0|--10', 'server': '43.203.122.162', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--12', 'server': '52.12.174.108', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--13', 'server': '3.34.255.220', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--14', 'server': '52.41.180.11', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--15', 'server': '34.222.132.123', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--16', 'server': '54.191.252.235', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--17', 'server': '54.201.174.149', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--18', 'server': '3.38.103.161', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--47', 'server': '218.190.230.207', 'port': 42534, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com', 'skip-cert-verify': true}
+- {'name': '0|--11', 'server': '217.30.10.18', 'port': 9041, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'U6qnYRhfyDmn8sgn'}
+- {'name': '0|--12', 'server': '52.79.248.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--13', 'server': '3.38.212.48', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--14', 'server': '217.30.10.18', 'port': 9006, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'FAdUvMJUq5vDgKEq'}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14|香港2|@ripaojiedian', 'server': '36.151.192.203', 'port': 25241, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '13|🇭🇰 香港3|@ripaojiedian', 'server': '219.135.227.209', 'port': 15011, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'ANTGT74MO57KLLLE'}
