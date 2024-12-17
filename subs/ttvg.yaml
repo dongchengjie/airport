@@ -38,15 +38,61 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '🇯🇵 节点日期：12-15', 'server': '46.183.217.232', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
-- {'name': '🇫🇷 法国【付费推荐：https://a0a.xyz】24', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
-- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】114', 'server': '84.19.31.63', 'port': 50841, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb'}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】125', 'server': '219.135.227.209', 'port': 16015, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'OWLCP6DOQ4PZ5M7G'}
-- {'name': '🇫🇷 法国【付费推荐：https://a0a.xyz】23', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】62', 'server': '219.135.227.209', 'port': 18011, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '364S7BOP8HTUCLZP'}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】139', 'server': '219.135.227.209', 'port': 15015, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '9UB4OF8WZ0YXIPBD'}
-- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】34', 'server': '219.135.227.209', 'port': 17003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TTK8DSO6MZREEJQ1'}
-- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】121', 'server': 'root.mid.al', 'port': 80, 'type': 'vmess', 'uuid': 'a983c698-cae4-4254-d047-51898ccd8ee7', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/aries?ed=2048', 'headers': {'Host': 'kim.gov.kp'}}}
+- {'name': '🇯🇵 节点日期：12-17', 'server': '146.56.158.235', 'port': 21112, 'type': 'trojan', 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gevent.gmarket.co.kr'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】44', 'server': '154.90.63.193', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
+- {'name': '未知【付费推荐：https://a0a.xyz】60', 'server': 'naiu-hk.05vr9nyqg5.download', 'port': 13007, 'type': 'trojan', 'password': '3bb73c5b-2500-484a-8ee4-68aaca381a6d', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】34', 'server': 'fiwejniavzoj.xn--fiqs8sjz2bull.com', 'port': 64667, 'type': 'vmess', 'uuid': 'c8963961-034c-4ac5-bc9a-6c76900eeb2b', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】16', 'server': '13.50.211.85', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】2', 'server': 'us01.ssr.ee', 'port': 443, 'type': 'trojan', 'password': '9d0a75d2-f747-4afa-b43f-d208af9e8f9a', 'sni': 'us01.ssr.ee'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】64', 'server': '36.151.192.203', 'port': 25241, 'type': 'trojan', 'password': 'QwwHvrnN'}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】50', 'server': '3.9.201.139', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇮🇪 爱尔兰【付费推荐：https://a0a.xyz】1', 'server': '54.217.232.179', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】11', 'server': '219.135.227.209', 'port': 17003, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TTK8DSO6MZREEJQ1'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】8', 'server': '44.198.219.9', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】10', 'server': '15.157.0.108', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】12', 'server': '18.133.105.230', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns'}
+- {'name': '🇫🇷 法国【付费推荐：https://a0a.xyz】56', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '🇨🇭 瑞士【付费推荐：https://a0a.xyz】7', 'server': '138.124.60.136', 'port': 44915, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fMcrsQuZhCNiHBmXT80AhQ3mPK5alh/iLuDz4pILlYU='}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】49', 'server': '13.36.74.252', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】63', 'server': '92.118.205.228', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】4', 'server': '3.11.202.88', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】51', 'server': '84.19.31.63', 'port': 50841, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb'}
+- {'name': '🇯🇵 日本【付费推荐：https://a0a.xyz】48', 'server': '146.56.158.235', 'port': 20982, 'type': 'trojan', 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gevent.gmarket.co.kr'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】33', 'server': '206.238.237.86', 'port': 2087, 'type': 'vmess', 'uuid': '19e06438-ea22-4478-b420-c3105bd493bb', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/serv00?ed=2048', 'headers': {'Host': 'argo12.zjccc.nyc.mn'}}}
+- {'name': '🇯🇵 日本【付费推荐：https://a0a.xyz】37', 'server': '146.56.158.235', 'port': 21115, 'type': 'trojan', 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gevent.gmarket.co.kr'}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】9', 'server': '51.44.35.184', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】57', 'server': '51.120.1.158', 'port': 32091, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'xjzsiMfTByKjA9URbdXWNp'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】26', 'server': 'hgc.node-is.green', 'port': 44629, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856'}
+- {'name': '🇯🇵 日本【付费推荐：https://a0a.xyz】32', 'server': '146.56.158.235', 'port': 21114, 'type': 'trojan', 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gevent.gmarket.co.kr'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】31', 'server': 'hgc.node-is.green', 'port': 48777, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】36', 'server': '218.190.230.207', 'port': 43373, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】6', 'server': '18.135.173.157', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇦🇺 澳大利亚【付费推荐：https://a0a.xyz】45', 'server': 'std1.loadingip.com', 'port': 443, 'type': 'trojan', 'password': '94d219c9-1afc-4d42-b090-8b3794764380'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】15', 'server': 'hgc.node-is.green', 'port': 46758, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】43', 'server': '218.190.230.207', 'port': 49364, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】24', 'server': 'hgc.node-is.green', 'port': 46259, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】55', 'server': '36.151.192.198', 'port': 38698, 'type': 'trojan', 'password': 'QwwHvrnN'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】47', 'server': '218.190.230.207', 'port': 48777, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】54', 'server': '218.190.230.207', 'port': 46758, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】18', 'server': 'series-a2-mec.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】23', 'server': '218.190.230.207', 'port': 48169, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】20', 'server': '3.14.50.80', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】3', 'server': '3.125.82.193', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】62', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】58', 'server': 'series-a2-me.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'Bog0ELmMM9DSxDdQ'}
+- {'name': '🇩🇪 德国【付费推荐：https://a0a.xyz】39', 'server': '3.125.66.143', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇺🇸 美国【付费推荐：https://a0a.xyz】28', 'server': '63.177.132.151', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】30', 'server': 'soonjp.soon.guru', 'port': 40003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ab8b625c-efb8-45cd-b509-c7cceabe0cc6'}
+- {'name': '🇷🇺 俄罗斯【付费推荐：https://a0a.xyz】17', 'server': '91.199.84.112', 'port': 40380, 'type': 'vmess', 'uuid': '13364789-a8b2-4bcd-8df7-a794fb6f87e5', 'alterId': 0, 'cipher': 'auto', 'tls': true}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】13', 'server': 'series-a2.varzesh360.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg'}
+- {'name': '🇫🇷 法国【付费推荐：https://a0a.xyz】42', 'server': 'irvideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '🇱🇻 拉脱维亚【付费推荐：https://a0a.xyz】52', 'server': '46.183.217.232', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
+- {'name': '🇦🇺 澳大利亚【付费推荐：https://a0a.xyz】59', 'server': '160.30.21.105', 'port': 443, 'type': 'trojan', 'password': '94d219c9-1afc-4d42-b090-8b3794764380', 'sni': 'std1.loadingip.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】41', 'server': '218.190.230.207', 'port': 42534, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】35', 'server': '218.190.230.207', 'port': 45970, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '未知【付费推荐：https://a0a.xyz】38', 'server': 'naiu-other.05vr9nyqg5.download', 'port': 13035, 'type': 'trojan', 'password': '3bb73c5b-2500-484a-8ee4-68aaca381a6d', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com'}
+- {'name': '🇨🇳 中国【付费推荐：https://a0a.xyz】53', 'server': 'hgc.node-is.green', 'port': 42264, 'type': 'trojan', 'password': 'aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856', 'sni': 'hk12.bilibili.com'}
+- {'name': '🇬🇧 英国【付费推荐：https://a0a.xyz】21', 'server': 'series-a1.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
 
 
 # 代理组
