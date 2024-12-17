@@ -38,14 +38,28 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '德国 V2CROSS.COM', 'server': 'service.ouluyun9803.com', 'port': 26667, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
-- {'name': '俄罗斯 V2CROSS.COM', 'server': '185.242.86.156', 'port': 54170, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '36ZCHeabUSfKjfQEvJ4HDV'}
-- {'name': '俄罗斯 V2CROSS.COM 2', 'server': '62.133.63.154', 'port': 20255, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ebrYpJsRfFtlKuO2HygBoD'}
-- {'name': '美国 CloudFlare节点', 'server': '104.21.82.183', 'port': 8880, 'type': 'vmess', 'uuid': '5a7021e0-26b4-45d6-b175-fe551601ca97', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'server26.beheshtbaneh.com'}}}
-- {'name': '美国 麻省理工学院', 'server': 'series-a2.samanehha.co', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
-- {'name': '波兰 V2CROSS.COM', 'server': '193.243.147.128', 'port': 40368, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '7BcLdsO1WweoGD0X'}
-- {'name': '韩国 KT电信', 'server': 'service.ouluyun9803.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
-- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '34.247.63.134', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 CloudFlare节点', 'server': 'hsj.lbxjc.online', 'port': 80, 'type': 'vmess', 'uuid': 'e6543319-0574-42ac-b778-1c4325d626f5', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'chunchuan.kejixiaoqi666.store'}}}
+- {'name': '美国 CloudFlare节点 2', 'server': 's2.cn-db.top', 'port': 2052, 'type': 'vmess', 'uuid': 'e50bb174-f2cb-3081-931e-fa4bfd69f42d', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/dabai.in104.25.31.219', 'headers': {'Host': '100-158-80-199.s2.cn-db.top'}}}
+- {'name': '江苏省 移动', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
+- {'name': '美国 Fastly全球Anycast节点', 'server': 'gov.uk', 'port': 443, 'type': 'vmess', 'uuid': '77848824-93b7-4b89-ffd0-e91afff406ce', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/77848824', 'headers': {'Host': 'zheshiscp.com'}}}
+- {'name': '法国 巴黎Amazon数据中心', 'server': '15.188.93.248', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '广东省广州市 移动', 'server': 'naiu-hk.05vr9nyqg5.download', 'port': 13007, 'type': 'trojan', 'password': '3bb73c5b-2500-484a-8ee4-68aaca381a6d', 'sni': 'cloudflare.node-ssl.cdn-alibaba.com', 'skip-cert-verify': false}
+- {'name': '法国 法国计算机科学大学', 'server': '163.5.159.231', 'port': 443, 'type': 'vmess', 'uuid': 'e537f2f5-2a0c-4f59-92c9-832ca6433bf3', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'irvideo.cfd'}}}
+- {'name': '美国 Xerox', 'server': '13.50.54.181', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '广东省广州市 移动 2', 'server': 'soonhk.soon.guru', 'port': 40000, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'F585FCDB-6351-48D4-82C1-599B5447A589'}
+- {'name': '法国 国际航空电讯集团公司(SITA)', 'server': '57.129.25.20', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 1, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': 'linkvws', 'headers': {'Host': '57.129.25.20'}}}
+- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '716eded6-2201-4dbd-9d63-1638c9e8e677', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'pendar.onthewifi.com'}}}
+- {'name': '欧盟 V2CROSS.COM', 'server': '45.67.215.95', 'port': 443, 'type': 'trojan', 'password': 'tg-fq521free', 'sni': 'torjan.xn--xhq44j.eu.org', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'torjan.xn--xhq44j.eu.org'}}}
+- {'name': '辽宁省 移动', 'server': 'soonru.soon.guru', 'port': 40031, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '29fefcc3-9ae1-4e01-a1d0-534fc1671121'}
+- {'name': '拉脱维亚 V2CROSS.COM', 'server': '46.183.217.232', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3'}
+- {'name': '美国 CloudFlare节点 3', 'server': '172.67.207.57', 'port': 443, 'type': 'trojan', 'password': 'yaml777', 'sni': 'yaml7.ggff.net', 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'yaml7.ggff.net'}}}
+- {'name': '广东省广州市 移动 3', 'server': 'soontw.soon.guru', 'port': 40020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f0e7fd1e-0469-415f-95da-774021f16f36'}
+- {'name': '美国 CloudFlare节点 4', 'server': '104.16.155.10', 'port': 80, 'type': 'vmess', 'uuid': 'e6543319-0574-42ac-b778-1c4325d626f5', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'chunchuan.kejixiaoqi666.store'}}}
+- {'name': '德国 V2CROSS.COM', 'server': '84.19.31.63', 'port': 50841, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb'}
+- {'name': '江苏省 移动 2', 'server': '36.151.192.198', 'port': 38698, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
+- {'name': '俄罗斯 V2CROSS.COM', 'server': '62.133.63.154', 'port': 20255, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ebrYpJsRfFtlKuO2HygBoD'}
+- {'name': '爱尔兰 都柏林Amazon数据中心', 'server': '34.242.191.20', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '广东省广州市 移动 4', 'server': 'soonfr.soon.guru', 'port': 40034, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '29fefcc3-9ae1-4e01-a1d0-534fc1671121'}
 
 
 # 代理组
