@@ -38,7 +38,9 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': 'dongtaiwang.com_0', 'type': 'vmess', 'server': '104.18.114.1', 'port': 2086, 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'udp': true, 'tls': false, 'network': 'ws', 'servername': 'w58.164748.xyz', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'w58.164748.xyz'}}}
+- {'name': 'dongtaiwang.com_0', 'type': 'hysteria2', 'server': '108.181.5.131', 'port': 7329, 'ports': '20000-30000', 'password': 'dongtaiwang.com', 'alpn': ['h3'], 'sni': 'www.bing.com', 'skip-cert-verify': true, 'up': '5 Mbps', 'down': '10 Mbps'}
+- {'name': 'dongtaiwang.com_0_1', 'type': 'hysteria2', 'server': '166.1.190.83', 'port': 61677, 'ports': '10000-50000', 'password': 'github.com/Alvin9999', 'alpn': ['h3'], 'sni': 'www.bing.com', 'skip-cert-verify': true, 'up': '5 Mbps', 'down': '10 Mbps'}
+- {'name': 'dongtaiwang.com_0_2', 'type': 'vmess', 'server': '104.18.114.1', 'port': 2086, 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'udp': true, 'tls': false, 'network': 'ws', 'servername': 'w58.164748.xyz', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'w58.164748.xyz'}}}
 - {'name': 'dongtaiwang.com_1', 'type': 'vmess', 'server': '104.18.114.2', 'port': 2086, 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'udp': true, 'tls': false, 'network': 'ws', 'servername': 'w58.164748.xyz', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'w58.164748.xyz'}}}
 - {'name': 'dongtaiwang.com_2', 'type': 'vmess', 'server': '104.21.238.3', 'port': 2086, 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'udp': true, 'tls': false, 'network': 'ws', 'servername': 'w58.164748.xyz', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'w58.164748.xyz'}}}
 - {'name': 'dongtaiwang.com_3', 'type': 'vmess', 'server': '104.21.238.4', 'port': 2086, 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'udp': true, 'tls': false, 'network': 'ws', 'servername': 'w58.164748.xyz', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'w58.164748.xyz'}}}
@@ -1036,8 +1038,6 @@ proxies:
 - {'name': 'dongtaiwang.com_997', 'type': 'vmess', 'server': '162.159.45.248', 'port': 2086, 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'udp': true, 'tls': false, 'network': 'ws', 'servername': 'w58.164748.xyz', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'w58.164748.xyz'}}}
 - {'name': 'dongtaiwang.com_998', 'type': 'vmess', 'server': '162.159.45.249', 'port': 2086, 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'udp': true, 'tls': false, 'network': 'ws', 'servername': 'w58.164748.xyz', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'w58.164748.xyz'}}}
 - {'name': 'dongtaiwang.com_999', 'type': 'vmess', 'server': '162.159.45.250', 'port': 2086, 'uuid': '7d92ffc9-02e1-4087-8a46-cc4d76560917', 'alterId': 0, 'cipher': 'auto', 'udp': true, 'tls': false, 'network': 'ws', 'servername': 'w58.164748.xyz', 'ws-opts': {'path': 'github.com/Alvin9999', 'headers': {'Host': 'w58.164748.xyz'}}}
-- {'name': 'dongtaiwang.com_0_1', 'type': 'hysteria2', 'server': '166.1.190.83', 'port': 61677, 'ports': '10000-50000', 'password': 'github.com/Alvin9999', 'alpn': ['h3'], 'sni': 'www.bing.com', 'skip-cert-verify': true, 'up': '5 Mbps', 'down': '10 Mbps'}
-- {'name': 'dongtaiwang.com_0_2', 'type': 'hysteria2', 'server': '108.181.5.131', 'port': 7329, 'ports': '20000-30000', 'password': 'dongtaiwang.com', 'alpn': ['h3'], 'sni': 'www.bing.com', 'skip-cert-verify': true, 'up': '5 Mbps', 'down': '10 Mbps'}
 
 
 # 代理组
