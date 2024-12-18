@@ -38,18 +38,23 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '英国 社会保险安全部', 'server': '51.44.150.85', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': false}
-- {'name': '挪威 V2CROSS.COM', 'server': '138.124.60.136', 'port': 44915, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'fMcrsQuZhCNiHBmXT80AhQ3mPK5alh/iLuDz4pILlYU='}
-- {'name': '俄罗斯 V2CROSS.COM', 'server': '185.242.86.156', 'port': 54170, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': '36ZCHeabUSfKjfQEvJ4HDV'}
-- {'name': '广东省湛江市 移动', 'server': '120.198.71.214', 'port': 34493, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '爱尔兰都柏林 亚马逊云', 'server': '3.253.125.90', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': false}
+- {'name': '北京市 联通', 'server': '123.125.94.170', 'port': 1606, 'type': 'trojan', 'password': 'd4f89111885.wns.windows.com', 'sni': 'rusource1.mzsourcenode.info', 'skip-cert-verify': true}
+- {'name': '英国 伦敦Amazon数据中心', 'server': '3.11.66.121', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'W74XFALLLuw6m5IA'}
 - {'name': '瑞典 斯德哥尔摩Amazon数据中心', 'server': '13.48.251.198', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '英国 社会保险安全部 2', 'server': '51.112.94.232', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'u17T3BvpYaaiuW2c'}
-- {'name': '美国 Amazon数据中心', 'server': '18.203.37.86', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '俄罗斯 V2CROSS.COM 2', 'server': '62.133.63.154', 'port': 20255, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'ebrYpJsRfFtlKuO2HygBoD'}
-- {'name': '德国 黑森州法兰克福Amazon数据中心', 'server': '52.28.221.99', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
-- {'name': '德国 V2CROSS.COM', 'server': 'service.ouluyun9803.com', 'port': 20003, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
+- {'name': '美国 Akamai科技公司CDN网络节点', 'server': 'hms04.xmivideo.cfd', 'port': 443, 'type': 'vmess', 'uuid': '93ea486a-bada-42a4-ac38-d088b320fa1e', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkws', 'headers': {'Host': 'xmivideo.cfd'}}}
+- {'name': '广东省湛江市 移动', 'server': '120.198.71.214', 'port': 34493, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
 - {'name': '美国 CloudFlare节点', 'server': 'www.darkroom.lol', 'port': 8080, 'type': 'vmess', 'uuid': '22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'www.darkroom.lol'}}}
+- {'name': '北京市 联通 2', 'server': '123.125.94.170', 'port': 1466, 'type': 'trojan', 'password': 'd4f89111885.wns.windows.com', 'sni': 'frsource1.mzsourcenode.info', 'skip-cert-verify': true}
+- {'name': '美国 惠普公司', 'server': '15.236.44.242', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': false}
+- {'name': '德国下萨克森州萨尔茨吉特 德国电信', 'server': 'service.ouluyun9803.com', 'port': 20005, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'd6105bbd-be0d-45b2-82ad-31fd1071c1d2'}
+- {'name': '英国 社会保险安全部', 'server': '51.44.49.128', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '美国 Amazon EC2服务器', 'server': '3.74.194.150', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '印度 V2CROSS.COM', 'server': '202.78.162.5', 'port': 443, 'type': 'vmess', 'uuid': '118287d2-e968-42e1-80d0-12fa2f5d38d6', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'sahand.serveminecraft.net'}}}
+- {'name': '美国 V2CROSS.COM', 'server': '173.244.56.6', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '美国 俄亥俄州都柏林Amazon数据中心', 'server': '3.19.25.7', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk'}
+- {'name': '北美地区 V2CROSS.COM', 'server': '198.62.62.67', 'port': 443, 'type': 'trojan', 'password': 'tg-fq521free', 'sni': 'torjan.xn--xhq44j.eu.org', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'torjan.xn--xhq44j.eu.org'}}}
+- {'name': '法国 国际航空电讯集团公司(SITA)', 'server': '57.129.25.22', 'port': 443, 'type': 'vmess', 'uuid': '03fcc618-b93d-6796-6aed-8a38c975d581', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'network': 'ws', 'ws-opts': {'path': '/linkvws', 'headers': {'Host': 'wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc'}}}
+- {'name': '美国 CloudFlare节点 2', 'server': '104.16.155.10', 'port': 80, 'type': 'vmess', 'uuid': 'e6543319-0574-42ac-b778-1c4325d626f5', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'chunchuan.kejixiaoqi666.store'}}}
 
 
 # 代理组
