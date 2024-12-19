@@ -39,13 +39,13 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
-- {'name': '0|--1', 'server': '69.50.95.53', 'port': 6697, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
-- {'name': '0|--3', 'server': '79.110.53.169', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
-- {'name': '0|--4', 'server': '43.200.1.13', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '0,13|🇯🇵 日本特殊|@ripaojiedian', 'server': '43.203.243.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--7', 'server': '212.102.53.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
-- {'name': '0|--9', 'server': '54.70.176.73', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--10', 'server': '54.218.229.170', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--3', 'server': '69.50.95.53', 'port': 3389, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '0|--4', 'server': '3.36.65.244', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--6', 'server': '34.222.136.128', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--7', 'server': '54.70.176.73', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--8', 'server': '103.36.91.32', 'port': 8388, 'type': 'ss', 'cipher': 'chacha20-ietf', 'password': 'asd123456'}
+- {'name': '0,15|JP_speednode_0012', 'server': 'fun-ostrich.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'fun-ostrich.treefrog761.one', 'skip-cert-verify': false}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14|香港2|@ripaojiedian', 'server': '223.113.54.145', 'port': 36442, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '13|🇭🇰 香港3|@ripaojiedian', 'server': '219.135.227.209', 'port': 15007, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KGPWD7ZZY2F0ZYPY'}
@@ -70,7 +70,6 @@ proxies:
 - {'name': '15|CN_speednode_0004', 'server': '123.125.94.170', 'port': 1630, 'type': 'trojan', 'password': 'd4f89111885.wns.windows.com', 'sni': 'desource1.game.mzsourcenode.info', 'skip-cert-verify': true}
 - {'name': '15|CN_speednode_0006', 'server': '123.125.94.170', 'port': 1466, 'type': 'trojan', 'password': 'd4f89111885.wns.windows.com', 'skip-cert-verify': true}
 - {'name': '15|CN_speednode_0008', 'server': '123.125.94.170', 'port': 1606, 'type': 'trojan', 'password': 'd4f89111885.wns.windows.com', 'sni': 'rusource1.mzsourcenode.info', 'skip-cert-verify': true}
-- {'name': '15|JP_speednode_0012', 'server': 'fun-ostrich.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'fun-ostrich.treefrog761.one', 'skip-cert-verify': false}
 - {'name': '15|KZ_speednode_0014', 'server': '194.76.18.129', 'port': 443, 'type': 'trojan', 'password': 'tg-fq521free', 'sni': 'torjan.xn--xhq44j.eu.org', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'torjan.xn--xhq44j.eu.org'}}}
 - {'name': '15|RU_speednode_0020', 'server': '45.67.215.95', 'port': 443, 'type': 'trojan', 'password': 'tg-fq521free', 'sni': 'torjan.xn--xhq44j.eu.org', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'torjan.xn--xhq44j.eu.org'}}}
 - {'name': '15|US_speednode_0031', 'server': '198.62.62.67', 'port': 443, 'type': 'trojan', 'password': 'tg-fq521free', 'sni': 'torjan.xn--xhq44j.eu.org', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'torjan.xn--xhq44j.eu.org'}}}

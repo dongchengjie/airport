@@ -38,41 +38,294 @@ geox-url:
 
 # 代理
 proxies: 
-- {'name': '中国 - 臺北市 - Global Communication Network Limited - 2', 'server': 'soontw.soon.guru', 'port': 40020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'F585FCDB-6351-48D4-82C1-599B5447A589', 'delay': 2722}
-- {'name': '中国 - 香港 - Bage Cloud LLC - 1', 'server': 'soonhk.soon.guru', 'port': 40000, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'F585FCDB-6351-48D4-82C1-599B5447A589', 'delay': 2997}
-- {'name': '中国 - 香港 - CTG Server Ltd. - 3', 'server': '183.236.51.23', 'port': 41020, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'delay': 2471}
-- {'name': '加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1', 'server': '38.111.114.114', 'type': 'ss', 'country': '🏁 ZZ', 'port': 8118, 'password': 'cdBIDV42DCwnfIN', 'cipher': 'aes-256-gcm', 'delay': 2274}
-- {'name': '塞尔维亚 - 贝尔格莱德 - M247 Europe SRL - 1', 'server': '194.71.126.31', 'port': 989, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'f8f7aCzcPKbsF8p3', 'delay': 2905}
-- {'name': '德国 - Frankfurt am Main - Amazon Technologies Inc. - 1', 'server': '35.158.229.80', 'type': 'trojan', 'country': '🇩🇪DE', 'port': 22222, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'udp': true, 'delay': 2670}
-- {'name': '德国 - 格尔恩豪森 - ROETH & BECK GbR - 2', 'server': '146.56.142.126', 'type': 'trojan', 'country': '🇰🇷KR', 'port': 21112, 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gmarket.phantasy.life', 'skip-cert-verify': true, 'udp': true, 'delay': 2157}
-- {'name': '挪威 - Lorenskog - Microsoft - 1', 'server': '51.120.1.158', 'port': 32091, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'xjzsiMfTByKjA9URbdXWNp', 'udp': true, 'delay': 1656}
-- {'name': '新加坡 - 新加坡 - Amazon.com, Inc. - 1', 'server': '18.141.231.184', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 2136}
-- {'name': '新加坡 - 新加坡 - Velo Link, Inc. - 2', 'server': '219.135.227.209', 'port': 16015, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CVPPFA5LEN1NRWWO', 'delay': 2775}
-- {'name': '日本 - 东京 - Amazon Technologies Inc - 1', 'server': '13.114.67.166', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 605}
-- {'name': '日本 - 东京 - Amazon.com, Inc. - 2', 'server': '54.178.84.59', 'type': 'ss', 'country': '🇯🇵JP', 'port': 443, 'password': 'amazonskr05', 'cipher': 'aes-256-cfb', 'delay': 2309}
-- {'name': '比利时 - 布鲁塞尔 - M247 Europe SRL - 1', 'server': '192.71.249.108', 'type': 'ss', 'country': '🇧🇪BE', 'port': 989, 'password': 'f8f7aCzcPKbsF8p3', 'cipher': 'aes-256-cfb', 'delay': 2260}
-- {'name': '波兰 - 华沙 - Melbikomas UAB - 1', 'server': '217.30.10.18', 'port': 9059, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': '9XwYyZsK8SNzQDtY', 'delay': 2747}
-- {'name': '波兰 - 华沙 - Melbikomas UAB - 2', 'server': '217.30.10.18', 'type': 'ss', 'port': 9050, 'udp': true, 'password': 'FG5ddLsMPbV5CutE', 'cipher': 'aes-256-cfb', 'delay': 2378}
-- {'name': '波兰 - 华沙 - Melbikomas UAB - 3', 'server': '217.30.10.18', 'type': 'ss', 'country': '🇵🇱PL', 'port': 9094, 'password': 'rpgbNnU9rDDU4aWZ', 'cipher': 'aes-256-cfb', 'delay': 1968}
-- {'name': '爱尔兰 - 都柏林 - Amazon Technologies Inc. - 1', 'server': '34.247.158.236', 'type': 'trojan', 'country': '🇮🇪IE', 'port': 22222, 'udp': true, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'network': 'tcp', 'delay': 2336}
-- {'name': '美国 - Ashburn - Oracle Corporation - 10', 'server': '146.56.142.126', 'type': 'trojan', 'country': '🇰🇷KR', 'port': 21115, 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gmarket.phantasy.life', 'skip-cert-verify': true, 'udp': true, 'delay': 1946}
-- {'name': '美国 - San Jose - Oracle Corporation - 6', 'server': 'h.522226.xyz', 'port': 45800, 'type': 'trojan', 'password': 'xjN4xcuPGg55', 'delay': 1777}
-- {'name': '美国 - 丹佛 - GTHost - 1', 'server': '69.50.95.53', 'port': 8119, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN', 'delay': 2276}
-- {'name': '美国 - 丹佛 - GTHost - 2', 'server': '69.50.95.53', 'port': 8091, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'PCnnH6SQSnfoS27', 'delay': 1817}
-- {'name': '美国 - 丹佛 - GTHost - 8', 'server': '69.50.95.53', 'port': 7307, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'FoOiGlkAA9yPEGP', 'delay': 2413}
-- {'name': '美国 - 波特蘭 - Amazon.com, Inc. - 5', 'server': '34.222.136.128', 'port': 443, 'type': 'ssr', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'protocol': 'origin', 'obfs': 'plain', 'protocol-param': '', 'obfs-param': '', 'delay': 1066}
-- {'name': '美国 - 波特蘭 - Amazon.com, Inc. - 7', 'server': '54.70.176.73', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 936}
-- {'name': '美国 - 波特蘭 - Amazon.com, Inc. - 9', 'server': '54.200.220.184', 'type': 'ss', 'country': '🇺🇸US', 'port': 443, 'password': 'amazonskr05', 'cipher': 'aes-256-cfb', 'delay': 2128}
-- {'name': '美国 - 洛杉矶 - GTHost - 3', 'server': '38.114.114.77', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'delay': 2792}
-- {'name': '美国 - 鳳凰城 - LogicWeb Inc. - 4', 'server': '173.244.56.6', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks', 'delay': 2587}
-- {'name': '芬兰 - 赫尔辛基 - Hetzner Online GmbH - 1', 'server': '146.56.142.126', 'type': 'trojan', 'country': '🇰🇷KR', 'port': 20982, 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gmarket.phantasy.life', 'skip-cert-verify': true, 'udp': true, 'delay': 2048}
-- {'name': '英国 - 伦敦 - Amazon Technologies Inc. - 2', 'server': '13.43.10.125', 'type': 'ss', 'country': '🇬🇧GB', 'port': 443, 'password': 'W74XFALLLuw6m5IA', 'cipher': 'chacha20-ietf-poly1305', 'delay': 1790}
-- {'name': '英国 - 伦敦 - Datacamp Limited - 1', 'server': '212.102.53.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks', 'delay': 944}
-- {'name': '荷兰 - 阿姆斯特丹 - Datacamp Limited - 1', 'server': '149.34.244.82', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks', 'delay': 2257}
-- {'name': '阿拉伯联合酋长国 - 迪拜 - Amazon Technologies Inc. - 1', 'server': 'series-a2-mec.varzesh360.co', 'type': 'ss', 'country': '🇺🇸 US', 'port': 443, 'password': 'u17T3BvpYaaiuW2c', 'cipher': 'chacha20-ietf-poly1305', 'delay': 2668}
-- {'name': '韩国 - 首尔特别市 - Amazon Technologies Inc. - 1', 'server': '13.125.90.251', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 1705}
-- {'name': '韩国 - 首尔特别市 - Amazon.com, Inc. - 2', 'server': '43.202.1.19', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 1100}
-- {'name': '韩国 - 首尔特别市 - Amazon.com, Inc. - 3', 'server': '3.36.126.174', 'type': 'ss', 'port': 443, 'password': 'amazonskr05', 'cipher': 'aes-256-cfb', 'delay': 1569}
+- {'name': '中国 - 臺北市 - Global Communication Network Limited - 2', 'server': 'soontw.soon.guru', 'port': 40020, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'F585FCDB-6351-48D4-82C1-599B5447A589', 'udp': true, 'delay': 1536}
+- {'name': '中国 - 香港 - Alibaba (US) Technology Co., Ltd. - 3', 'server': 'hk9.ftq.ink', 'port': 4000, 'type': 'http', 'tls': true, 'delay': 1025}
+- {'name': '中国 - 香港 - Bage Cloud LLC - 1', 'server': 'soonhk.soon.guru', 'port': 40000, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'F585FCDB-6351-48D4-82C1-599B5447A589', 'udp': true, 'delay': 1871}
+- {'name': '中国 - 香港 - CTG Server Ltd. - 4', 'server': '183.236.51.23', 'port': 51704, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false, 'delay': 1110}
+- {'name': '加拿大 - Beauharnois - OVH SAS - 3', 'server': 'cdncdncdn.aikunapp.com', 'type': 'vmess', 'country': '🏁ZZ', 'port': 443, 'uuid': 'e9ff847b-e8ff-4690-bd68-d024c63c381e', 'alterId': 0, 'cipher': 'auto', 'network': 'ws', 'servername': 'cdn-ca.sm-node.com', 'http-opts': {}, 'h2-opts': {}, 'tls': true, 'skip-cert-verify': true, 'ws-opts': {'path': '/vmess_ws/smjc/index?ed=8192', 'headers': {'HOST': 'cdn-ca.sm-node.com'}}, 'delay': 1295}
+- {'name': '加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1', 'server': '38.111.114.114', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN', 'delay': 1651}
+- {'name': '加拿大 - 蒙特利尔 - BrainStorm Network, Inc - 2', 'server': 'ssca.irundns.net', 'type': 'ssr', 'port': 443, 'password': '$Turb0VPN
+
+# 代理组
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - ⚖️ 负载均衡-轮询
+      - ⚖️ 负载均衡-散列
+      - DIRECT
+    include-all: true
+
+  - name: ♻️ 自动选择
+    type: url-test
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🚑 故障转移
+    type: fallback
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-轮询
+    type: load-balance
+    strategy: round-robin
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: ⚖️ 负载均衡-散列
+    type: load-balance
+    strategy: consistent-hashing
+    lazy: false
+    interval: 300
+    timeout: 5000
+    tolerance: 100
+    url: https://www.google.com/gen_204
+    include-all: true
+
+  - name: 🌍 国外媒体
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📲 电报信息
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies: ['🎯 全球直连', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+  - name: 🎯 全球直连
+    type: select
+    proxies: ['DIRECT', '🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列']
+
+  - name: 🛑 全球拦截
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🍃 应用净化
+    type: select
+    proxies: ['REJECT', 'DIRECT']
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies: ['🚀 节点选择', '♻️ 自动选择', '🚑 故障转移', '⚖️ 负载均衡-轮询', '⚖️ 负载均衡-散列', '🎯 全球直连']
+
+# 规则集
+rule-providers:
+  custom_direct:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/direct.txt
+    path: ./rulesets/custom/direct.txt
+    interval: 86400
+  custom_proxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/proxy.txt
+    path: ./rulesets/custom/proxy.txt
+    interval: 86400
+  custom_reject:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/dongchengjie/airport/main/rules/reject.txt
+    path: ./rulesets/custom/reject.txt
+    interval: 86400
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./rulesets/acl4ssr/LocalAreaNetwork.list
+    interval: 86400
+  UnBan:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./rulesets/acl4ssr/UnBan.list
+    interval: 86400
+  BanAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./rulesets/acl4ssr/BanAD.list
+    interval: 86400
+  BanProgramAD:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./rulesets/acl4ssr/BanProgramAD.list
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./rulesets/acl4ssr/GoogleFCM.list
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+    path: ./rulesets/acl4ssr/GoogleCN.list
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./rulesets/acl4ssr/SteamCN.list
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./rulesets/acl4ssr/Microsoft.list
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./rulesets/acl4ssr/Apple.list
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./rulesets/acl4ssr/Telegram.list
+    interval: 86400
+  ProxyMedia:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./rulesets/acl4ssr/ProxyMedia.list
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./rulesets/acl4ssr/ProxyGFWlist.list
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./rulesets/acl4ssr/ChinaIp.list
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./rulesets/acl4ssr/ChinaDomain.list
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./rulesets/acl4ssr/ChinaCompanyIp.list
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    format: text
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./rulesets/acl4ssr/Download.list
+    interval: 86400
+
+# 规则
+rules:
+  # acl4ssr
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  # 其他
+  - GEOIP,LAN,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
+, 'cipher': 'aes-128-cfb', 'protocol': 'auth_aes128_md5', 'obfs': 'http_post', 'delay': 1328}
+- {'name': '塞尔维亚 - 贝尔格莱德 - M247 Europe SRL - 1', 'server': '194.71.126.31', 'port': 989, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'f8f7aCzcPKbsF8p3', 'delay': 1340}
+- {'name': '拉脱维亚 - 里加 - DataClub S.A. - 1', 'server': '46.183.217.232', 'port': 990, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'f8f7aCzcPKbsF8p3', 'udp': true, 'delay': 2473}
+- {'name': '新加坡 - 新加坡 - Amazon.com, Inc. - 2', 'server': '52.77.239.64', 'port': 443, 'type': 'ss', 'country': '🇸🇬 SG', 'password': 'amazonskr05', 'cipher': 'aes-256-cfb', 'delay': 2895}
+- {'name': '新加坡 - 新加坡 - Microsoft Corporation - 1', 'server': '57.155.31.98', 'port': 80, 'type': 'vmess', 'uuid': 'b831381d-6324-4d53-ad4f-8cda48b30812', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'delay': 848}
+- {'name': '日本 - 东京 - Amazon Technologies Inc. - 1', 'server': '3.113.31.223', 'type': 'ss', 'country': '🇯🇵JP', 'port': 443, 'password': 'amazonskr05', 'cipher': 'aes-256-cfb', 'delay': 703}
+- {'name': '日本 - 东京 - Amazon Technologies Inc. - 2', 'server': 'fun-ostrich.treefrog761.one', 'type': 'trojan', 'country': '🇯🇵JP', 'port': 443, 'password': '3648425794742788096', 'sni': 'fun-ostrich.treefrog761.one', 'skip-cert-verify': true, 'udp': true, 'delay': 2215}
+- {'name': '比利时 - 布鲁塞尔 - M247 Europe SRL - 1', 'server': '192.71.249.108', 'port': 989, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'f8f7aCzcPKbsF8p3', 'delay': 2409}
+- {'name': '法国 - 巴黎 - Amazon Technologies Inc. - 2', 'server': '15.236.161.26', 'port': 22222, 'type': 'vless', 'uuid': '05519058-d2ac-4f28-9e4a-2b2a1386749e', 'tls': true, 'servername': 'telegram-channel-vlessconfig.sohala.uk', 'client-fingerprint': 'chrome', 'network': 'ws', 'ws-opts': {'path': '/telegram-channel-vlessconfig-ws'}, 'delay': 1904}
+- {'name': '法国 - 巴黎 - REDHEBERG Association declaree - 1', 'server': '2.182.174.21', 'port': 9090, 'type': 'vmess', 'uuid': 'fddf88ed-8c70-42ad-c12e-5f40841e6f00', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'skip-cert-verify': true, 'delay': 2386}
+- {'name': '波兰 - 华沙 - Melbikomas UAB - 1', 'server': '217.30.10.18', 'type': 'ss', 'port': 9014, 'udp': true, 'password': 'KnJGad3FqTvjqbaX', 'cipher': 'aes-256-cfb', 'delay': 2553}
+- {'name': '波兰 - 华沙 - Melbikomas UAB - 2', 'server': '217.30.10.18', 'port': 9041, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'U6qnYRhfyDmn8sgn', 'udp': true, 'delay': 1707}
+- {'name': '瑞典 - 斯德哥尔摩 - Amazon Technologies Inc. - 1', 'server': '13.51.33.19', 'type': 'trojan', 'country': '🇸🇪SE', 'port': 22222, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'udp': true, 'delay': 1039}
+- {'name': '瑞典 - 斯德哥尔摩 - Amazon Technologies Inc. - 2', 'server': '13.51.184.70', 'type': 'trojan', 'country': '🇸🇪SE', 'port': 22222, 'udp': true, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'network': 'tcp', 'delay': 1445}
+- {'name': '瑞士 - 日内瓦 - Serva ONE LTD - 1', 'server': '146.56.142.126', 'type': 'trojan', 'country': '🇰🇷KR', 'port': 21114, 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gmarket.phantasy.life', 'skip-cert-verify': true, 'udp': true, 'delay': 1711}
+- {'name': '美国 - Ashburn - Amazon.com, Inc. - 3', 'server': '54.161.163.112', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'delay': 1065}
+- {'name': '美国 - San Jose - Oracle Corporation - 2', 'server': 'h.522226.xyz', 'port': 45800, 'type': 'trojan', 'password': 'xjN4xcuPGg55', 'delay': 2495}
+- {'name': '美国 - 匹兹堡 - Velo Link, Inc. - 7', 'server': '219.135.227.209', 'port': 17001, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'BGX8OXD6P10X53LY', 'delay': 2860}
+- {'name': '美国 - 波特蘭 - Amazon.com, Inc. - 4', 'server': '54.70.176.73', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 1118}
+- {'name': '美国 - 波特蘭 - Amazon.com, Inc. - 6', 'server': '54.200.220.184', 'port': 443, 'type': 'ssr', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'protocol': 'origin', 'obfs': 'plain', 'protocol-param': '', 'obfs-param': '', 'delay': 1086}
+- {'name': '美国 - 洛杉矶 - GTHost - 1', 'server': '38.114.114.77', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm', 'delay': 1111}
+- {'name': '美国 - 阿什本 - Hetzner Online GmbH - 5', 'server': 'nsus3.irundns.net', 'port': 443, 'type': 'ssr', 'cipher': 'aes-128-cfb', 'password': '+asd6a5s5df+', 'protocol': 'auth_aes128_md5', 'obfs': 'http_post', 'protocol-param': '', 'obfs-param': '', 'delay': 2276}
+- {'name': '英国 - 伦敦 - Amazon Technologies Inc. - 2', 'server': '18.130.3.114', 'type': 'trojan', 'country': '🇬🇧GB', 'port': 22222, 'password': 'telegram-id-directvpn', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'udp': true, 'delay': 2032}
+- {'name': '英国 - 伦敦 - Amazon Technologies Inc. - 4', 'server': '13.43.10.125', 'port': 443, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'mps3FwmDjLrWaOVg', 'delay': 1193}
+- {'name': '英国 - 伦敦 - Amazon Technologies Inc. - 6', 'server': '35.177.5.195', 'type': 'trojan', 'country': '🇬🇧GB', 'port': 22222, 'udp': true, 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'network': 'tcp', 'delay': 1584}
+- {'name': '英国 - 伦敦 - Amazon Technologies Inc. - 8', 'server': '18.135.157.165', 'port': 22222, 'type': 'vless', 'uuid': '05519058-d2ac-4f28-9e4a-2b2a1386749e', 'tls': true, 'servername': 'telegram-channel-vlessconfig.sohala.uk', 'client-fingerprint': 'chrome', 'network': 'ws', 'ws-opts': {'path': '/telegram-channel-vlessconfig-ws'}, 'delay': 1921}
+- {'name': '英国 - 伦敦 - Amazon Technologies Inc. - 9', 'server': '18.171.127.223', 'port': 22222, 'type': 'vless', 'uuid': '05519058-d2ac-4f28-9e4a-2b2a1386749e', 'tls': true, 'servername': 'telegram-channel-vlessconfig.sohala.uk', 'client-fingerprint': 'chrome', 'network': 'ws', 'ws-opts': {'path': '/telegram-channel-vlessconfig-ws'}, 'delay': 1550}
+- {'name': '英国 - 伦敦 - Amazon.com, Inc. - 3', 'server': '51.24.5.117', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': true, 'udp': true, 'delay': 2934}
+- {'name': '英国 - 伦敦 - Baxet Group Inc. - 7', 'server': '146.56.142.126', 'type': 'trojan', 'country': '🇰🇷KR', 'port': 21109, 'password': '061a01f1-704b-4712-8e12-6d3fc95a127d', 'sni': 'gmarket.phantasy.life', 'skip-cert-verify': true, 'udp': true, 'delay': 1467}
+- {'name': '英国 - 伦敦 - Datacamp Limited - 1', 'server': '212.102.53.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks', 'delay': 792}
+- {'name': '荷兰 - 阿姆斯特丹 - Datacamp Limited - 1', 'server': '149.34.244.82', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks', 'delay': 754}
+- {'name': '韩国 - 首尔特别市 - Amazon Technologies Inc. - 1', 'server': '52.79.248.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 1451}
+- {'name': '韩国 - 首尔特别市 - Amazon Technologies Inc. - 2', 'server': '13.125.90.251', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 2600}
+- {'name': '韩国 - 首尔特别市 - Amazon.com, Inc. - 3', 'server': '43.200.1.13', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 967}
+- {'name': '韩国 - 首尔特别市 - Amazon.com, Inc. - 4', 'server': '3.36.126.174', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05', 'delay': 1218}
 
 
 # 代理组
