@@ -39,12 +39,26 @@ geox-url:
 # 代理
 proxies: 
 - {'name': '高性价比机场:https://kfyun.uk', 'server': '127.0.0.1', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '6601fb90e9b3'}
+- {'name': '0|--1', 'server': '3.34.255.220', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--2', 'server': '217.30.10.18', 'port': 9050, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'FG5ddLsMPbV5CutE'}
+- {'name': '0|--3', 'server': '217.30.10.18', 'port': 9064, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'cp8pRSUAyLhTfVWH'}
+- {'name': '0|--4', 'server': '69.50.95.53', 'port': 3389, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
+- {'name': '0|--5', 'server': '212.102.53.194', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '0|--6', 'server': '69.50.95.53', 'port': 6697, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'TEzjfAYq2IjtuoS'}
+- {'name': '0|--8', 'server': '34.222.132.123', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--9', 'server': '3.38.212.48', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--10', 'server': '217.30.10.18', 'port': 9031, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'BwcAUZk8hUFAkDGN'}
+- {'name': '0|--11', 'server': '217.30.10.18', 'port': 9018, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'fG2artUmHfNT2cX7'}
+- {'name': '0|--12', 'server': '3.36.65.244', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--14', 'server': '54.201.174.149', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--15', 'server': '149.34.244.82', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '0|--16', 'server': '34.222.136.128', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '0,13|🇯🇵 日本特殊|@ripaojiedian', 'server': '43.203.243.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--3', 'server': '69.50.95.53', 'port': 3389, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'Y6R9pAtvxxzmGC'}
-- {'name': '0|--4', 'server': '3.36.65.244', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--6', 'server': '34.222.136.128', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--7', 'server': '54.70.176.73', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|--8', 'server': '103.36.91.32', 'port': 8388, 'type': 'ss', 'cipher': 'chacha20-ietf', 'password': 'asd123456'}
+- {'name': '0|--18', 'server': '43.203.141.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--19', 'server': '38.111.114.114', 'port': 8118, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'cdBIDV42DCwnfIN'}
+- {'name': '0|--20', 'server': '43.200.1.13', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--21', 'server': '54.218.229.170', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|--22', 'server': '217.30.10.18', 'port': 9038, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'gYCYXfkUQEs2TaJQ'}
 - {'name': '0,15|JP_speednode_0012', 'server': 'fun-ostrich.treefrog761.one', 'port': 443, 'type': 'trojan', 'password': 3648425794742788000, 'sni': 'fun-ostrich.treefrog761.one', 'skip-cert-verify': false}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14|香港2|@ripaojiedian', 'server': '223.113.54.145', 'port': 36442, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}

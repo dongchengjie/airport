@@ -42,21 +42,25 @@ proxies:
 - {'name': '香港2|@ripaojiedian', 'server': '223.113.54.145', 'port': 36442, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '香港3|@ripaojiedian', 'server': '219.135.227.209', 'port': 15007, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KGPWD7ZZY2F0ZYPY'}
 - {'name': '香港4|@ripaojiedian', 'server': '120.198.71.214', 'port': 34493, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '香港5|@ripaojiedian', 'server': 'hk1.tiljkc.top', 'port': 41002, 'type': 'vmess', 'uuid': '869760fe-7f4f-320c-b223-697f8e870088', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'api.teborder.com', 'network': 'http', 'http-opts': {'method': 'GET', 'path': ['/game'], 'headers': {'Host': ['api.teborder.com']}}}
-- {'name': '香港6|@ripaojiedian', 'server': 'ccc-v3-14.rabbitpro-in-1.com', 'port': 29014, 'type': 'vmess', 'uuid': '4aaca0a5-7d55-3358-81ec-25b5e371ed90', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '香港5|@ripaojiedian', 'server': '183.236.51.23', 'port': 51704, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
+- {'name': '香港6|@ripaojiedian', 'server': 'gy.666666222.shop', 'port': 34338, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'e514e283-fa04-446e-a655-b854da829375'}
 - {'name': '香港7|@ripaojiedian', 'server': '183.236.51.23', 'port': 46602, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '香港8|@ripaojiedian', 'server': '183.236.51.23', 'port': 41020, 'type': 'vmess', 'uuid': '418048af-a293-4b99-9b0c-98ca3580dd24', 'alterId': 64, 'cipher': 'auto', 'tls': false}
-- {'name': '台湾|@ripaojiedian', 'server': 'ccc-29.rabbitpro-in-3.com', 'port': 27029, 'type': 'vmess', 'uuid': '4aaca0a5-7d55-3358-81ec-25b5e371ed90', 'alterId': 0, 'cipher': 'auto', 'tls': false, 'network': 'ws', 'ws-opts': {'path': '/hls', 'headers': {'Host': 'v1-29.rabbitpro-out.com'}}}
+- {'name': '香港8|@ripaojiedian', 'server': 'hk1.tiljkc.top', 'port': 39041, 'type': 'vmess', 'uuid': 'c1ae98ab-35aa-36bf-b317-857006d2fdfb', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '台湾|@ripaojiedian', 'server': 'i.needss.top', 'port': 20016, 'type': 'vmess', 'uuid': 'aa44bc1f-3085-4e33-96e4-fcfc5a18a688', 'alterId': 0, 'cipher': 'auto', 'tls': false}
 - {'name': '日本|@ripaojiedian', 'server': '219.135.227.209', 'port': 18009, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'YD5ETBMPY0O6L2A9'}
-- {'name': '日本2|@ripaojiedian', 'server': 'jp1.tiljkc.top', 'port': 38953, 'type': 'vmess', 'uuid': '869760fe-7f4f-320c-b223-697f8e870088', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '日本2|@ripaojiedian', 'server': 'jp1.tiljkc.top', 'port': 38951, 'type': 'vmess', 'uuid': 'c1ae98ab-35aa-36bf-b317-857006d2fdfb', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '日本3|@ripaojiedian', 'server': '156.231.104.21', 'port': 18011, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '9ZEB8Z1ZXEUHAGUH'}
+- {'name': '日本4|@ripaojiedian', 'server': '156.231.104.11', 'port': 18001, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': '0JP2PNY1VIZVNSRJ'}
+- {'name': '韩国|@ripaojiedian', 'server': 'i.needss.top', 'port': 20021, 'type': 'vmess', 'uuid': 'aa44bc1f-3085-4e33-96e4-fcfc5a18a688', 'alterId': 0, 'cipher': 'auto', 'tls': false}
 - {'name': '新加坡|@ripaojiedian', 'server': '219.135.227.209', 'port': 16015, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'CVPPFA5LEN1NRWWO'}
-- {'name': '新加坡2|@ripaojiedian', 'server': 'sg1.tiljkc.top', 'port': 34843, 'type': 'vmess', 'uuid': '869760fe-7f4f-320c-b223-697f8e870088', 'alterId': 0, 'cipher': 'auto', 'tls': false}
-- {'name': '美国|@ripaojiedian', 'server': 'usla.mjt000.com', 'port': 443, 'type': 'trojan', 'password': '1ba48a0e-af2e-45fb-9e15-2b2d4134657c', 'sni': 'usla.mjt000.com'}
-- {'name': '美国2|@ripaojiedian', 'server': '31.59.111.4', 'port': 4001, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': '89b90001-4206-4871-a99d-1744d48f215b'}
-- {'name': '韩国特殊|@ripaojiedian', 'server': '52.79.52.119', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '日本特殊|@ripaojiedian', 'server': '43.203.243.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '狮城特殊|@ripaojiedian', 'server': '43.202.65.32', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '新加坡2|@ripaojiedian', 'server': 'sg1.tiljkc.top', 'port': 34842, 'type': 'vmess', 'uuid': 'c1ae98ab-35aa-36bf-b317-857006d2fdfb', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '美国|@ripaojiedian', 'server': 'h.522226.xyz', 'port': 45800, 'type': 'trojan', 'password': 'xjN4xcuPGg55'}
+- {'name': '美国2|@ripaojiedian', 'server': 'xdd.dashuai.cyou', 'port': 45053, 'type': 'vmess', 'uuid': '5f60da64-5a9a-4fe3-925d-4dd45084816e', 'alterId': 0, 'cipher': 'auto', 'tls': false}
+- {'name': '韩国特殊|@ripaojiedian', 'server': '52.79.248.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '日本特殊|@ripaojiedian', 'server': '43.203.141.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '狮城特殊|@ripaojiedian', 'server': '3.38.212.48', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '越南|@ripaojiedian', 'server': 'vn.mjt000.com', 'port': 443, 'type': 'trojan', 'password': '1ba48a0e-af2e-45fb-9e15-2b2d4134657c', 'sni': 'vn.mjt000.com'}
+- {'name': '法国|@ripaojiedian', 'server': '2.182.174.21', 'port': 9090, 'type': 'vmess', 'uuid': 'fddf88ed-8c70-42ad-c12e-5f40841e6f00', 'alterId': 0, 'cipher': 'auto', 'tls': false}
 
 
 # 代理组
