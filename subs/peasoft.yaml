@@ -38,13 +38,20 @@ geox-url:
 
 # 代理
 proxies: 
+- {'name': '0|-https://t.me/MrXbin-1', 'server': '217.30.10.18', 'port': 9010, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'f63gg8EruDnUrmz4'}
 - {'name': '0,13|🇰🇷 韩国特殊|@ripaojiedian', 'server': '52.79.248.193', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|-https://t.me/MrXbin-2', 'server': '217.30.10.18', 'port': 9060, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'ueLXVkvh4hckhErQ'}
-- {'name': '0|-https://t.me/MrXbin-3', 'server': '43.203.243.93', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|-https://t.me/MrXbin-4', 'server': '3.36.65.244', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
-- {'name': '0|-https://t.me/MrXbin-6', 'server': '217.30.10.18', 'port': 9006, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'FAdUvMJUq5vDgKEq'}
-- {'name': '0|-https://t.me/MrXbin-7', 'server': '217.30.10.18', 'port': 9050, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'FG5ddLsMPbV5CutE'}
-- {'name': '0,15|US_speednode_0028', 'server': '104.219.41.229', 'port': 443, 'type': 'trojan', 'password': 'Julius', 'sni': 'miami.juliusnet.com', 'skip-cert-verify': true}
+- {'name': '0|-https://t.me/MrXbin-3', 'server': '38.114.114.77', 'port': 5500, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KixLvKzwjekG00rm'}
+- {'name': '0|-https://t.me/MrXbin-4', 'server': '217.30.10.18', 'port': 9084, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'c3NtHJ5ujV2tGDfj'}
+- {'name': '0|-https://t.me/MrXbin-5', 'server': '79.110.53.169', 'port': 8080, 'type': 'ss', 'cipher': 'rc4-md5', 'password': '14fFPrbezE3HDZzsMOr6'}
+- {'name': '0|-https://t.me/MrXbin-6', 'server': '43.200.1.13', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|-https://t.me/MrXbin-8', 'server': '45.87.175.154', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'cvII85TrW6n0OGyfpHVS1u'}
+- {'name': '0|-https://t.me/MrXbin-9', 'server': '45.87.175.181', 'port': 8080, 'type': 'ss', 'cipher': 'chacha20-ietf-poly1305', 'password': 'cvII85TrW6n0OGyfpHVS1u'}
+- {'name': '0|-https://t.me/MrXbin-11', 'server': '54.218.229.170', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|-https://t.me/MrXbin-12', 'server': '149.34.244.82', 'port': 443, 'type': 'ss', 'cipher': 'aes-128-gcm', 'password': 'shadowsocks'}
+- {'name': '0|-https://t.me/MrXbin-13', 'server': '217.30.10.18', 'port': 9093, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'wfLC2y7rzZyCmuyt'}
+- {'name': '0|-https://t.me/MrXbin-14', 'server': '54.70.176.73', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
+- {'name': '0|-https://t.me/MrXbin-15', 'server': '217.30.10.18', 'port': 9014, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'KnJGad3FqTvjqbaX'}
+- {'name': '0|-https://t.me/MrXbin-16', 'server': '54.201.174.149', 'port': 443, 'type': 'ss', 'cipher': 'aes-256-cfb', 'password': 'amazonskr05'}
 - {'name': '13,14|香港|@ripaojiedian', 'server': '36.151.192.239', 'port': 42395, 'type': 'trojan', 'password': 'DNUMdmnJ', 'skip-cert-verify': true}
 - {'name': '13,14,15|CN_speednode_0004', 'server': '223.113.54.145', 'port': 36442, 'type': 'trojan', 'password': 'QwwHvrnN', 'skip-cert-verify': true}
 - {'name': '13|🇭🇰 香港3|@ripaojiedian', 'server': '219.135.227.209', 'port': 15007, 'type': 'ss', 'cipher': 'aes-256-gcm', 'password': 'KGPWD7ZZY2F0ZYPY'}
@@ -71,6 +78,7 @@ proxies:
 - {'name': '15|RU_speednode_0018', 'server': '45.67.215.95', 'port': 443, 'type': 'trojan', 'password': 'tg-fq521free', 'sni': 'torjan.xn--xhq44j.eu.org', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'torjan.xn--xhq44j.eu.org'}}}
 - {'name': '15|US_speednode_0024', 'server': '216.24.57.30', 'port': 443, 'type': 'trojan', 'password': 'tg-fq521free', 'sni': 'torjan.xn--xhq44j.eu.org', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'torjan.xn--xhq44j.eu.org'}}}
 - {'name': '15|US_speednode_0026', 'server': '198.62.62.67', 'port': 443, 'type': 'trojan', 'password': 'tg-fq521free', 'sni': 'torjan.xn--xhq44j.eu.org', 'skip-cert-verify': true, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': 'torjan.xn--xhq44j.eu.org'}}}
+- {'name': '15|US_speednode_0028', 'server': '104.219.41.229', 'port': 443, 'type': 'trojan', 'password': 'Julius', 'sni': 'miami.juliusnet.com', 'skip-cert-verify': true}
 - {'name': '16|d*********g.com_2', 'server': '42.236.73.72', 'port': 443, 'type': 'vmess', 'uuid': '044f0177-0675-4dcf-89d4-804b6788e518', 'alterId': 0, 'cipher': 'auto', 'tls': true, 'servername': 'www.zitian.cn'}
 - {'name': '16|d*********g.com_3', 'server': '42.236.73.72', 'port': 443, 'type': 'trojan', 'password': 'fuck', 'sni': 'www.zitian.cn'}
 
