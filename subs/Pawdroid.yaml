@@ -1,0 +1,5 @@
+proxies:
+  - {"sni":"shoppingmall.electricbanana.click","type":"trojan","password":".ie4rghJuMkcf0oF","server":"38.96.254.102","port":18509,"name":"美国+华盛顿Cogent通信公司"}
+  - {"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.30.120","port":443,"name":"香港+电讯盈科有限公司-1"}
+  - {"name":"美国 V2CROSS.COM","type":"vmess","server":"74.117.196.232","port":37934,"cipher":"auto","uuid":"54a0bf6d-f2b5-4b2a-942c-798fb129527e","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"Host":"imafake.locker"}},"servername":"imafake.locker"}
+  - {"skip-cert-verify":true,"sni":"t.me/ripaojiedian","type":"trojan","password":"BxceQaOe","server":"219.79.186.107","port":443,"name":"香港+电讯盈科有限公司-2"}
