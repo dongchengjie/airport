@@ -1,0 +1,16 @@
+proxies:
+  - {"name":"tg频道:@freenodedaily","server":"63.180.254.10","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"name":"🇭🇰 香港","server":"v10.hdacd.com","port":30807,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","tls":false,"skip-cert-verify":false}
+  - {"name":"🇭🇰 香港3","server":"112.118.116.127","port":443,"type":"trojan","password":"76d630f2af6619c4a5de0ef953df3c6a","sni":"www.nintendogames.net","skip-cert-verify":false}
+  - {"name":"🇭🇰 香港4","server":"58.152.53.174","port":443,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true}
+  - {"name":"🇭🇰 香港5","server":"219.78.209.224","port":443,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true}
+  - {"name":"🇯🇵 日本","server":"3.112.202.47","port":26378,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true}
+  - {"name":"🇯🇵 日本2","server":"153.121.65.107","port":3093,"type":"trojan","password":"76d630f2af6619c4a5de0ef953df3c6a","sni":"www.nintendogames.net","skip-cert-verify":false}
+  - {"name":"🇯🇵 日本3","server":"153.121.53.187","port":3093,"type":"trojan","password":"76d630f2af6619c4a5de0ef953df3c6a","sni":"www.nintendogames.net","skip-cert-verify":false}
+  - {"name":"🇸🇬 新加坡","server":"160.16.144.208","port":507,"type":"trojan","password":"76d630f2af6619c4a5de0ef953df3c6a","sni":"www.nintendogames.net","skip-cert-verify":false}
+  - {"name":"🇸🇬 新加坡2","server":"52.195.224.88","port":3145,"type":"trojan","password":"76d630f2af6619c4a5de0ef953df3c6a","sni":"www.nintendogames.net","skip-cert-verify":false}
+  - {"name":"🇸🇬 新加坡3","server":"52.195.5.65","port":804,"type":"trojan","password":"BxceQaOe","sni":"t.me%252Fripaojiedian","skip-cert-verify":true}
+  - {"name":"🇺🇸 美国","server":"160.16.236.32","port":4054,"type":"trojan","password":"76d630f2af6619c4a5de0ef953df3c6a","sni":"www.nintendogames.net","skip-cert-verify":false}
+  - {"name":"🇺🇸 美国2","server":"153.121.51.29","port":2890,"type":"trojan","password":"76d630f2af6619c4a5de0ef953df3c6a","sni":"www.nintendogames.net","skip-cert-verify":false}
+  - {"name":"🇺🇸 美国3","server":"52.195.5.65","port":4569,"type":"trojan","password":"BxceQaOe","sni":"t.me%2Fripaojiedian","skip-cert-verify":true}
+  - {"name":"🇻🇳 越南","server":"103.186.155.205","port":38388,"type":"ss","cipher":"aes-256-cfb","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"}

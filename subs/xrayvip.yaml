@@ -1,0 +1,20 @@
+proxies:
+  - {"name":"🇯🇵 节点日期：12-10","server":"v30.hdacd.com","port":30830,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_2","server":"2001:bc8:32d7:302::10","port":44579,"type":"vmess","uuid":"8e34e170-13ae-4892-9d20-05962acc9f84","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/","early-data-header-name":"Sec-WebSocket-Protocol","max-early-data":2048},"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_3","server":"167.17.179.197","port":10081,"type":"ss","cipher":"aes-256-gcm","password":"0690659746980c46","tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_4","server":"45.14.245.2","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"17ZDORWIliQHuO6WRGHChXYMzdRtAYVP","tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_5","server":"v12.hdacd.com","port":30812,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_6","server":"zyipv6.pai50288.uk","port":55588,"type":"ss","cipher":"aes-128-gcm","password":"XMj65epCcyjN6DSqz0W0VLlZWaW+XLQdMftFQIXff6s=","tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_7","server":"switcher-nick-croquet.freesocks.work","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"wwzVn2ZnHfqYa6l8EWh3eY","tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_8","server":"clr.ducks.tel","port":17844,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"907560230","tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_11","server":"jp3.t.sgateway.link","port":5223,"type":"trojan","password":"Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS","sni":"pod-jp-z1.psusercontent.com","skip-cert-verify":false,"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_12","server":"clr.ducks.tel","port":17846,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"907560230","tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_13","server":"14.17.71.237","port":41313,"type":"vmess","uuid":"82539eb7-18c8-48d0-bb9c-55d1b6e47f59","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/obj","headers":{"Host":"img14.360buyimg.com"}},"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_14","server":"82.198.246.97","port":180,"type":"vmess","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_17","server":"hk3.t.sgateway.link","port":5223,"type":"trojan","password":"Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS","sni":"pod-hk-z1.psusercontent.com","skip-cert-verify":false,"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_19","server":"clr.ducks.tel","port":17847,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"907560230","tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_20","server":"58.152.110.82","port":443,"type":"trojan","password":"76d630f2af6619c4a5de0ef953df3c6a","sni":"www.nintendogames.net","skip-cert-verify":false,"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_21","server":"185.221.23.251","port":29431,"type":"vmess","uuid":"8b78363e-3c3a-44ab-f0d8-f13d950c8572","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_22","server":"209.74.81.149","port":21166,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"q92MrrP9oJ3lMEzbQFpyuU","tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_23","server":"104.21.38.90","port":80,"type":"vmess","uuid":"2d068083-2cb0-4ae3-a44a-6fc82f3039cc","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/87Ex2JiYYWr7FRa06b88JSo","headers":{"Host":"dddcccdvfg.222856.xyz"}},"tfo":false}
+  - {"name":"【机场推荐：https://a0a.xyz/】_24","server":"83.217.9.17","port":25232,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"YHtXD4pojvormVWRiHgIfv","tfo":false}
