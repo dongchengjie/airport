@@ -1,0 +1,9 @@
+proxies:
+  - {"name":"节点日期：12-26\r","type":"ss","server":"45.82.252.109","port":990,"password":"ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"【机场推荐：https://a0a.xyz/】2\r","type":"vless","server":"purplelily.qzz.io","port":443,"uuid":"9ac02124-e3f2-4a80-8ac8-d06612ebaceb","tls":true,"network":"ws","ws-opts":{"path":"/57.128.183.35:443"},"servername":"purplelily.qzz.io"}
+  - {"name":"【机场推荐：https://a0a.xyz/】3\r","type":"ss","server":"95.164.116.33","port":443,"password":"pQmnC03JObbPhdh5FBJHgD6jnTLchsRA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"【机场推荐：https://a0a.xyz/】4\r","type":"vless","server":"de-1.fooms.cc","port":443,"uuid":"3005c397-1c4c-4bbe-b209-ea3fe93bb992","tls":true,"network":"ws","ws-opts":{"path":"/Path2WS"},"servername":"de-1.fooms.cc"}
+  - {"name":"【机场推荐：https://a0a.xyz/】5\r","type":"trojan","server":"112.118.116.8","port":443,"udp":true,"password":"44e660b0ee21cf3ac66aee2c08af85d2","sni":"www.nintendogames.net","skip-cert-verify":true}
+  - {"name":"【机场推荐：https://a0a.xyz/】6\r","type":"vless","server":"ns.cloudnsmkh.ir","port":443,"uuid":"08b6328c-4fdc-4262-b908-f0ad389e9911","tls":true,"network":"ws","ws-opts":{"path":"/news"},"servername":"ns1.ezcloudnet.ir"}
+  - {"name":"【机场推荐：https://a0a.xyz/】7","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp","disable-sni":true,"servername":""}
+  - {"name":"【机场推荐：https://a0a.xyz/】8\r","type":"ss","server":"217.60.63.96","port":443,"password":"Mb7c1yskGeWF3qsl2Z3Zth","cipher":"chacha20-ietf-poly1305"}
