@@ -1,0 +1,5 @@
+proxies:
+  - {"sni":"t.me%252Fripaojiedian","type":"trojan","password":"BxceQaOe","server":"58.152.53.219","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"以色列 V2CROSS.COM","type":"vmess","server":"149.88.95.217","port":18937,"cipher":"auto","uuid":"ebaa1ae1-fa4d-40d8-958f-d4524d551218","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"green2.cdntencentmusic.com","type":"trojan","password":"1d2d37ba-7625-4fdd-ad58-515783b2c48a","server":"green2.cdntencentmusic.com","port":31103,"name":"台湾省台中市+中华电信","network":"tcp","client-fingerprint":"chrome"}
