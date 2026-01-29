@@ -1,0 +1,9 @@
+proxies:
+  - {"skip-cert-verify":false,"sni":"www.semanticstaplegun.click","type":"trojan","password":"wp9IsiY82uQhcmgNC1eoBM","server":"80.173.231.254","port":12420,"name":"西班牙+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"广东省佛山市 移动","type":"vmess","server":"v30.hdacd.com","port":30830,"cipher":"auto","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":0,"tls":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"104.21.69.44","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"172.64.152.23","port":8443,"cipher":"auto","uuid":"19e52bf4-1b7d-4bd4-ae66-6ca024436c17","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/gbt","headers":{"Host":"frsys.fl-dl.com"}},"client-fingerprint":"chrome","alpn":["h3","h2","http/1.1"],"servername":"frsys.fl-dl.com"}
+  - {"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"140.82.35.244","port":20994,"name":"美国+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"web.max","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.228","port":10889,"name":"加拿大+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c2.havij.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"kaQH3hGdcP80XEDI","name":"荷兰+V2CROSS.COM"}
