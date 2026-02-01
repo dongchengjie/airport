@@ -1,0 +1,8 @@
+proxies:
+  - {"name":"美国 CloudFlare节点","type":"vmess","server":"172.67.204.84","port":8080,"cipher":"auto","uuid":"nasnet","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/nasnet/cdn","headers":{"Host":"nasnet-511952424.mcitel.co"}},"client-fingerprint":"chrome"}
+  - {"sni":"219.76.135.98","type":"trojan","password":"BxceQaOe","server":"219.76.135.98","port":443,"name":"香港+电讯盈科有限公司","network":"tcp","client-fingerprint":"chrome"}
+  - {"skip-cert-verify":false,"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"45.32.158.138","port":20994,"name":"德国+黑森州法兰克福Choopa数据中心","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"web.max.ru","type":"trojan","password":"cTv.9PDdCt-wybBrG1qlxI5UJuaEj","server":"167.17.185.172","port":10889,"name":"加拿大+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 Cloudinnovation数据中心","type":"vmess","server":"154.83.2.156","port":2086,"cipher":"auto","uuid":"92373ed1-78a8-4cbe-aa06-54af1edd0471","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"v205.19740822.xyz"}},"client-fingerprint":"chrome"}
+  - {"sni":"83.143.87.9","type":"trojan","password":"RPyW62_b9aH.ztJKeArou","server":"83.143.87.9","port":18581,"name":"挪威+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"sni":"ads.x5.ru","type":"trojan","password":"x.8ur1QiCyzlRHXeaB5UwoDfgZ04s","server":"140.82.35.244","port":20994,"name":"美国+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
