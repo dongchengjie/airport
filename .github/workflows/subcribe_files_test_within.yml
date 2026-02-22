@@ -1,0 +1,87 @@
+name: 节点测速
+
+on:
+  # fetch执行后触发
+  workflow_run:
+    workflows: ["拉取订阅文件"]
+    types:
+      - completed
+  # 手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: subscription
+  cancel-in-progress: false
+
+jobs:
+  purge-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 等待缓存失效
+        if: github.event_name != 'workflow_dispatch'
+        run: sleep 600
+
+  proxies-health-check:
+    runs-on: ubuntu-latest
+    if: ${{ always() }}
+    needs: purge-cache
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v5
+
+      # 要求宿主机已安装Docker，且保持获取网络资源畅通
+      - name: 测试节点
+        uses: dongchengjie/proxies-health-check@main
+        with:
+          proxies_config_urls: |
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/_previous.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/_pool.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/Pawdroid.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/SFZY666.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/aiboboxx.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/anaer.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/blue-Youtube.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/changfengoss.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/chengaopan.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/clashfree.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/clash-freenode.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/coldwater-10.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/ermaozi.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/mahdibland.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/mfuu.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/peasoft.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/ripaojiedian.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/snakem982.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/soroushmirzaei.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/tgstat.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/trial.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/tssf.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/ttvg.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/xrayvip.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/yudou.yaml
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/zhangkaiitugithub.yaml
+          segment_size: 16
+          test_urls: |
+            https://github.com/
+            https://google.com/generate_204
+            https://www.youtube.com/generate_204
+          timeout: 1000
+          excluded_proxies_config_urls: |
+            https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/merged/excluded.yaml
+          max_excluded_times: 5
+          qualified: subs/merged/tested_within.yaml
+          excluded: subs/merged/excluded.yaml
+
+      - name: 提交测试结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan temp_branch
+          git add -A
+          git commit -m "Updated by proxies-health-check"
+          git branch -D main
+          git branch -m main
+          git push -f origin main

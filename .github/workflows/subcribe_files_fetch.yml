@@ -1,0 +1,38 @@
+name: 拉取订阅文件
+
+on:
+  push:
+    paths:
+      - ".github/workflows/subcribe_files_fetch.yml"
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions: write-all
+
+concurrency:
+  group: subscription
+  cancel-in-progress: false
+
+jobs:
+  fetch-subcribe-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v5
+
+      - name: 拉取订阅文件
+        uses: dongchengjie/subscription-fetcher@main
+        with:
+          config: https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/config.yaml
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 提交订阅文件
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: subs
+          author_name: github-actions[bot]
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: "Updated by subscription-fetcher"
+          push: origin HEAD:main
+          pull: --rebase --autostash
