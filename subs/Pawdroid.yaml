@@ -1,0 +1,6 @@
+proxies:
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ss.036.node-for-bigairport.win","port":16688,"cipher":"aes-256-gcm","password":"c69374da-2208-4cbd-b81e-cdf88b5e7f53","name":"新加坡+Amazon数据中心"}
+  - {"name":"美国 CloudFlare节点-1","type":"vmess","server":"c7.620720.xyz","port":8443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"c7.620720.xyz"}},"client-fingerprint":"chrome","servername":"c7.620720.xyz"}
+  - {"skip-cert-verify":false,"sni":"ya.ru","type":"trojan","password":"ZblhWr0mqMakCPg.N","server":"212.193.18.144","port":36158,"name":"俄罗斯+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"美国 CloudFlare节点-2","type":"vmess","server":"sy4.620720.xyz","port":443,"cipher":"auto","uuid":"516d8a7a-3f0b-41d3-bad0-246116381516","alterId":0,"tls":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sy4.620720.xyz"}},"client-fingerprint":"chrome","servername":"sy4.620720.xyz"}
+  - {"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp","client-fingerprint":"chrome"}
