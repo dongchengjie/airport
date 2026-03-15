@@ -1,0 +1,10 @@
+proxies:
+  - {"sni":"io.ozone.ru","type":"trojan","password":"a5inYFE=JGV89+hjxIqgDp1tcWBd6","server":"80.173.230.196","port":26279,"name":"西班牙+V2CROSS.COM","network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.132.226.113","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"英国+社会保险安全部"}
+  - {"name":"广东省 移动-1","type":"vmess","server":"cn02.365cloud5878.com","port":6001,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"亚太地区 V2CROSS.COM","type":"vmess","server":"103.181.164.237","port":34114,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"network":"tcp"}
+  - {"name":"广东省 移动-2","type":"vmess","server":"cn02.365cloud5878.com","port":6019,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省 移动-3","type":"vmess","server":"cn02.365cloud5878.com","port":6003,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"name":"广东省 移动-4","type":"vmess","server":"cn02.365cloud5878.com","port":6004,"cipher":"auto","uuid":"9f1ecfca-13a9-488d-ac84-aaeb73a8d574","alterId":0,"tls":false,"network":"tcp"}
+  - {"sni":"ads.x5.ru","type":"trojan","password":"MeaDiUmPlkWbZJ2BON8tz","server":"78.159.131.12","port":28259,"name":"保加利亚+V2CROSS.COM","network":"tcp"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
