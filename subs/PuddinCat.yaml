@@ -1,0 +1,16 @@
+proxies:
+  - {"cipher":"chacha20-ietf-poly1305","name":"ca|0822|puddincat07@Telegram","password":"ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=","port":990,"server":"45.154.204.7","type":"ss"}
+  - {"cipher":"rc4-md5","name":"ca|dc69|puddincat07@Telegram","password":"14fFPrbezE3HDZzsMOr6","port":8080,"server":"137.184.174.93","type":"ss"}
+  - {"alterId":0,"cipher":"auto","name":"de|ce3d|puddincat07@Telegram","network":"tcp","port":180,"server":"82.198.246.233","skip-cert-verify":true,"tls":false,"type":"vmess","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","ws-headers":{"Host":"82.198.246.233"},"ws-path":"/"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|0a33|puddincat07@Telegram","password":"k1dBOmOB4oqi7Ump37a1bQ","port":8080,"server":"82.38.31.214","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|2a33|puddincat07@Telegram","password":"oZIoA69Q8yhcQV8ka3Pa3A","port":8080,"server":"82.38.31.61","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|380f|puddincat07@Telegram","password":"oZIoA69Q8yhcQV8ka3Pa3A","port":8080,"server":"82.38.31.62","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|6e7a|puddincat07@Telegram","password":"k1dBOmOB4oqi7Ump37a1bQ","port":8080,"server":"82.38.31.217","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|70b7|puddincat07@Telegram","password":"oZIoA69Q8yhcQV8ka3Pa3A","port":8080,"server":"82.38.31.148","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|8cf0|puddincat07@Telegram","password":"k1dBOmOB4oqi7Ump37a1bQ","port":8080,"server":"82.38.31.210","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|ba5b|puddincat07@Telegram","password":"oZIoA69Q8yhcQV8ka3Pa3A","port":8080,"server":"82.38.31.103","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|c154|puddincat07@Telegram","password":"oZIoA69Q8yhcQV8ka3Pa3A","port":8080,"server":"82.38.31.122","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"gb|d99b|puddincat07@Telegram","password":"oZIoA69Q8yhcQV8ka3Pa3A","port":8080,"server":"82.38.31.146","type":"ss"}
+  - {"cipher":"aes-256-cfb","name":"hr|9fc9|puddincat07@Telegram","password":"f8f7aCzcPKbsF8p3","port":989,"server":"46.183.184.60","type":"ss","udp":true}
+  - {"cipher":"aes-256-cfb","name":"kr|9f11|puddincat07@Telegram","password":"qwerREWQ@@","port":6123,"server":"211.178.105.134","type":"ss"}
+  - {"cipher":"chacha20-ietf-poly1305","name":"xx|44bd|puddincat07@Telegram","password":"hbGrpfvNrJsUmKmPbR3iY2","port":443,"server":"tinkered-pennies-puppies.freesocks.work","type":"ss"}

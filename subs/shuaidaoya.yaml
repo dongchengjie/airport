@@ -1,0 +1,11 @@
+proxies:
+  - {"name":"🇰🇷KR²_1|0.7MB/s|GPT|X|History","port":1090,"server":"121.169.46.116","tls":false,"type":"socks5","username":"T2clM0QlM0Q6"}
+  - {"cipher":"aes-256-cfb","country":"🏁 ZZ","name":"🇸🇬SG²_1|2.4MB/s|X|History","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.16","type":"ss"}
+  - {"cipher":"aes-256-cfb","country":"🏁 ZZ","name":"🇻🇳VN²_1|2.1MB/s|GPT⁺|GM|X|Succeed","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.172","type":"ss"}
+  - {"cipher":"aes-256-cfb","country":"🇨🇳 CN","name":"🇻🇳VN²_2|1.6MB/s|GPT|X|History","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.80","type":"ss"}
+  - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":"🇻🇳VN²_3|2.9MB/s|GPT⁺|YT-US|X|History","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.251","type":"ss"}
+  - {"cipher":"aes-256-cfb","country":"🏁 ZZ","name":"🇻🇳VN²_4|2.2MB/s|GPT⁺|YT|X","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.17","type":"ss"}
+  - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":"🇻🇳VN²_5|0.8MB/s|GPT⁺|GM|YT|X|Succeed|[原生|机房]","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.155.206","type":"ss"}
+  - {"cipher":"aes-256-cfb","country":"🏁ZZ","name":"🇻🇳VN²_6|0.5MB/s|GPT|YT|X|History","password":"Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV","port":38388,"server":"103.186.154.173","type":"ss"}
+  - {"alpn":["h2"],"name":"🇿🇦ZA²_1|5.3MB/s|0%|GPT⁺|YT-CN|NF|D+|X|History|[广播|机房]","password":"dongtaiwang.com","port":59901,"server":"45.221.98.14","skip-cert-verify":true,"type":"anytls","udp":true}
+  - {"name":"🏴‍☠_1🇺🇸US²_6|3.9MB/s|5.0MB/s|X|History","password":"","port":7070,"server":"20.83.154.79","skip-cert-verify":true,"type":"socks5","username":""}
