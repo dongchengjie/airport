@@ -1,0 +1,5 @@
+proxies:
+  - {"name":"[SS] group->ss SS节点-ipv6","server":"2001:bc8:32d7:225::2","port":12345,"type":"ss","cipher":"aes-256-gcm","password":"alvin9999.com"}
+  - {"name":"[VLESS] group->v2ray VLESS-xhttp-Reality-Vision","server":"62.210.24.143","port":32202,"type":"vless","uuid":"28148be2-61a7-4f36-8adb-030cc9f82bd0","skip-cert-verify":true,"encryption":"none","security":"reality","fp":"chrome","pbk":"bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc","sid":"f57d8f26","path":"%2FG3EEoH63","network":"tcp","servername":"www.amazon.com"}
+  - {"name":"[Vmess] VMESS节点2-ipv6","server":"2001:bc8:32d7:225::1","port":23456,"type":"vmess","uuid":"bd48e0ac-e90e-4451-a4f2-abf061cfb890","alterId":"0","cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/alvin9999.com","headers":{"Host":"www.bing.com"}}}
+  - {"name":"[Hysteria2] group->v2ray Hysteria2节点","server":"62.210.25.116","port":40022,"type":"hysteria2","password":"dongtaiwang.com","auth":"dongtaiwang.com","skip-cert-verify":true,"sni":"www.microsoft.com","insecure":"1","mport":"41000-42000"}

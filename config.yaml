@@ -1,0 +1,756 @@
+sources:
+  - name: _previous
+    fetcher: url
+    output: subs/_previous.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/merged/tested_within.yaml
+  - name: 10ium
+    fetcher: post-url
+    output: subs/10ium.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/10ium/base64-encoder/refs/heads/main/README.md
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: Argh73
+    fetcher: url
+    output: subs/Argh73.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/Hysteria2.txt
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/ShadowSocks.txt
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/ShadowSocksR.txt
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/Trojan.txt
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/Tuic.txt
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/Vless.txt
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/Vmess.txt
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/WireGuard.txt
+        - https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/unknown.txt
+  - name: Argh94
+    fetcher: url
+    output: subs/Argh94.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Hysteria2.txt
+        - https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/ShadowSocks.txt
+        - https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/ShadowSocksR.txt
+        - https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Trojan.txt
+        - https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Vless.txt
+        - https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Vmess.txt
+        - https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/WireGuard.txt
+  - name: Barabama
+    fetcher: url
+    output: subs/Barabama.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/blues.yaml
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/clashmeta.yaml
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/ndnode.yaml
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/nodefree.yaml
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/nodev2ray.yaml
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/simple.txt
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/v2rayshare.yaml
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/wenode.yaml
+        - https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/yudou66.yaml
+  - name: Danialsamadi
+    fetcher: url
+    output: subs/Danialsamadi.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Danialsamadi/v2go/refs/heads/main/AllConfigsSub.txt
+  - name: Delta-Kronecker
+    fetcher: url
+    output: subs/Delta-Kronecker.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/hy2.txt
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/hy2_clash_advanced.yaml
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/ss.txt
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/ss_clash_advanced.yaml
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/trojan.txt
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/trojan_clash_advanced.yaml
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/vless.txt
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/vless_clash_advanced.yaml
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/vmess.txt
+        - https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/vmess_clash_advanced.yaml
+  - name: Epodonios
+    fetcher: url
+    output: subs/Epodonios.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/ss.txt
+        - https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/ssr.txt
+        - https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/trojan.txt
+        - https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/vless.txt
+        - https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/vmess.txt
+  - name: Firmfox
+    fetcher: url
+    output: subs/Firmfox.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/vmess.txt
+        - https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/vless.txt
+        - https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/trojan.txt
+        - https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/shadowsocks.txt
+        - https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/other.txt
+  - name: Ganjabady
+    fetcher: url
+    output: subs/Ganjabady.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Ganjabady/XC/refs/heads/main/subscriptions/filtered/subs/hysteria2.txt
+        - https://raw.githubusercontent.com/Ganjabady/XC/refs/heads/main/subscriptions/filtered/subs/ss.txt
+        - https://raw.githubusercontent.com/Ganjabady/XC/refs/heads/main/subscriptions/filtered/subs/trojan.txt
+        - https://raw.githubusercontent.com/Ganjabady/XC/refs/heads/main/subscriptions/filtered/subs/vless.txt
+        - https://raw.githubusercontent.com/Ganjabady/XC/refs/heads/main/subscriptions/filtered/subs/vmess.txt
+  - name: Jsnzkpg
+    fetcher: url
+    output: subs/Jsnzkpg.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/refs/heads/Jsnzkpg/Jsnzkpg
+  - name: KimTaeyeon309
+    fetcher: url
+    output: subs/KimTaeyeon309.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/KimTaeyeon309/text/refs/heads/main/TXT/default.txt
+  - name: Pawdroid
+    fetcher: url
+    output: subs/Pawdroid.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
+  - name: PuddinCat
+    fetcher: url
+    output: subs/PuddinCat.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml
+  - name: QFZYFX
+    fetcher: url
+    output: subs/QFZYFX.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/refs/heads/main/subscriptions/QFZYFX.yaml
+  - name: Ruk1ng001
+    fetcher: url
+    output: subs/Ruk1ng001.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Ruk1ng001/freeSub/refs/heads/main/clash.yaml
+  - name: SFZY666
+    fetcher: url
+    output: subs/SFZY666.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/refs/heads/main/subscriptions/SFZY666.yaml
+  - name: ShatakVPN
+    fetcher: url
+    output: subs/ShatakVPN.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/refs/heads/main/configs/https.txt
+        - https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/refs/heads/main/configs/hysteria.txt
+        - https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/refs/heads/main/configs/hysteria2.txt
+        - https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/refs/heads/main/configs/shadowsocks.txt
+        - https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/refs/heads/main/configs/trojan.txt
+        - https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/refs/heads/main/configs/vless.txt
+        - https://raw.githubusercontent.com/ShatakVPN/ConfigForge-V2Ray/refs/heads/main/configs/vmess.txt
+  - name: SoliSpirit
+    fetcher: url
+    output: subs/SoliSpirit.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/ss.txt
+        - https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/trojan.txt
+        - https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt
+        - https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vmess.txt
+  - name: TalesOrigin
+    fetcher: url
+    output: subs/TalesOrigin.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/TalesOrigin/configuration/refs/heads/main/All_Configs_Sub.txt
+  - name: Vanic24
+    fetcher: url
+    output: subs/Vanic24.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/Vanic24/VPN/refs/heads/main/8EB
+        - https://raw.githubusercontent.com/Vanic24/VPN/refs/heads/main/9PB
+        - https://raw.githubusercontent.com/Vanic24/VPN/refs/heads/main/Filter
+        - https://raw.githubusercontent.com/Vanic24/VPN/refs/heads/main/Lifetime
+        - https://raw.githubusercontent.com/Vanic24/VPN/refs/heads/main/MIX
+        - https://raw.githubusercontent.com/Vanic24/VPN/refs/heads/main/Sub3
+  - name: VovaplusEXP
+    fetcher: url
+    output: subs/VovaplusEXP.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/VovaplusEXP/p-configs/refs/heads/main/Splitted-By-Protocol/hy2.txt
+        - https://raw.githubusercontent.com/VovaplusEXP/p-configs/refs/heads/main/Splitted-By-Protocol/ss.txt
+        - https://raw.githubusercontent.com/VovaplusEXP/p-configs/refs/heads/main/Splitted-By-Protocol/trojan.txt
+        - https://raw.githubusercontent.com/VovaplusEXP/p-configs/refs/heads/main/Splitted-By-Protocol/tuic.txt
+        - https://raw.githubusercontent.com/VovaplusEXP/p-configs/refs/heads/main/Splitted-By-Protocol/vless.txt
+        - https://raw.githubusercontent.com/VovaplusEXP/p-configs/refs/heads/main/Splitted-By-Protocol/vmess.txt
+  - name: WLget
+    fetcher: url
+    output: subs/WLget.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt
+  - name: XQKXW
+    fetcher: url
+    output: subs/XQKXW.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/refs/heads/main/subscriptions/XQKXW.yaml
+  - name: ZYFXS
+    fetcher: url
+    output: subs/ZYFXS.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/refs/heads/main/subscriptions/ZYFXS.yaml
+  - name: aiboboxx
+    fetcher: url
+    output: subs/aiboboxx.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/aiboboxx/v2rayfree/refs/heads/main/v2
+  - name: anaer
+    fetcher: url
+    output: subs/anaer.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml
+  - name: asgharkapk
+    fetcher: post-url
+    output: subs/asgharkapk.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/refs/heads/main/Simple_URL_List.txt
+        - https://raw.githubusercontent.com/asgharkapk/Free-Clash-Meta/refs/heads/main/Complex_URL_list.txt
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: awesome-vpn
+    fetcher: url
+    output: subs/awesome-vpn.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/refs/heads/master/clash.yaml
+  - name: barry-far
+    fetcher: url
+    output: subs/barry-far.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Splitted-By-Protocol/ss.txt
+        - https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Splitted-By-Protocol/ssr.txt
+        - https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Splitted-By-Protocol/trojan.txt
+        - https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Splitted-By-Protocol/vless.txt
+        - https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Splitted-By-Protocol/vmess.txt
+  - name: blue-Youtube
+    fetcher: url
+    output: subs/blue-Youtube.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/refs/heads/main/subscriptions/blue-Youtube.yaml
+  - name: cfv2ray
+    fetcher: url
+    output: subs/cfv2ray.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/cfv2ray/subCollection/refs/heads/main/clashgithub
+        - https://raw.githubusercontent.com/cfv2ray/subCollection/refs/heads/main/free-nodes
+        - https://raw.githubusercontent.com/cfv2ray/subCollection/refs/heads/main/ggborr
+  - name: changfengoss
+    fetcher: github
+    output: subs/changfengoss.yaml
+    options:
+      repository: https://github.com/changfengoss/pub
+      span: 7d
+      extensions: [.yaml, .yml]
+  - name: chengaopan
+    fetcher: url
+    output: subs/chengaopan.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/refs/heads/master/list.yml
+  - name: clash-freenode
+    fetcher: url
+    output: subs/clash-freenode.yaml
+    options:
+      urls:
+        - https://free.datiya.com/uploads/{Y}{m}{d}-clash.yaml
+        - https://free.datiya.com/uploads/{Y}{m}{ld}-clash.yaml
+  - name: clashfree
+    fetcher: github
+    output: subs/clashfree.yaml
+    options:
+      repository: https://github.com/clashfree/clashfree.github.io
+      span: 7d
+      extensions: [.yaml, .yml]
+  - name: clashnodev2ray
+    fetcher: url
+    output: subs/clashnodev2ray.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/clashnodev2ray/clashnodev2ray.github.io/refs/heads/main/clash.yaml
+        - https://sfdr.zaixianyouxi.dpdns.org/uploads/{Y}/{n}/{Y}{m}{d}.yaml
+        - https://sfdr.zaixianyouxi.dpdns.org/uploads/{Y}/{n}/{Y}{m}{ld}.yaml
+  - name: coldwater-10
+    fetcher: url
+    output: subs/coldwater-10.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub1.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub2.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub3.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub4.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub5.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub6.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub7.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub8.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub9.txt
+        - https://raw.githubusercontent.com/coldwater-10/V2ray-Config/refs/heads/main/Sub10.txt
+  - name: danmaifu
+    fetcher: post-url
+    output: subs/danmaifu.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/danmaifu/mianfeijiedian/refs/heads/main/README.md
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: ermaozi
+    fetcher: url
+    output: subs/ermaozi.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ermaozi/get_subscribe/refs/heads/main/subscribe/clash.yml
+        - https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/refs/heads/main/subscribe/clash.yml
+  - name: fansiphone
+    fetcher: url
+    output: subs/fansiphone.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/fansiphone/pachong-tom/refs/heads/master/list.meta.yml
+  - name: free-nodes
+    fetcher: post-url
+    output: subs/free-nodes.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/README.md
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: free18
+    fetcher: url
+    output: subs/free18.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml
+  - name: freev2ray
+    fetcher: url
+    output: subs/freev2ray.yaml
+    options:
+      urls:
+        - https://freev2ray.top
+  - name: g-hunter-g
+    fetcher: url
+    output: subs/g-hunter-g.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/g-hunter-g/awesome-vpn/refs/heads/main/key.txt
+  - name: go4sharing
+    fetcher: url
+    output: subs/go4sharing.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/go4sharing/sub/refs/heads/main/clash.yaml
+  - name: hamedcode
+    fetcher: url
+    output: subs/hamedcode.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/refs/heads/main/sub/other.txt
+        - https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/refs/heads/main/sub/ss.txt
+        - https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/refs/heads/main/sub/trojan.txt
+        - https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/refs/heads/main/sub/vless.txt
+        - https://raw.githubusercontent.com/hamedcode/port-based-v2ray-configs/refs/heads/main/sub/vmess.txt
+  - name: hysteria350
+    fetcher: post-url
+    output: subs/hysteria350.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/hysteria350/free-jichang/refs/heads/main/README.md
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: ishalumi
+    fetcher: url
+    output: subs/ishalumi.yaml
+    options:
+      urls:
+        - https://github.com/ishalumi/proxy-node-collector/raw/refs/heads/main/output/nodes.txt
+  - name: julong111
+    fetcher: url
+    output: subs/julong111.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/julong111/noderobot/refs/heads/main/s/merge.yml
+        - https://raw.githubusercontent.com/julong111/noderobot/refs/heads/main/s/v2ray_sub.txt
+  - name: kingowow
+    fetcher: url
+    output: subs/kingowow.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/kingowow/Kingo-vpn/main/merged_config.txt
+  - name: kooker
+    fetcher: url
+    output: subs/kooker.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/kooker/FreeSubs/refs/heads/main/mihomo.yaml
+  - name: kort0881
+    fetcher: url
+    output: subs/kort0881.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/hy2_001.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/hysteria2_001.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/ss_001.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/ss_002.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/trojan_001.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/tuic_001.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_001.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_002.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_003.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_004.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_005.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_006.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_007.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_008.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_009.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_010.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_011.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vless_012.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vmess_001.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vmess_002.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vmess_003.txt
+        - https://raw.githubusercontent.com/kort0881/sbornik-vless/refs/heads/main/subs/vmess_004.txt
+  - name: liMilCo
+    fetcher: url
+    output: subs/liMilCo.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/liMilCo/v2r/refs/heads/main/configs.txt
+        - https://raw.githubusercontent.com/liMilCo/v2r/refs/heads/main/all_configs.txt
+  - name: luxxuria
+    fetcher: url
+    output: subs/luxxuria.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/non_ru.txt
+        - https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/ping_tested.txt
+        - https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/speed_tested.txt
+        - https://raw.githubusercontent.com/luxxuria/harvester/refs/heads/main/top_600.txt
+  - name: mGentel1309
+    fetcher: url
+    output: subs/mGentel1309.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/BLACK_SS%2BAll_RUS.txt
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-all.txt
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/WHITE-CIDR-RU-checked.txt
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/WHITE-SNI-RU-all.txt
+        - https://raw.githubusercontent.com/mGentel1309/vpn-configs-for-russia/refs/heads/main/subscription.txt
+  - name: mahdibland
+    fetcher: url
+    output: subs/mahdibland.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/refs/heads/master/Eternity.yml
+        - https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/refs/heads/master/EternityAir.yml
+  - name: maimengmeng
+    fetcher: url
+    output: subs/maimengmeng.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/maimengmeng/mysub/refs/heads/main/valid_content.txt
+  - name: mfuu
+    fetcher: url
+    output: subs/mfuu.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/mfuu/v2ray/refs/heads/master/v2ray
+  - name: mohamadfg-dev
+    fetcher: url
+    output: subs/mohamadfg-dev.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt
+        - https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vmess.txt
+        - https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/ss.txt
+        - https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/trojan.txt
+        - https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/wireguard.txt
+  - name: myclash
+    fetcher: post-url
+    output: subs/myclash.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/myclash/myclash.github.io/refs/heads/main/README.md
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: nodesfree
+    fetcher: url
+    output: subs/nodesfree.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/nodesfree/v2raynode/refs/heads/main/clash.yaml
+  - name: nyeinkokoaung404
+    fetcher: url
+    output: subs/nyeinkokoaung404.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/refs/heads/main/configs/proxy_configs.txt
+  - name: ovmvo
+    fetcher: url
+    output: subs/ovmvo.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ovmvo/FreeSub/refs/heads/main/sub/permanent/mihomo.yaml
+  - name: peasoft
+    fetcher: url
+    output: subs/peasoft.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list.yml
+  - name: ripaojiedian
+    fetcher: url
+    output: subs/ripaojiedian.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ripaojiedian/freenode/refs/heads/main/clash
+  - name: sakha1370
+    fetcher: url
+    output: subs/sakha1370.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/kind/ss.txt
+        - https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/kind/trojan.txt
+        - https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/kind/vless.txt
+        - https://raw.githubusercontent.com/sakha1370/OpenRay/refs/heads/main/output/kind/vmess.txt
+  - name: seknei3
+    fetcher: url
+    output: subs/seknei3.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/seknei3/psychic-fiestas/refs/heads/main/vpn.txt
+  - name: shaoyouvip
+    fetcher: url
+    output: subs/shaoyouvip.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml
+  - name: shuaidaoya
+    fetcher: url
+    output: subs/shuaidaoya.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/shuaidaoya/FreeNodes/refs/heads/main/nodes/all.yaml
+  - name: snakem982
+    fetcher: url
+    output: subs/snakem982.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/clash-meta.yaml
+        - https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/clash-meta-2.yaml
+  - name: soroushmirzaei
+    fetcher: url
+    output: subs/soroushmirzaei.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/channels/networks/grpc
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/channels/networks/http
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/channels/networks/tcp
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/channels/networks/ws
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/networks/grpc
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/networks/http
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/networks/tcp
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/networks/ws
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/subscribe/networks/grpc
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/subscribe/networks/http
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/subscribe/networks/tcp
+        - https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/refs/heads/main/subscribe/networks/ws
+  - name: ssrshare
+    fetcher: url
+    output: subs/ssrshare.yaml
+    options:
+      urls:
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/0-{Y}{m}{d}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/1-{Y}{m}{d}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/2-{Y}{m}{d}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/3-{Y}{m}{d}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/4-{Y}{m}{d}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/5-{Y}{m}{d}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/0-{Y}{m}{ld}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/1-{Y}{m}{ld}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/2-{Y}{m}{ld}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/3-{Y}{m}{ld}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/4-{Y}{m}{ld}.txt
+        - https://node.ssrshare.cc/uploads/{Y}/{m}/5-{Y}{m}{ld}.txt
+  - name: ssrsub
+    fetcher: url
+    output: subs/ssrsub.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ssrsub/ssr/refs/heads/master/v2ray
+  - name: telegeam
+    fetcher: url
+    output: subs/telegeam.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/telegeam/freenode/refs/heads/master/clash.yaml
+  - name: tgstat
+    fetcher: post-url
+    output: subs/tgstat.yaml
+    options:
+      urls:
+        - https://t.me/s/ShareCentrePro
+        - https://t.me/s/dns68
+        - https://t.me/s/go4sharing
+        - https://t.me/s/hkaa0
+        - https://t.me/s/juzibaipiao
+        - https://t.me/s/wangcai2
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: trial
+    fetcher: post-url
+    output: subs/trial.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/abshare/abshare.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/abshare3/abshare3.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/mkshare3/mkshare3.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/mksshare/mksshare.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/shareclash/shareclash.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/sharefreenode/sharefreenode.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/sharehiddifynext/sharehiddifynext.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/sharetizi/sharetizi.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/sharetopvpn/sharetopvpn.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/sharev2raynode/sharev2raynode.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/tolinkshare2/tolinkshare2.github.io/refs/heads/main/README.md
+        - https://raw.githubusercontent.com/toshare5/toshare5.github.io/refs/heads/main/README.md
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: tssf
+    fetcher: url
+    output: subs/tssf.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/ts-sf/fly/refs/heads/main/clash
+  - name: ttvg
+    fetcher: url
+    output: subs/ttvg.yaml
+    options:
+      urls:
+        - https://tt.vg/freeclash
+  - name: v2cross
+    fetcher: post-url
+    output: subs/v2cross.yaml
+    options:
+      urls:
+        - https://v2cross.com/1884.html
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: v2nodes
+    fetcher: post-url
+    output: subs/v2nodes.yaml
+    options:
+      urls:
+        - https://www.v2nodes.com/
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: v2rayc
+    fetcher: url
+    output: subs/v2rayc.yaml
+    options:
+      urls:
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/0-{Y}{m}{d}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/1-{Y}{m}{d}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/2-{Y}{m}{d}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/3-{Y}{m}{d}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/4-{Y}{m}{d}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/5-{Y}{m}{d}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/0-{Y}{m}{ld}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/1-{Y}{m}{ld}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/2-{Y}{m}{ld}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/3-{Y}{m}{ld}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/4-{Y}{m}{ld}.txt
+        - https://node.freeclashnode.com/uploads/{Y}/{m}/5-{Y}{m}{ld}.txt
+  - name: vluma
+    fetcher: url
+    output: subs/vluma.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/vluma/free-vpn2clash/refs/heads/main/output/free-VPN.yaml
+  - name: vpnsubscribe
+    fetcher: post-url
+    output: subs/vpnsubscribe.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/vpnsubscribe/vpnsubscribe.github.io/refs/heads/main/README.md
+      function: (str)=>str.match(/https?:\/\/[^\s"<'()]+/mg)
+  - name: wenxig
+    fetcher: url
+    output: subs/wenxig.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/wenxig/dongtai-sub/refs/heads/main/data/sub.yaml
+  - name: whoahaow
+    fetcher: url
+    output: subs/whoahaow.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/hy2.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/hysteria.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/hysteria2.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/ss.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/ssr.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/trojan.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/tuic.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/vless-1.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/vless-2.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/vless-3.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/vless-4.txt
+        - https://raw.githubusercontent.com/whoahaow/rjsxrd/refs/heads/main/githubmirror/split-by-protocols/vmess.txt
+  - name: xrayvip
+    fetcher: url
+    output: subs/xrayvip.yaml
+    options:
+      urls:
+        - https://www.xrayvip.com/free.yaml
+  - name: yafeisun
+    fetcher: url
+    output: subs/yafeisun.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/yafeisun/v2raynode/refs/heads/main/result/nodetotal.txt
+  - name: youneedproxy
+    fetcher: url
+    output: subs/youneedproxy.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/refs/heads/main/subscriptions/youneedproxy.txt
+  - name: yoyapai
+    fetcher: url
+    output: subs/yoyapai.yaml
+    options:
+      urls:
+        - https://yoyapai.com/mianfeijiedian/{Y}{m}{d}-clashvpn-mfjiedian-yoyapai.com.yaml
+        - https://yoyapai.com/mianfeijiedian/{Y}{m}{ld}-clashvpn-mfjiedian-yoyapai.com.yaml
+  - name: yudou
+    fetcher: url
+    output: subs/yudou.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/dongchengjie/proxy-crawler/refs/heads/main/subscriptions/yudou.yaml
+  - name: zhangkaiitugithub
+    fetcher: url
+    output: subs/zhangkaiitugithub.yaml
+    options:
+      urls:
+        - https://raw.githubusercontent.com/zhangkaiitugithub/passcro/refs/heads/main/speednodes.yaml
