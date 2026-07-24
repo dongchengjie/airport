@@ -1,0 +1,8 @@
+proxies:
+  - {"name":"中国 - 香港 - 1","server":"103.149.182.79","type":"ss","country":"🇭🇰HK","port":8388,"password":"asd123456","cipher":"chacha20-ietf","delay":249,"udp":true}
+  - {"name":"中国 - 香港 - 2","server":"eminent-lamb.rooster465.autos","type":"trojan","country":"🇭🇰HK","port":443,"udp":true,"password":"HW85960347","sni":"eminent-lamb.rooster465.autos","skip-cert-verify":true,"delay":993,"network":"tcp"}
+  - {"name":"中国 - 香港 - 3","server":"saved-mudfish.rooster465.autos","type":"trojan","country":"🇱🇹LT","port":443,"password":"JA96378052","sni":"saved-mudfish.rooster465.autos","skip-cert-verify":true,"udp":true,"delay":1200,"network":"tcp"}
+  - {"name":"中国 - 香港 - 4","server":"pretty-vervet.rooster465.autos","type":"trojan","country":"🇷🇺RU","port":443,"udp":true,"password":"KV63147582","sni":"pretty-vervet.rooster465.autos","skip-cert-verify":true,"delay":2228,"network":"tcp"}
+  - {"name":"新加坡 - 新加坡 - 1","server":"188.164.248.122","port":443,"type":"trojan","password":"c206d543-023d-46cc-9d5a-1f0f2fc16323","sni":"space.byu.id.yxls.eu.cc","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/in-pdr","headers":{"Host":"space.byu.id.yxls.eu.cc"}},"udp":true,"delay":432}
+  - {"name":"美国 - 波特蘭 - 1","server":"possible-pup.rooster465.autos","type":"trojan","country":"🇺🇸US","port":443,"password":"XG59623478","sni":"possible-pup.rooster465.autos","skip-cert-verify":true,"udp":true,"delay":752,"network":"tcp"}
+  - {"name":"荷兰 - 阿姆斯特丹 - 1","server":"82.38.31.35","port":443,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","udp":true,"delay":2105}

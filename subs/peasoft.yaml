@@ -1,0 +1,30 @@
+proxies:
+  - {"name":"AE_speednode_0001","network":"ws","password":"MITIVPN","port":443,"server":"94.140.0.100","skip-cert-verify":false,"sni":"95r.ir","type":"trojan","udp":true,"ws-opts":{"headers":{"Host":"95r.ir"},"path":"/MiTiVPN=Usa"}}
+  - {"name":"GB_speednode_0005","network":"ws","password":"MITIVPN","port":443,"server":"164.38.155.135","skip-cert-verify":false,"sni":"95r.ir","type":"trojan","udp":true,"ws-opts":{"headers":{"Host":"95r.ir"},"path":"/MiTiVPN=De"}}
+  - {"name":"NL_speednode_0016","network":"ws","password":"MiTiVPN","port":443,"server":"45.131.4.118","skip-cert-verify":false,"sni":"95r.ir","type":"trojan","udp":true,"ws-opts":{"headers":{"Host":"95r.ir"},"path":"/MiTiVPN=Se"}}
+  - {"name":"US_speednode_0063","network":"ws","password":"Mitivpn","port":443,"server":"iranpoems.ir","skip-cert-verify":false,"sni":"www.gamingdll.ir","type":"trojan","udp":true,"ws-opts":{"headers":{"Host":"www.gamingdll.ir"},"path":"/usa=mitivpn"}}
+  - {"cipher":"aes-256-cfb","name":"tg频道:@ripaojiedian #1","password":"amazonskr05","port":443,"server":"63.180.254.10","type":"ss","udp":true}
+  - {"name":"新加坡2|@ripaojiedian","network":"tcp","password":"b490740312aedb5f9f6b84c7aebd08c0","port":6357,"server":"18.183.93.55","skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","udp":true}
+  - {"name":"新加坡3|@ripaojiedian","network":"tcp","password":"BxceQaOe","port":51396,"server":"16.163.106.206","skip-cert-verify":true,"sni":"t.me%252Fripaojiedian","type":"trojan","udp":true}
+  - {"name":"新加坡|@ripaojiedian","network":"tcp","password":"b490740312aedb5f9f6b84c7aebd08c0","port":48738,"server":"18.183.93.55","skip-cert-verify":true,"sni":"www.nintendogames.net","type":"trojan","udp":true}
+  - {"name":"日本2|@ripaojiedian","network":"tcp","password":"b490740312aedb5f9f6b84c7aebd08c0","port":40138,"server":"18.163.55.76","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","udp":true}
+  - {"name":"日本3|@ripaojiedian","network":"tcp","password":"b490740312aedb5f9f6b84c7aebd08c0","port":38937,"server":"18.183.93.55","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","udp":true}
+  - {"name":"日本|@ripaojiedian","network":"tcp","password":"BxceQaOe","port":27826,"server":"18.164.124.189","skip-cert-verify":true,"sni":"t.me%252Fripaojiedian","type":"trojan","udp":true}
+  - {"name":"美国2|@ripaojiedian","network":"tcp","password":"b490740312aedb5f9f6b84c7aebd08c0","port":49277,"server":"18.167.94.81","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","udp":true}
+  - {"name":"美国3|@ripaojiedian","network":"tcp","password":"BxceQaOe","port":35966,"server":"18.163.28.78","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","udp":true}
+  - {"name":"美国|@ripaojiedian","network":"tcp","password":"b490740312aedb5f9f6b84c7aebd08c0","port":49277,"server":"95.40.110.103","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透","network":"tcp","port":80,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #1","network":"tcp","port":81,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #2","network":"tcp","port":82,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #3","network":"tcp","port":83,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #4","network":"tcp","port":84,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #5","network":"tcp","port":85,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #6","network":"tcp","port":86,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #7","network":"tcp","port":87,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #8","network":"tcp","port":88,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"alterId":0,"cipher":"auto","name":"防范境外势力渗透 #9","network":"tcp","port":89,"server":"127.0.0.53","tls":false,"type":"vmess","uuid":"88888888-8888-8888-8888-888888888888","udp":true}
+  - {"name":"香港3|@ripaojiedian","network":"tcp","password":"b490740312aedb5f9f6b84c7aebd08c0","port":13118,"server":"43.199.147.225","skip-cert-verify":false,"sni":"www.nintendogames.net","type":"trojan","udp":true}
+  - {"name":"香港4|@ripaojiedian","network":"tcp","password":"BxceQaOe","port":29443,"server":"16.163.106.206","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","udp":true}
+  - {"name":"香港5|@ripaojiedian","network":"tcp","password":"BxceQaOe","port":35151,"server":"18.167.224.152","skip-cert-verify":true,"sni":"t.me%2Fripaojiedian","type":"trojan","udp":true}
+  - {"alterId":2,"cipher":"auto","name":"🇭🇰 香港|@ripaojiedian","port":30807,"server":"v10.hdacd.com","skip-cert-verify":false,"tls":false,"type":"vmess","uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","udp":true,"network":"tcp"}
+  - {"cipher":"aes-256-cfb","name":"🇺🇸US_4|2.1MB/s","password":"amazonskr05","port":443,"server":"54.167.54.100","type":"ss","udp":true}
