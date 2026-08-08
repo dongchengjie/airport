@@ -1,0 +1,26 @@
+proxies:
+  - {"name":"GB_speednode_0002","server":"b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com","port":443,"type":"http","username":"51362ab6-b5e6-11ea-ad28-f23c913c8d2b","password":"51362ab6-b5e6-11ea-ad28-f23c913c8d2b","tls":true,"udp":true,"sni":"b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com"}
+  - {"name":"GB_speednode_0003","server":"07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com","port":443,"type":"http","username":"a18ef18e-293a-11ef-b76e-f23c91cfbbc9","password":"a18ef18e-293a-11ef-b76e-f23c91cfbbc9","tls":true,"udp":true,"sni":"07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com"}
+  - {"name":"NL_speednode_0004","server":"84.17.47.147","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"NL_speednode_0005","server":"84.17.47.125","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"NL_speednode_0006","server":"84.17.47.149","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"NL_speednode_0007","server":"84.17.47.146","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"NL_speednode_0008","server":"84.17.47.150","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0009","server":"84.239.14.151","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0010","server":"84.239.49.168","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0011","server":"84.239.49.183","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0012","server":"84.239.49.38","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0013","server":"84.239.49.41","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0014","server":"84.239.49.49","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0015","server":"84.239.49.154","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0016","server":"84.239.49.180","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0017","server":"193.176.84.35","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0018","server":"193.176.84.19","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RO_speednode_0019","server":"84.239.49.244","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"RU_speednode_0020","server":"176.32.35.51","port":7011,"type":"ss","cipher":"aes-256-gcm","password":"895b4b796a357570","udp":true}
+  - {"name":"US_speednode_0021","server":"evacuee.papstore.xyz","port":40724,"type":"vless","uuid":"e7d317bd-9124-4eb0-ae76-4d3b8dc54e92","flow":"xtls-rprx-vision","tls":true,"skip-cert-verify":false,"client-fingerprint":"chrome","reality-opts":{"public-key":"k7iIWZPJ27YpA5ilhmAiRQP1P6fNWzQIIJNTYCmV6xw","short-id":"0d17feea"},"network":"tcp","udp":true,"servername":"www.e-japannavi.com"}
+  - {"name":"US_speednode_0022","server":"138.199.35.214","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"US_speednode_0023","server":"138.199.35.199","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"US_speednode_0024","server":"3.85.61.177","port":443,"type":"ss","cipher":"aes-256-cfb","password":"amazonskr05","udp":true}
+  - {"name":"US_speednode_0025","server":"138.199.35.217","port":9002,"type":"http","username":"null","password":"null","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"name":"US_speednode_0026","server":"138.199.35.207","port":9002,"type":"http","tls":true,"skip-cert-verify":true,"udp":true}

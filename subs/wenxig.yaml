@@ -1,0 +1,4 @@
+proxies:
+  - {"name":"[SS] SS-IPv6","server":"2001:bc8:32d7:17b::100","port":22222,"type":"ss","cipher":"aes-256-gcm","password":"github.com/Alvin9999-newpac/fanqiang","udp":true}
+  - {"name":"[VLESS] VLESS-xhttp-ipv6","server":"2001:bc8:32d7:302::10","port":65513,"type":"vless","uuid":"2567e2e0-8d4c-4c51-aee9-5d1f36024472","skip-cert-verify":true,"encryption":"none","security":"reality","fp":"chrome","pbk":"tQeEamJmYVUUfjRLX7ETvMnPj4DrHzRhR5TI684oYgg","sid":"21569dd6","path":"%2F6eg3r4an","udp":true,"network":"tcp","servername":"www.yahoo.com"}
+  - {"name":"[Vmess] vmess-ws-ipv6","server":"2001:bc8:32d7:1a9::2","port":23388,"type":"vmess","uuid":"3a966d20-7b9d-48cc-ba2c-8d38161b6d3a","alterId":"0","cipher":"auto","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999-newpac/fanqiang","headers":{"Host":""}},"udp":true}

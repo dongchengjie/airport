@@ -1,0 +1,4 @@
+proxies:
+  - {"sni":"osl9.solidly.click","network":"tcp","type":"trojan","password":"hCjWaBe5vTkewfiljOL=9FS9DYg0c09c.t","server":"81.29.149.240","port":18390,"name":"瑞士+V2CROSS.COM"}
+  - {"sni":"fra34.chasem2026sud.com","network":"tcp","type":"trojan","password":"n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj","server":"82.26.155.3","port":10369,"name":"英国+伦敦Virgin+Media"}
+  - {"name":"英国 V2CROSS.COM","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":0,"tls":false,"network":"tcp"}
