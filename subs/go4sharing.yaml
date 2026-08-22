@@ -1,0 +1,35 @@
+proxies:
+  - {"name":"中国 - Hefei - 2","server":"112.132.215.108","type":"vmess","country":"🇨🇳CN","port":50002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"delay":161,"udp":true}
+  - {"name":"中国 - Hong Kong - 1","server":"43.198.204.35","type":"vmess","country":"🇺🇸US","port":443,"uuid":"f23bb427c1f94373876c2f43e9f790f3","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/ws-vmess","headers":{"HOST":"cE0gedPXwOU6cqoN.v.3dns.vip"}},"delay":1048,"udp":true,"servername":"cE0gedPXwOU6cqoN.v.3dns.vip"}
+  - {"name":"以色列 - Rosh Ha‘Ayin - 1","server":"211.91.158.44","port":21116,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":609}
+  - {"name":"俄罗斯 - Novosibirsk - 1","server":"robon.mashhad1market.ir","type":"ss","country":"🇷🇺RU","port":1080,"password":"TU4NUJuMe4XlZ3NCQ_1KiQ","cipher":"chacha20-ietf-poly1305","delay":994,"udp":true}
+  - {"name":"加拿大 - Beauharnois - 2","server":"51.222.155.113","type":"ss","country":"🇨🇦CA","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm","delay":812,"udp":true}
+  - {"name":"加拿大 - Montréal - 1","server":"vip-ca-1.hkd4fwmg.xyz","type":"ss","country":"🇨🇦CA","port":10586,"password":"b1fNrhxfvAkUOEq7LyCrqK3Dg1R/SBeL","cipher":"chacha20-ietf-poly1305","delay":677,"udp":true}
+  - {"name":"印度 - Mumbai - 1","server":"211.91.158.26","port":21125,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":360}
+  - {"name":"印度 - Mumbai - 2","server":"211.91.158.44","port":21125,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":1303}
+  - {"name":"德国 - Falkenstein - 2","server":"netixu.mashhad1market.ir","type":"ss","country":"🇩🇪DE","port":1080,"password":"TU4NUJuMe4XlZ3NCQ_1KiQ","cipher":"chacha20-ietf-poly1305","delay":1538,"udp":true}
+  - {"name":"德国 - Frankfurt am Main - 3","server":"211.91.158.26","port":21118,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":595}
+  - {"name":"德国 - Frankfurt am Main - 4","server":"211.91.158.44","port":21118,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":575}
+  - {"name":"德国 - Nuremberg - 1","server":"jpaws.ccwink.photos","type":"vmess","country":"🇯🇵JP","port":53225,"uuid":"a157bb84-dd84-4ad8-86b0-0656bc76e4d1","alterId":0,"cipher":"auto","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"delay":1286,"udp":true,"network":"tcp","servername":"jpaws.ccwink.photos"}
+  - {"name":"意大利 - Milan - 1","server":"211.91.158.26","port":21113,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":1566}
+  - {"name":"意大利 - Milan - 2","server":"211.91.158.26","port":21120,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":555}
+  - {"name":"意大利 - Milan - 3","server":"211.91.158.44","port":21113,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":572}
+  - {"name":"新加坡 - Singapore - 1","server":"211.91.158.26","port":21121,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":252}
+  - {"name":"新加坡 - Singapore - 2","server":"211.91.158.44","port":21121,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":257}
+  - {"name":"日本 - Ōi - 1","server":"211.91.158.26","port":21119,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":299}
+  - {"name":"日本 - Ōi - 2","server":"211.91.158.44","port":21119,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":297}
+  - {"name":"法国 - Aubervilliers - 1","server":"211.91.158.26","port":21126,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":543}
+  - {"name":"法国 - Aubervilliers - 2","server":"211.91.158.44","port":21122,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":526}
+  - {"name":"法国 - Aubervilliers - 3","server":"211.91.158.44","port":21126,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":513}
+  - {"name":"泰国 - Bangkok - 1","server":"103.169.67.34","port":65443,"type":"ss","cipher":"aes-256-cfb","password":"7eadc6dbe2ae","udp":true,"delay":580}
+  - {"name":"美国 - Elk Grove Village - 5","server":"211.91.158.26","port":21105,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":602}
+  - {"name":"美国 - Elk Grove Village - 6","server":"211.91.158.44","port":21105,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":561}
+  - {"name":"美国 - Los Angeles - 1","server":"128.14.156.48","port":5529,"type":"trojan","password":"fg20mtCFHy","sni":"gonets.southbyte.xyz","skip-cert-verify":true,"udp":true,"delay":2718,"network":"tcp"}
+  - {"name":"美国 - Los Angeles - 2","server":"192.220.55.35","type":"ss","country":"🇺🇸US","port":48378,"password":"America2026@LAX","cipher":"aes-256-gcm","delay":2034,"udp":true}
+  - {"name":"美国 - Los Angeles - 7","server":"211.91.158.44","port":21108,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":1621}
+  - {"name":"英国 - London - 1","server":"211.91.158.26","port":21117,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":512}
+  - {"name":"英国 - London - 2","server":"211.91.158.44","port":21104,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":511}
+  - {"name":"英国 - London - 3","server":"211.91.158.44","port":21117,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":504}
+  - {"name":"韩国 - Gangseo-gu - 1","server":"211.91.158.26","port":21107,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":467}
+  - {"name":"韩国 - Gangseo-gu - 2","server":"211.91.158.44","port":21107,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":427}
+  - {"name":"韩国 - Gangseo-gu - 3","server":"211.91.158.26","port":21114,"type":"ss","cipher":"chacha20-ietf-poly1305","password":"9325a345-c72f-4637-a8f4-34f9effb7ba6","udp":true,"delay":396}

@@ -1,0 +1,297 @@
+proxies:
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"fr3.levikogjgfdd.ir","port":8388,"cipher":"chacha20-ietf-poly1305","password":"BqnqToih0PbU","name":">>@oneclickvpnkeys::FR"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"54.36.174.134","port":443,"cipher":"chacha20-ietf-poly1305","password":"ytw2awn","name":">>@oneclickvpnkeys::PL"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"108.181.118.10","port":8388,"cipher":"chacha20-ietf-poly1305","password":"G5p6ww4o67HB","name":">>@oneclickvpnkeys::US"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"92.112.126.90","port":443,"cipher":"chacha20-ietf-poly1305","password":"wwzVn2ZnHfqYa6l8EWh3eY","name":">>@prrofile_purple::NL"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"173.212.251.231","port":51058,"cipher":"aes-128-gcm","password":"SySWDaP8rm1NEK0wdLdoaV5ClkSjFDfw","name":"@Daily_Configs"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.187","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"@Rayan_Config-82.38.31.187-@beepassvpn_bot"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.202","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"@Rayan_Config-82.38.31.202-@beepassvpn_bot"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.208","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"@Rayan_Config-82.38.31.208-@beepassvpn_bot"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.217","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"@Rayan_Config-82.38.31.217-@beepassvpn_bot"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.206","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"@SylphNet | 2026-06-27 03:47"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"31.76.30.79","port":10808,"cipher":"chacha20-ietf-poly1305","password":"TmXSpcRBbhvHDg66bo2w89bToxQsbMoa","name":"@V2ray_Alpha🐮 5"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.203","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"@appsooner کانال تلگرام 🕊️-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"Vpna.Poorifast.ir","port":1080,"cipher":"chacha20-ietf-poly1305","password":"rYfi4cQ3z7zts7BO4-Y9_A","name":"@appsooner کانال تلگرام 🕊️-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"54.36.174.140","port":443,"cipher":"chacha20-ietf-poly1305","password":"ytw2awn","name":"@bisto4_service : کانال تلگرام"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"103.120.178.193","port":31348,"cipher":"chacha20-ietf-poly1305","password":"EBDRo9THx4CqiFU7h5gfov76oNwzZURAh0ZwbWjBKddtUhvz","name":"@ghand_sheken"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.3","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"@hex_proxy ⁵"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.182","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"@hex_proxy ⁸"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"4.168.234.5","port":443,"cipher":"chacha20-ietf-poly1305","password":"LY94CL8HouUwEPF3","name":"@mehrosaboran"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"15.204.247.175","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","name":"@meliproxyy"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"20.123.9.48","port":443,"cipher":"chacha20-ietf-poly1305","password":"bX297As31bQMRsLP","name":"@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"15.204.247.124","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","name":"@v2raybaaz ¹"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.162","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"@v2rayng3"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"@v2rayngzendegimamad🕊️"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.188.21.165","port":8390,"cipher":"chacha20-ietf-poly1305","password":"EyGy11BMfeP-6UHjsgajWw","name":"Channel : @Daily_Configs"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"104.156.233.234","port":27116,"cipher":"chacha20-ietf-poly1305","password":"bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E","name":"Channel id: @ShadowProxy66 🇦🇺"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"137.131.35.71","port":50356,"cipher":"2022-blake3-chacha20-poly1305","password":"BXx9inbBMWJ1C9RDbASzhzsgJy4rvTPibOWqVhLFdNo=","name":"EPODONIOS-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"156.146.38.167","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"EPODONIOS-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"37.19.198.244","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"EPODONIOS-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.29","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.198","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-05"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.190","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-06"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"89.23.97.95","port":1080,"cipher":"chacha20-ietf-poly1305","password":"_cHgXl6zRL9IXuQpPYITG_LIX76WLNji","name":"EPODONIOS-07"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.201","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-08"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"144.31.168.176","port":45640,"cipher":"chacha20-ietf-poly1305","password":"eQvKkykBEbCky5p4BVghO0","name":"EPODONIOS-09"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.186","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-10"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"143.198.137.172","port":80,"cipher":"aes-256-gcm","password":"fBDrbkJbP2Vd9SOK","name":"EPODONIOS-11"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"188.41.249.20","port":1080,"cipher":"chacha20-ietf-poly1305","password":"rYfi4cQ3z7zts7BO4-Y9_A","name":"EPODONIOS-12"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.48","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-13"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.179","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-14"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"188.116.23.244","port":8388,"cipher":"chacha20-ietf-poly1305","password":"eVC634QvVk5l","name":"EPODONIOS-15"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"217.138.207.106","port":1080,"cipher":"chacha20-ietf-poly1305","password":"Vr06rU_v1vFPYeXq9zbsAA","name":"EPODONIOS-16"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.218","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-17"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.155","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-18"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"103.36.91.32","port":8388,"cipher":"chacha20-ietf","password":"asd123456","name":"EPODONIOS-19"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.255.13.232","port":8388,"cipher":"chacha20-ietf-poly1305","password":"BqnqToih0PbU","name":"EPODONIOS-20"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"86.106.84.196","port":13263,"cipher":"aes-128-gcm","password":"lvxuj11x8sfgt9gt6mjf","name":"EPODONIOS-21"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.222.12.127","port":445,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","name":"EPODONIOS-22"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"176.97.73.215","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ma6zc4JoLRJA","name":"EPODONIOS-23"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"108.181.126.122","port":8388,"cipher":"chacha20-ietf-poly1305","password":"CJmTCCx7Ltud","name":"EPODONIOS-24"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.194","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-25"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"helsinki03.npvnot.com","port":995,"cipher":"aes-256-gcm","password":"OGQyZDUzYzgzZDZjNTQ3NzY5ZDdiNmY4OGQ5YTY3","name":"EPODONIOS-26"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"37.120.139.234","port":1080,"cipher":"chacha20-ietf-poly1305","password":"Vr06rU_v1vFPYeXq9zbsAA","name":"EPODONIOS-27"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"84.247.155.196","port":80,"cipher":"aes-256-gcm","password":"3eOFeNssde7PYYMv","name":"EPODONIOS-28"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"89.125.33.16","port":1234,"cipher":"chacha20-ietf-poly1305","password":"36-MSsmwqV497atZ2dngqyJegd2kT6gf","name":"EPODONIOS-29"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"EPODONIOS-30"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.77.225.200","port":8388,"cipher":"chacha20-ietf-poly1305","password":"zRZNBszYyWo5","name":"EPODONIOS-31"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"104.249.22.75","port":43377,"cipher":"chacha20-ietf-poly1305","password":"2MaqmLJwWXtdJPvpzXD2MSYiZrXDwneqZbAEXqZUw7RzX7ndd3xFM9C3u9NdRXZPTNgDBenPLn6B6VrwmodCSEQc8RfuxBn8","name":"EPODONIOS-32"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.184","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-33"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.212","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-34"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"e1.cover20.ir","port":51570,"cipher":"chacha20-ietf-poly1305","password":"Yi5k1J5KVbfTuP5vHzeLO8+UDPyAC0rSIcZUBhnd+ig=","name":"EPODONIOS-35"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.35","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-36"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.205","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-37"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.17","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-38"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.46","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-39"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.53.60.212","port":443,"cipher":"aes-256-gcm","password":"Nxv8ypErRfCSczD7","name":"EPODONIOS-40"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"216.105.168.18","port":443,"cipher":"chacha20-ietf-poly1305","password":"hCCWOcIsK5wrFz4OX70rWf","name":"EPODONIOS-41"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"vip-ca-1.hkd4fwmg.xyz","port":10586,"cipher":"chacha20-ietf-poly1305","password":"b1fNrhxfvAkUOEq7LyCrqK3Dg1R/SBeL","name":"EPODONIOS-42"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.149","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-43"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"137.184.174.93","port":8080,"cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6","name":"EPODONIOS-44"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"198.98.53.130","port":443,"cipher":"chacha20-ietf-poly1305","password":"eDfN7SODQceIOmIAbtJJtK","name":"EPODONIOS-45"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"129.151.75.194","port":61312,"cipher":"2022-blake3-chacha20-poly1305","password":"a/UK8LHF/90SAehQnn56RP5pUgdXKFLeP4sXt/D7VOw=","name":"EPODONIOS-46"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"102.133.165.160","port":16233,"cipher":"chacha20-ietf-poly1305","password":"Xsy8Ox4yOV3xLlpxtjzs3X","name":"EPODONIOS-47"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.230","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-48"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"autodiscover.fuzzyaytor.cyou","port":42982,"cipher":"chacha20-ietf-poly1305","password":"yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS","name":"EPODONIOS-49"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"173.244.56.9","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"EPODONIOS-50"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"144.24.228.102","port":61312,"cipher":"2022-blake3-chacha20-poly1305","password":"N32MvyKWcvB2dfd9+8tDGsdDPkfZtsmmm6eik9yxW/E=","name":"EPODONIOS-51"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"fr4.levikogjgfdd.ir","port":8388,"cipher":"chacha20-ietf-poly1305","password":"zRZNBszYyWo5","name":"EPODONIOS-52"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"129.151.85.177","port":61312,"cipher":"2022-blake3-chacha20-poly1305","password":"HEZMw3e3ObzQ4hOH3EwEh3RsD3u7zzmSOHpVGDATZRk=","name":"EPODONIOS-53"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"aaa.app9.ir","port":2082,"cipher":"2022-blake3-aes-256-gcm","password":"KComEQ28cVXIzVlxdpTy6LXLockXExZUh1xUJT49/nk=:hPqMImCwa6rdBbI/rlAMiUeSZEi5QpNNUZC5G/89ZHc=","name":"EPODONIOS-54"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"e3.cover20.ir","port":56985,"cipher":"chacha20-ietf-poly1305","password":"IlSY+D+ttxp8OM8tXCCsWnKh3Eh6Kl4rAAv3nE0X08Q=","name":"EPODONIOS-55"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"94.72.127.58","port":443,"cipher":"aes-256-gcm","password":"goRz8CTFE6zPZXIA","name":"EPODONIOS-56"}
+  - {"type":"ss","tls":false,"skip-cert-verify":false,"network":"tcp","udp":false,"server":"185.215.228.132","port":2044,"cipher":"chacha20-ietf-poly1305","password":"3rfnj11q5xvg72y1","name":"EPODONIOS-57"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"158.173.20.171","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"EPODONIOS-58"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.219","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-59"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.189","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"EPODONIOS-60"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.35","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-61"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.2","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-62"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"211.178.105.134","port":6123,"cipher":"aes-256-cfb","password":"qwerREWQ@@","name":"EPODONIOS-63"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.32","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-64"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"129.146.221.27","port":50356,"cipher":"2022-blake3-chacha20-poly1305","password":"sPH+tlbdXt4j6PJi6sUMuUq3fa6TT5375pmPak/bQds=","name":"EPODONIOS-65"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"109.201.152.181","port":443,"cipher":"aes-128-cfb","password":"shadowsocks","name":"EPODONIOS-66"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.204","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-67"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"49.254.204.133","port":1774,"cipher":"aes-256-cfb","password":"1234!@#$","name":"EPODONIOS-68"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.15","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"EPODONIOS-69"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"95.40.120.162","port":8316,"cipher":"chacha20-ietf-poly1305","password":"ljqdalu13..","name":"EPODONIOS-70"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.12.242.150","port":443,"cipher":"aes-256-gcm","password":"Hi9wk14VntzGq7kq","name":"EPODONIOS-71"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"103.169.67.34","port":65443,"cipher":"aes-256-cfb","password":"7eadc6dbe2ae","name":"EPODONIOS-72"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"92.118.205.211","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","name":"EPODONIOS-73"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"p141.panda001.net","port":4652,"cipher":"aes-256-cfb","password":"qwerREWQ@@","name":"EPODONIOS-74"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"nl10.levikogjgfdd.ir","port":8080,"cipher":"chacha20-ietf-poly1305","password":"QCXDxuDlTTMD7jtgHUjIoj","name":"GeneralConfiig"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"91.107.243.39","port":1080,"cipher":"chacha20-ietf-poly1305","password":"YpLdYtmKUGiLVYuyI3P9hA","name":"MTMVPN 59"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"108.181.58.239","port":8388,"cipher":"chacha20-ietf-poly1305","password":"CJmTCCx7Ltud","name":"TEL:Father_vpn-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.7","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"TEL:Father_vpn-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.176","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"TEL;Father_vpn"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.18","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"The Netherlands 🇳🇱"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.53.63.33","port":80,"cipher":"aes-256-gcm","password":"sFS341eceaIiSm2d","name":"[🏁]t.me/ConfigV2RayNG"}
+  - {"type":"ss","tls":false,"skip-cert-verify":false,"network":"tcp","udp":false,"server":"tt.hsrdnr.ir","port":2044,"cipher":"chacha20-ietf-poly1305","password":"3rfnj11q5xvg72y1","name":"fa"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"45.77.232.213","port":15675,"cipher":"chacha20-ietf-poly1305","password":"TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH","name":"hamedp71::🇦🇺-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"45.32.246.180","port":8388,"cipher":"chacha20-ietf-poly1305","password":"TqkkHRpZTkjbTBrk","name":"hamedp71::🇦🇺-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"ca225.vpnbook.com","port":443,"cipher":"chacha20-ietf-poly1305","password":"ytw2awn","name":"hamedp71::🇨🇦-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.95.183","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"hamedp71::🇨🇦-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.222.155.32","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","name":"hamedp71::🇨🇦-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"155.138.136.240","port":80,"cipher":"aes-256-gcm","password":"sZSZi7tGs9wodT7k","name":"hamedp71::🇨🇦-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.79.64.198","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","name":"hamedp71::🇨🇦-05"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"155.138.136.240","port":443,"cipher":"aes-256-gcm","password":"sZSZi7tGs9wodT7k","name":"hamedp71::🇨🇦-06"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.79.49.116","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","name":"hamedp71::🇨🇦-07"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"185.226.172.8","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","name":"hamedp71::🇩🇪-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.195.126.38","port":8388,"cipher":"chacha20-ietf-poly1305","password":"2YdE4lFOid5a","name":"hamedp71::🇩🇪-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"209.46.102.22","port":8388,"cipher":"chacha20-ietf-poly1305","password":"1hhrqrokj3ag","name":"hamedp71::🇩🇪-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"2.58.81.221","port":80,"cipher":"aes-256-gcm","password":"kKEd0rBrd56Furjz","name":"hamedp71::🇩🇪-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"8.209.74.72","port":20001,"cipher":"chacha20-ietf-poly1305","password":"PWpjPo3tqhPN4yRZ","name":"hamedp71::🇩🇪-05"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"2.58.81.221","port":443,"cipher":"aes-256-gcm","password":"kKEd0rBrd56Furjz","name":"hamedp71::🇩🇪-06"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"108.181.121.226","port":8388,"cipher":"chacha20-ietf-poly1305","password":"WSyL4XTwNsdv","name":"hamedp71::🇪🇸"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.102.132.184","port":80,"cipher":"aes-256-gcm","password":"g5h5jleTRSyO3Rk4","name":"hamedp71::🇬🇧-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.102.149.207","port":80,"cipher":"aes-256-gcm","password":"LXchLsIwtCeUAUgu","name":"hamedp71::🇬🇧-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.102.152.25","port":80,"cipher":"aes-256-gcm","password":"XrpA8hNjQ67ODdau","name":"hamedp71::🇬🇧-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.102.149.207","port":443,"cipher":"aes-256-gcm","password":"LXchLsIwtCeUAUgu","name":"hamedp71::🇬🇧-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.102.152.25","port":443,"cipher":"aes-256-gcm","password":"XrpA8hNjQ67ODdau","name":"hamedp71::🇬🇧-05"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"141.98.101.181","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"hamedp71::🇬🇧-06"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"134.65.61.103","port":61312,"cipher":"2022-blake3-chacha20-poly1305","password":"kl3y4L+253t5duqM0xIkuYbiQS6Q/UL4fjXfuoqiG0I=","name":"hamedp71::🇬🇧-07"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"95.40.120.162","port":8319,"cipher":"chacha20-ietf-poly1305","password":"ljqdalu13..","name":"hamedp71::🇭🇰"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"141.164.45.187","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","name":"hamedp71::🇰🇷"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"64.188.77.159","port":8390,"cipher":"chacha20-ietf-poly1305","password":"EyGy11BMfeP-6UHjsgajWw","name":"hamedp71::🇳🇱-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.183","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🇳🇱-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"213.109.147.242","port":62685,"cipher":"chacha20-ietf-poly1305","password":"VpKABcOpNNA0l5G2AVOmw8","name":"hamedp71::🇳🇱-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.185","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🇳🇱-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.149","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🇳🇱-05"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"pl134.vpnbook.com","port":443,"cipher":"chacha20-ietf-poly1305","password":"ytw2awn","name":"hamedp71::🇵🇱"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"176.97.64.144","port":8388,"cipher":"chacha20-ietf-poly1305","password":"TFElG2FVqyqG","name":"hamedp71::🇸🇬-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"139.180.133.90","port":80,"cipher":"aes-256-gcm","password":"jSU7bGKupQ96YFvf","name":"hamedp71::🇸🇬-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"194.233.94.119","port":80,"cipher":"aes-256-gcm","password":"5QCeIKUZUEp4mR9Z","name":"hamedp71::🇸🇬-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"152.42.252.183","port":40421,"cipher":"chacha20-ietf-poly1305","password":"QizS9n6y0wPvQUfUYVrlKCKrG6GING9vL25dI+DzT/M=","name":"hamedp71::🇸🇬-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"102.129.229.85","port":31700,"cipher":"chacha20-ietf-poly1305","password":"d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=","name":"hamedp71::🇹🇭"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"r3mrcg00129437x.cybervena.com","port":50099,"cipher":"chacha20-ietf-poly1305","password":"b1ae0fce-9340-4f2e-882d-fdb2218e2e2b","name":"hamedp71::🇹🇼-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"R3MRCG00129437X.cybervena.com","port":50099,"cipher":"chacha20-ietf-poly1305","password":"b1ae0fce-9340-4f2e-882d-fdb2218e2e2b","name":"hamedp71::🇹🇼-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"156.146.38.169","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"hamedp71::🇺🇸-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"156.146.38.170","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"hamedp71::🇺🇸-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"37.19.198.160","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"hamedp71::🇺🇸-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"156.146.38.168","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"hamedp71::🇺🇸-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"23.150.248.20","port":8388,"cipher":"chacha20-ietf-poly1305","password":"qB2Cv9VIlujj","name":"hamedp71::🇺🇸-05"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"137.184.99.120","port":443,"cipher":"aes-256-gcm","password":"enRLN43GX0EctNxz","name":"hamedp71::🇺🇸-06"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.12.240.141","port":80,"cipher":"aes-256-gcm","password":"0A1XMqChmURuRChe","name":"hamedp71::🇺🇸-07"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"94.72.127.55","port":443,"cipher":"aes-256-gcm","password":"kRKZE3ZhECwawy1N","name":"hamedp71::🇺🇸-08"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.12.242.150","port":80,"cipher":"aes-256-gcm","password":"Hi9wk14VntzGq7kq","name":"hamedp71::🇺🇸-09"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"173.244.56.6","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"hamedp71::🇺🇸-10"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"94.72.127.55","port":80,"cipher":"aes-256-gcm","password":"kRKZE3ZhECwawy1N","name":"hamedp71::🇺🇸-11"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"108.181.57.93","port":8388,"cipher":"chacha20-ietf-poly1305","password":"RSo52SbxW40r","name":"hamedp71::🇺🇸-12"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.12.240.141","port":443,"cipher":"aes-256-gcm","password":"0A1XMqChmURuRChe","name":"hamedp71::🇺🇸-13"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"4.168.234.201","port":443,"cipher":"chacha20-ietf-poly1305","password":"rnkHEeEspS1u5Vfj","name":"hamedp71::🇿🇦-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"102.37.156.224","port":443,"cipher":"chacha20-ietf-poly1305","password":"aduB9HGxQHjA2SBMRjkHX6","name":"hamedp71::🇿🇦-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.156","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.207","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.42.38.209","port":1080,"cipher":"chacha20-ietf-poly1305","password":"XF0klw7870vXn3uQIxe19Q","name":"hamedp71::🏴‍☠️-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.57","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"nl1.levikogjgfdd.ir","port":8388,"cipher":"chacha20-ietf-poly1305","password":"CJmTCCx7Ltud","name":"hamedp71::🏴‍☠️-05"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.216","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-06"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.10","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-07"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.174","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-08"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.16","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-09"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.129","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-10"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.36","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-11"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"94.156.250.148","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","name":"hamedp71::🏴‍☠️-12"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.174","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-13"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.36","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-14"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.11","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-15"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.17","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-16"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.181","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-17"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.200","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-18"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"au1.levikogjgfdd.ir","port":27116,"cipher":"chacha20-ietf-poly1305","password":"bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E","name":"hamedp71::🏴‍☠️-19"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.147","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-20"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.28","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-21"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.164","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-22"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.129","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-23"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.13","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-24"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.48","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-25"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.235","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-26"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.225","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-27"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.26","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-28"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.225","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-29"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.26","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-30"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.9","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-31"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.39","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-32"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.204","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-33"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.215","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-34"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.164","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-35"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.230","port":443,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-36"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.18","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-37"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"bogging-eyeteeth-fly.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"QFWzCw2uX9B9i6qAYeFBIE","name":"hamedp71::🏴‍☠️-38"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.213","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-39"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.53.60.212","port":80,"cipher":"aes-256-gcm","password":"Nxv8ypErRfCSczD7","name":"hamedp71::🏴‍☠️-40"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.132","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"hamedp71::🏴‍☠️-41"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.47","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"hamedp71::🏴‍☠️-42"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"evjd8xfji5of.cdn000.com","port":31404,"cipher":"2022-blake3-aes-128-gcm","password":"Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg==","name":"kurdconfig"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"140.174.184.5","port":8388,"cipher":"chacha20-ietf-poly1305","password":"qItG8SueYQcP","name":"برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"admin.c1.webramz.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA","name":"کانال تلگرام : Free_VPN_CH@"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.144","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"کانال ما"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.212","port":8080,"cipher":"chacha20-ietf-poly1305","password":"QCXDxuDlTTMD7jtgHUjIoj","name":"☑➜چنلمون: Express_freevpn@"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"121.46.230.136","port":65443,"cipher":"aes-256-cfb","password":"7eadc6dbe2ae","name":"日本"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"146.70.222.126","port":1080,"cipher":"chacha20-ietf-poly1305","password":"XF0klw7870vXn3uQIxe19Q","name":"𝗡𝗲𝗧𝗠𝗲𝗹𝗶⚡️@prrofile_purple 🌩-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"185.210.217.94","port":1080,"cipher":"chacha20-ietf-poly1305","password":"XF0klw7870vXn3uQIxe19Q","name":"𝗡𝗲𝗧𝗠𝗲𝗹𝗶⚡️@prrofile_purple 🌩-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"188.119.149.27","port":1080,"cipher":"chacha20-ietf-poly1305","password":"XF0klw7870vXn3uQIxe19Q","name":"𝗡𝗲𝗧𝗠𝗲𝗹𝗶⚡️@prrofile_purple 🌩-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"3.29.198.112","port":443,"cipher":"chacha20-ietf-poly1305","password":"u17T3BvpYaaiuW2c","name":"🇦🇪 AE | SS | @manstervpn #1 [medium]"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"45.79.238.129","port":443,"cipher":"chacha20-ietf-poly1305","password":"YUWX6COLZYmaHlUGiKwDaN","name":"🇦🇺AU-45.79.238.129-7002"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.234.225.164","port":59319,"cipher":"2022-blake3-chacha20-poly1305","password":"O68yo+vY7gEcToIytfKJGZCG7lQkBW4VzsP1ZXRsTIU=","name":"🇧🇷 Join+Telegram:@Farah_VPN 🇧🇷-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"136.248.118.107","port":59319,"cipher":"2022-blake3-chacha20-poly1305","password":"l9J76M7suWl7vAPE/4hyTmUNqoImWoumsZ2fhuRX7cI=","name":"🇧🇷 Join+Telegram:@Farah_VPN 🇧🇷-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.222.155.113","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","name":"🇨🇦CA-51.222.155.113-0407"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"143.244.58.102","port":443,"cipher":"aes-256-cfb","password":"asdKkaskJKfnsa","name":"🇨🇿CZ-143.244.58.102-7552"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"netixu.mashhad1market.ir","port":1080,"cipher":"chacha20-ietf-poly1305","password":"TU4NUJuMe4XlZ3NCQ_1KiQ","name":"🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"130.61.81.111","port":59924,"cipher":"2022-blake3-chacha20-poly1305","password":"N1wWAclBS1JWHoN3JOOUOEpvV0+NKZFdBpGMHZSMFuU=","name":"🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"178.63.176.113","port":1080,"cipher":"chacha20-ietf-poly1305","password":"TU4NUJuMe4XlZ3NCQ_1KiQ","name":"🇩🇪 V2RayyNGvpn"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.108.117.75","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇩🇪DE-193.108.117.75-5017"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"5.188.181.201","port":9041,"cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn","name":"🇪🇸ES-5.188.181.201-6954"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"5.188.181.201","port":9031,"cipher":"aes-256-cfb","password":"BwcAUZk8hUFAkDGN","name":"🇪🇸ES-5.188.181.201-6957"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.202.82.172","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","name":"🇫🇷FR-149.202.82.172-5194"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.202.82.172","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","name":"🇫🇷FR-149.202.82.172-5202"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"161.97.66.81","port":443,"cipher":"chacha20-ietf-poly1305","password":"E4gyHkKwJGyG","name":"🇫🇷FR-161.97.66.81-6513"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"161.97.68.139","port":443,"cipher":"chacha20-ietf-poly1305","password":"94dvoW0TdKRq","name":"🇫🇷FR-161.97.68.139-5841"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"162.19.59.160","port":443,"cipher":"aes-256-cfb","password":"asdKkaskJKfnsa","name":"🇫🇷FR-162.19.59.160-7413"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"162.19.59.161","port":443,"cipher":"aes-256-cfb","password":"asdKkaskJKfnsa","name":"🇫🇷FR-162.19.59.161-7412"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"195.154.200.150","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇫🇷FR-195.154.200.150-5205"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.83.192.80","port":8388,"cipher":"aes-256-gcm","password":"itzvpn@321","name":"🇫🇷FR-🚀@VPNine1"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.42","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"🇬🇧 GB | SS | @netfreedom0 #1 [medium]"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"146.70.61.37","port":8080,"cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6","name":"🇬🇧 GB | SS | @netfreedom0 #2 [fast]"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"146.70.23.32","port":8080,"cipher":"rc4-md5","password":"14fFPrbezE3HDZzsMOr6","name":"🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"129.151.70.252","port":61312,"cipher":"2022-blake3-chacha20-poly1305","password":"ACBxVu50k3V8Oy+U4V+ad2Z85fnNVys6MfGj5Sinz70=","name":"🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"129.151.93.193","port":61312,"cipher":"2022-blake3-chacha20-poly1305","password":"uTP7T8hg8KZuMkMy3aRzZP2UQkaTUhrW7NKgP/vT8I4=","name":"🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"158.173.24.73","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"172.99.190.149","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇬🇧GB-172.99.190.149-5328"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"172.99.190.149","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","name":"🇬🇧GB-172.99.190.149-5920"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"57.129.140.88","port":8388,"cipher":"chacha20-ietf-poly1305","password":"k1v5g9FefdoO","name":"🇬🇧GB-57.129.140.88-4684"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.180","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"🇬🇧GB-82.38.31.180-0086"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.199","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"🇬🇧GB-82.38.31.199-0266"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.214","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"🇬🇧GB-82.38.31.214-0103"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.34","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"🇬🇧GB-82.38.31.34-0097"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.49","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"🇬🇧GB-82.38.31.49-0109"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"103.149.182.79","port":8388,"cipher":"chacha20-ietf","password":"asd123456","name":"🇭🇰HK-103.149.182.79-4853"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"e2.cover20.ir","port":30874,"cipher":"chacha20-ietf-poly1305","password":"BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=","name":"🇮🇷IR-213.176.6.187-1216"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.87.241","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.87.204","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇯🇵JP-149.22.87.204-4839"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.87.240","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇯🇵JP-149.22.87.240-4688"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"218.237.185.230","port":4652,"cipher":"aes-256-cfb","password":"qwerREWQ@@","name":"🇰🇷KR-218.237.185.230-4903"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"221.139.79.57","port":13979,"cipher":"aes-256-cfb","password":"qwerREWQ@@","name":"🇰🇷KR-221.139.79.57-4906"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"43.201.48.212","port":443,"cipher":"aes-256-cfb","password":"amazonskr05","name":"🇰🇷KR-43.201.48.212-1999"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"77.240.38.27","port":8443,"cipher":"chacha20-ietf-poly1305","password":"fkXtvCEQ1ZU1rzF3fIK0fw==","name":"🇰🇿 KZ | SS | @configv2rayforfree #1 [medium]"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"158.180.13.253","port":45819,"cipher":"2022-blake3-chacha20-poly1305","password":"T8nDZA9hyAy2MrDlJBL1w5F6HMzfNNyN8Ysk1Se1INc=","name":"🇳🇱 Join+Telegram:@Farah_VPN 🇳🇱-01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"134.98.144.146","port":45819,"cipher":"2022-blake3-chacha20-poly1305","password":"mSsDylEWEVs4RJudck4O0ScHhezXB9RZs9N70l5esqM=","name":"🇳🇱 Join+Telegram:@Farah_VPN 🇳🇱-02"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"82.38.31.195","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"🇳🇱 Join+Telegram:@Farah_VPN 🇳🇱-03"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"134.98.133.97","port":45819,"cipher":"2022-blake3-chacha20-poly1305","password":"Di0niuJKfaX3xE2XbjXVE3LnDahhHuRY3OehphQn+dw=","name":"🇳🇱 Join+Telegram:@Farah_VPN 🇳🇱-04"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"158.101.222.193","port":45819,"cipher":"2022-blake3-chacha20-poly1305","password":"c1X6HxfuG20TnAmSC8ZYQYDJqmxgjOP1vwvrkQcPMdQ=","name":"🇳🇱 Join+Telegram:@Farah_VPN 🇳🇱-05"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"158.178.159.220","port":45819,"cipher":"2022-blake3-chacha20-poly1305","password":"2w4/eGbaFaK8GlJMa+yKZO1EwfIe1nOpojVM3qPFKkU=","name":"🇳🇱 Join+Telegram:@Farah_VPN 🇳🇱-06"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"158.173.20.208","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇳🇱 V2RayyNGvpn"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"172.99.188.71","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇳🇱NL-172.99.188.71-5833"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.151","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"🇳🇱NL-193.29.139.151-0123"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.168","port":8080,"cipher":"chacha20-ietf-poly1305","password":"QCXDxuDlTTMD7jtgHUjIoj","name":"🇳🇱NL-193.29.139.168-0132"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.223","port":8080,"cipher":"chacha20-ietf-poly1305","password":"k1dBOmOB4oqi7Ump37a1bQ","name":"🇳🇱NL-193.29.139.223-0088"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"193.29.139.235","port":8080,"cipher":"chacha20-ietf-poly1305","password":"oZIoA69Q8yhcQV8ka3Pa3A","name":"🇳🇱NL-193.29.139.235-0098"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"switcher-nick-croquet.freesocks.work","port":443,"cipher":"chacha20-ietf-poly1305","password":"9tqhMdIrTkgQ46PvhyAtMH","name":"🇳🇱NL-92.112.126.90-4919"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"pl140.vpnbook.com","port":443,"cipher":"chacha20-ietf-poly1305","password":"ytw2awn","name":"🇵🇱 Join+Telegram:@Farah_VPN 🇵🇱"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"154.46.31.106","port":443,"cipher":"chacha20-ietf-poly1305","password":"QFWzCw2uX9B9i6qAYeFBIE","name":"🇷🇴139787 | ⚡️Telegram = t.me/SOSkeyNET"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"31.172.67.43","port":443,"cipher":"aes-256-cfb","password":"asdKkaskJKfnsa","name":"🇷🇺RU-31.172.67.43-7072"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"37.19.222.213","port":443,"cipher":"aes-256-cfb","password":"asdKkaskJKfnsa","name":"🇸🇪SE-37.19.222.213-7044"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"37.19.222.214","port":443,"cipher":"aes-256-cfb","password":"asdKkaskJKfnsa","name":"🇸🇪SE-37.19.222.214-7043"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.150.100.115","port":27755,"cipher":"2022-blake3-aes-256-gcm","password":"fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=","name":"🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"13.215.49.89","port":443,"cipher":"aes-256-cfb","password":"amazonskr05","name":"🇸🇬SG-13.215.49.89-1886"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"51.79.161.232","port":443,"cipher":"chacha20-ietf-poly1305","password":"4Hub2f9JyhECyAq2Opm0NS","name":"🇸🇬SG-51.79.161.232-6935"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"r3mrcg001287h3p.cybervena.com","port":50099,"cipher":"chacha20-ietf-poly1305","password":"7e731ec3-f8e1-43f6-92cf-3978d14705c4","name":"🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"37.19.198.236","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"15.204.246.132","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","name":"🇺🇸149760 | ⚡️Telegram = t.me/SOSkeyNET"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"108.181.0.177","port":8388,"cipher":"chacha20-ietf-poly1305","password":"G5p6ww4o67HB","name":"🇺🇸US-108.181.0.177-0074"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"142.202.48.52","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇺🇸US-142.202.48.52-5477"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"142.202.48.52","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","name":"🇺🇸US-142.202.48.52-5867"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"156.146.38.163","port":443,"cipher":"aes-128-cfb","password":"shadowsocks","name":"🇺🇸US-156.146.38.163-4994"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.88.61.175","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇺🇸US-167.88.61.175-5985"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.88.61.50","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","name":"🇺🇸US-167.88.61.50-5781"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.88.62.62","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","name":"🇺🇸US-167.88.62.62-5043"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.88.62.68","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇺🇸US-167.88.62.68-4727"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.88.62.68","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","name":"🇺🇸US-167.88.62.68-5851"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.88.63.44","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇺🇸US-167.88.63.44-6014"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"167.88.63.59","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇺🇸US-167.88.63.59-5067"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"37.19.198.243","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇺🇸US-37.19.198.243-0073"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"38.68.135.123","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","name":"🇺🇸US-38.68.135.123-5669"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"38.75.137.9","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","name":"🇺🇸US-38.75.137.9-6142"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"38.64.58.242","port":8388,"cipher":"aes-256-gcm","password":"7w9x5m4kNWNFgKuDXFUxu68x-26wbWwg","name":"🍥59@oneclickvpnkeys"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"passconf.xyz","port":8080,"cipher":"chacha20-ietf-poly1305","password":"qGjmI8WQlF0tfhDbkLqGdN","name":"🏁RELAY-172.67.201.7-6725"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"217.28.129.81","port":42982,"cipher":"chacha20-ietf-poly1305","password":"yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS","name":"🏳️ ShatakVPN 515399"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"142.4.216.225","port":443,"cipher":"chacha20-ietf-poly1305","password":"ytw2awn","name":"🏳️ ShatakVPN 552222"}

@@ -1,0 +1,23 @@
+proxies:
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.87.241","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"EPODONIOS-1"}
+  - {"type":"vless","name":"EPODONIOS-2","server":"172.66.44.97","port":443,"uuid":"83afd88f-200f-4d89-bfc7-66eff160c1d8","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-3","server":"162.128.181.182","port":443,"uuid":"048a61f8-b236-4082-b1c3-c22a85693c12","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-4","server":"104.16.117.43","port":443,"uuid":"83afd88f-200f-4d89-bfc7-66eff160c1d8","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp","encryption":"none"}
+  - {"type":"vless","name":"EPODONIOS-5","server":"208.103.161.32","port":443,"uuid":"83afd88f-200f-4d89-bfc7-66eff160c1d8","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-6","server":"104.16.80.73","port":443,"uuid":"83afd88f-200f-4d89-bfc7-66eff160c1d8","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"name":"http flickity.metafizzy.co:443","type":"http","tls":true,"server":"flickity.metafizzy.co","port":443,"udp":true,"sni":"flickity.metafizzy.co"}
+  - {"name":"http gethomeland.com:443","type":"http","tls":true,"server":"gethomeland.com","port":443,"udp":true,"sni":"gethomeland.com"}
+  - {"name":"http www.jacklmoore.com/autosize:80","type":"http","tls":false,"server":"www.jacklmoore.com/autosize","port":80,"udp":true}
+  - {"type":"vless","name":"🇫🇷FR_1267|728KB/s|C002-260622 01","server":"154.194.12.40","port":8880,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","udp":true,"tls":false,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"🇫🇷FR_1272|319KB/s|B007-260618 01","server":"www.speedtest.net","port":443,"uuid":"b9ab32b7-a5f3-43b2-9f3a-9544b50f96b1","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp","servername":"www.speedtest.net"}
+  - {"type":"vless","name":"🇫🇷FR_463|368KB/s|M002-260618 01","server":"172.64.53.140","port":2087,"uuid":"77777777-8a3e-6666-b6d1-a9c5f0e8b3a2","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"🇫🇷FR_686|237KB/s|K001-260618 01","server":"172.67.148.41","port":80,"uuid":"8be64379-08a5-4362-b8cf-234a65409bda","udp":true,"tls":false,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"🇫🇷FR_825|222KB/s|S004-260618 01</pre><small class=\"v2cross-node-snapshot-hint\">只导入客户端支持的协议，连接后继续检查 IP、DNS 和 WebRTC。</small></section>                    <div class=\"content-excerpt\">","server":"104.21.234.13","port":443,"uuid":"d7d8af23-36cd-4c66-a42a-4469c177210f","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"🇫🇷FR_911|202KB/s|M002-260618 01","server":"172.64.52.230","port":2087,"uuid":"77777777-8a3e-6666-b6d1-a9c5f0e8b3a2","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"🇬🇧GB_85|97KB/s|A004-260618 01","server":"31.76.91.138","port":445,"uuid":"309b0ce3-09a8-4883-bfe4-bd56e215be44","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"🇯🇵JP_1013|224KB/s|M003-260806 01","server":"139.180.198.220","port":52143,"uuid":"2942bae7-9dcf-4a2e-f928-933c0ab3eab0","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp","encryption":"none"}
+  - {"type":"vless","name":"🇯🇵JP_258|90KB/s|C002-260622 01","server":"3.114.220.22","port":19645,"uuid":"814bd064-544d-4255-a070-5705c03f6da9","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.87.240","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇯🇵JP_2|136KB/s|A004-260618 01"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.87.204","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇯🇵JP_363|98KB/s|A004-260618 01"}
+  - {"type":"trojan","password":"FH72359861","server":"many-pangolin.rooster465.autos","port":443,"name":"🇯🇵JP_444|146KB/s 01","sni":"many-pangolin.rooster465.autos","udp":true,"network":"tcp"}
+  - {"type":"trojan","password":"FH72359861","server":"52.195.225.156","port":443,"name":"🇯🇵JP_932|209KB/s|M003-260806 01","udp":true,"network":"tcp"}
