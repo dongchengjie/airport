@@ -1,0 +1,23 @@
+proxies:
+  - {"type":"vless","name":"EPODONIOS-01","server":"108.162.198.178","port":2095,"uuid":"47fcef29-ab4e-4aa6-932b-d95a18f28a4e","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-02","server":"3.112.47.207","port":29860,"uuid":"7460547d-e83c-4843-b404-9142b22261a7","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp","encryption":"none"}
+  - {"type":"vless","name":"EPODONIOS-03","server":"188.114.97.6","port":8080,"uuid":"47fcef29-ab4e-4aa6-932b-d95a18f28a4e","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-04","server":"108.162.198.178","port":8080,"uuid":"47fcef29-ab4e-4aa6-932b-d95a18f28a4e","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-05","server":"172.64.150.28","port":2082,"uuid":"e5cc16a6-ea42-46b2-82ae-ad2157e1641b","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp","encryption":"none"}
+  - {"type":"vless","name":"EPODONIOS-06","server":"188.114.97.6","port":2082,"uuid":"47fcef29-ab4e-4aa6-932b-d95a18f28a4e","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-07","server":"104.17.3.81","port":8443,"uuid":"e1b81abf-2c98-487a-9b4d-e678f718f4b9","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"ws","ws-opts":{"path":"/"}}
+  - {"type":"vless","name":"EPODONIOS-08","server":"162.159.48.32","port":8880,"uuid":"47fcef29-ab4e-4aa6-932b-d95a18f28a4e","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-09","server":"108.162.198.178","port":80,"uuid":"47fcef29-ab4e-4aa6-932b-d95a18f28a4e","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-10","server":"188.114.97.6","port":2086,"uuid":"47fcef29-ab4e-4aa6-932b-d95a18f28a4e","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"type":"vless","name":"EPODONIOS-11","server":"3.114.220.22","port":10583,"uuid":"814bd064-544d-4255-a070-5705c03f6da9","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp","encryption":"none"}
+  - {"type":"vless","name":"EPODONIOS</pre><small class=\"v2cross-node-snapshot-hint\">只导入客户端支持的协议，连接后继续检查 IP、DNS 和 WebRTC。</small></section>                    <div class=\"content-excerpt\">","server":"108.162.198.178","port":8880,"uuid":"47fcef29-ab4e-4aa6-932b-d95a18f28a4e","udp":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"name":"http flickity.metafizzy.co:443","type":"http","tls":true,"server":"flickity.metafizzy.co","port":443,"udp":true,"sni":"flickity.metafizzy.co"}
+  - {"name":"http gethomeland.com:443","type":"http","tls":true,"server":"gethomeland.com","port":443,"udp":true,"sni":"gethomeland.com"}
+  - {"name":"http www.jacklmoore.com/autosize:80","type":"http","tls":false,"server":"www.jacklmoore.com/autosize","port":80,"udp":true}
+  - {"type":"vless","name":"未知 VLESS-944 | free-nodes","server":"43.206.235.72","port":15476,"uuid":"fa0286aa-e023-4f20-b634-e61e1e8c32aa","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
+  - {"name":"未知 VMESS-978 | free-nodes","type":"vmess","server":"155.248.176.44","port":55216,"cipher":"auto","uuid":"154dbc39-0921-cf11-29bd-156c5000d763","alterId":0,"tls":false,"client-fingerprint":"","udp":true,"network":"tcp"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"176.97.73.215","port":8388,"cipher":"chacha20-ietf-poly1305","password":"ma6zc4JoLRJA","name":"🇬🇧 GB_52"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.87.204","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇯🇵JP-149.22.87.204-0183"}
+  - {"type":"ss","skip-cert-verify":false,"udp":false,"server":"149.22.87.240","port":443,"cipher":"aes-128-gcm","password":"shadowsocks","name":"🇯🇵JP-149.22.87.240-0182"}
+  - {"name":"🇯🇵JP-172.111.146.64-5204","type":"vmess","server":"172.111.146.64","port":80,"cipher":"auto","uuid":"05b8c783-7f59-47f9-9923-06a465679f6a","alterId":0,"tls":false,"network":"ws","ws-opts":{"path":"/vmess/","headers":{}},"client-fingerprint":"","udp":true}
+  - {"type":"vless","name":"🇯🇵JP_3|1.8MB/s | 网盘搜宝: https://t.me/diskseeker","server":"54.249.200.131","port":18921,"uuid":"fe113f0b-43fa-4662-9403-9f91b53fed1f","udp":true,"tls":true,"skip-cert-verify":false,"packet-encoding":"xudp","network":"tcp"}
