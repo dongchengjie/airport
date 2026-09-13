@@ -1,0 +1,5 @@
+proxies:
+  - {"name":"vmess","type":"vmess","server":"1.0.2.3","port":2095,"uuid":"18d96190-c10f-448f-a82a-2d36df5c3cde","alterId":0,"cipher":"auto","tls":false,"skip-cert-verify":false,"network":"ws","ws-opts":{"path":"/v2rayse.com/test","headers":{"Host":"baidu.com"}}}
+  - {"name":"vless","type":"vless","server":"1.2.3.4","port":7777,"uuid":"abc-def-ghi-fge-zsx","tls":true,"network":"tcp"}
+  - {"name":"hysteria","type":"hysteria","server":"1.2.3.4","port":12854,"auth_str":"pekopeko","up":"50","down":"250","sni":"wechat.com","skip-cert-verify":true,"alpn":["h3"],"auth-str":"pekopeko"}
+  - {"name":"MyHysteria","type":"hysteria2","server":"example.com","port":443,"password":"P%40ssw0rd1234","sni":"www.example.com","skip-cert-verify":false,"obfs":"salamander","obfs-password":"obfs_pwd"}
