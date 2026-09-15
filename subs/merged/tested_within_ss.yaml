@@ -1,0 +1,1354 @@
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+external-controller: 127.0.0.1:9090
+geox-url:
+  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb
+  asn: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  use-system-hosts: false
+  cache-algorithm: arc
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.lan
+    - +.local
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  respect-rules: true
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    geosite:private,cn,geolocation-cn:
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+    geosite:google,youtube,telegram,gfw,geolocation-!cn:
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+      - https://208.67.222.222/dns-query
+      - https://208.67.220.220/dns-query
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+      override-destination: true
+    TLS:
+      ports:
+        - 443
+        - 8443
+    QUIC:
+      ports:
+        - 443
+        - 8443
+  skip-domain:
+    - Mijia Cloud
+    - +.push.apple.com
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+      - 🇹🇼 中国台湾省-17CA1FCF
+      - 🇯🇵 日本-6783195D
+      - 🇯🇵 日本-24FE6D00
+      - 🇯🇵 日本-45A288B0
+      - 🇰🇷 韩国-ADFE686B
+      - 🇰🇷 韩国-8C051E25
+      - 🇰🇷 韩国-B33A9C54
+      - 🏁 未知-C0D1F136
+      - 🇺🇸 美国-15728D4A
+      - 🏁 未知-53418137
+      - 🏁 未知-6A8A70AE
+      - 🇺🇸 美国-8A4F975E
+      - 🏁 未知-B44F8E82
+      - 🇺🇸 美国-4A5CF585
+      - 🏁 未知-5591547D
+      - 🇺🇸 美国-C7466887
+      - 🇺🇸 美国-D0E0EABF
+      - 🇺🇸 美国-54E01726
+      - 🇺🇸 美国-8D64F180
+      - 🏁 未知-DF922B23
+      - 🏁 未知-D45BC914
+      - 🇺🇸 美国-2DD9A906
+      - 🇺🇸 美国-781DC8A9
+      - 🇨🇦 加拿大-093F7F75
+      - 🏁 未知-B504CBC6
+      - 🏁 未知-0EAAB7E9
+      - 🇮🇪 爱尔兰-6FBC6B1D
+      - 🏁 未知-0ABA60D4
+      - 🏁 未知-8E2157EA
+      - 🏁 未知-A91A4C49
+      - 🇬🇧 英国-80BE1157
+      - 🇬🇧 英国-1DBB5F97
+      - 🇦🇺 澳大利亚-7844EF2B
+      - 🏁 未知-7A6409D1
+      - 🏁 未知-14ADBE5F
+      - 🏁 未知-3F678F4B
+      - 🏁 未知-ABD13DF2
+      - 🇬🇧 英国-E6C5B191
+      - 🇳🇱 荷兰-1ABDEDCF
+      - 🏁 未知-7908F1C6
+      - 🏁 未知-80E9E9C2
+      - 🏁 未知-A8A2CF28
+      - 🏁 未知-688F3685
+      - 🇳🇱 荷兰-E7B00D01
+      - 🏁 未知-7795AF7A
+      - 🇳🇱 荷兰-9657BB20
+      - 🏁 未知-2368B7BD
+      - 🏁 未知-4B07FBCA
+      - 🇬🇧 英国-045C7267
+      - 🏁 未知-FCD9872A
+      - 🇬🇧 英国-14CB062C
+      - 🏁 未知-D75CF7AA
+      - 🏁 未知-0550B7EA
+      - 🏁 未知-13B3F7DA
+      - 🏁 未知-94FA843E
+      - 🏁 未知-1B6D48DD
+      - 🏁 未知-75636F57
+      - 🏁 未知-CB42B351
+      - 🇮🇱 以色列-B3D4568A
+      - 🏁 未知-9F841B8F
+      - 🏁 未知-A84723A5
+      - 🏁 未知-0DA5B829
+      - 🇳🇱 荷兰-36FA140B
+      - 🏁 未知-6EFB79C8
+      - 🇬🇧 英国-920EDAD3
+      - 🇮🇷 伊朗-F010A450
+      - 🏁 未知-6B469CBF
+      - 🏁 未知-E7362AEB
+      - 🏁 未知-45FFA923
+      - 🇦🇺 澳大利亚-DBFDFA4B
+      - 🏁 未知-7EFAC16B
+      - 🏁 未知-34FC4D51
+      - 🏁 未知-31C27972
+      - 🏁 未知-896B9D41
+      - 🏁 未知-68F0E91D
+      - 🏁 未知-A63FCB48
+      - 🏁 未知-C78B031D
+      - 🇩🇪 德国-D00F02E7
+      - 🏁 未知-D992864B
+      - 🏁 未知-4F48FED7
+      - 🏁 未知-AF066795
+      - 🇳🇱 荷兰-1D63AE36
+      - 🏁 未知-3A29F028
+      - 🏁 未知-A393B7C9
+      - 🏁 未知-13FF32C6
+      - 🏁 未知-988F84B6
+      - 🏁 未知-AA0D5D10
+      - 🏁 未知-C5C01086
+      - 🇬🇧 英国-FA37F005
+      - 🏁 未知-E50C79A2
+      - 🏁 未知-D448FC67
+      - 🏁 未知-9B0A5A0F
+      - 🇳🇱 荷兰-900DA174
+      - 🏁 未知-F80EE80C
+      - 🏁 未知-5300DD9D
+      - 🏁 未知-C91D4E85
+      - 🏁 未知-3202120F
+      - 🇪🇸 西班牙-C2D79A90
+      - 🇹🇷 土耳其-9556F6B6
+      - 🏁 未知-17F0A864
+      - 🏁 未知-B5EE8E89
+      - 🇳🇱 荷兰-E0C6D61B
+      - 🇬🇧 英国-19EA134B
+      - 🏁 未知-746CE480
+      - 🏁 未知-F549FB70
+      - 🏁 未知-5AAF3C99
+      - 🏁 未知-B1DEF9A3
+      - 🏁 未知-5CB336DD
+      - 🏁 未知-24BBDC61
+      - 🏁 未知-91AA090A
+      - 🏁 未知-AC9D0DD8
+      - 🏁 未知-547022C7
+      - 🇮🇳 印度-523FD213
+      - 🏁 未知-7A517A24
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    tolerance: 200
+    max-failed-times: 3
+    proxies:
+      - 🇹🇼 中国台湾省-17CA1FCF
+      - 🇯🇵 日本-6783195D
+      - 🇯🇵 日本-24FE6D00
+      - 🇯🇵 日本-45A288B0
+      - 🇰🇷 韩国-ADFE686B
+      - 🇰🇷 韩国-8C051E25
+      - 🇰🇷 韩国-B33A9C54
+      - 🏁 未知-C0D1F136
+      - 🇺🇸 美国-15728D4A
+      - 🏁 未知-53418137
+      - 🏁 未知-6A8A70AE
+      - 🇺🇸 美国-8A4F975E
+      - 🏁 未知-B44F8E82
+      - 🇺🇸 美国-4A5CF585
+      - 🏁 未知-5591547D
+      - 🇺🇸 美国-C7466887
+      - 🇺🇸 美国-D0E0EABF
+      - 🇺🇸 美国-54E01726
+      - 🇺🇸 美国-8D64F180
+      - 🏁 未知-DF922B23
+      - 🏁 未知-D45BC914
+      - 🇺🇸 美国-2DD9A906
+      - 🇺🇸 美国-781DC8A9
+      - 🇨🇦 加拿大-093F7F75
+      - 🏁 未知-B504CBC6
+      - 🏁 未知-0EAAB7E9
+      - 🇮🇪 爱尔兰-6FBC6B1D
+      - 🏁 未知-0ABA60D4
+      - 🏁 未知-8E2157EA
+      - 🏁 未知-A91A4C49
+      - 🇬🇧 英国-80BE1157
+      - 🇬🇧 英国-1DBB5F97
+      - 🇦🇺 澳大利亚-7844EF2B
+      - 🏁 未知-7A6409D1
+      - 🏁 未知-14ADBE5F
+      - 🏁 未知-3F678F4B
+      - 🏁 未知-ABD13DF2
+      - 🇬🇧 英国-E6C5B191
+      - 🇳🇱 荷兰-1ABDEDCF
+      - 🏁 未知-7908F1C6
+      - 🏁 未知-80E9E9C2
+      - 🏁 未知-A8A2CF28
+      - 🏁 未知-688F3685
+      - 🇳🇱 荷兰-E7B00D01
+      - 🏁 未知-7795AF7A
+      - 🇳🇱 荷兰-9657BB20
+      - 🏁 未知-2368B7BD
+      - 🏁 未知-4B07FBCA
+      - 🇬🇧 英国-045C7267
+      - 🏁 未知-FCD9872A
+      - 🇬🇧 英国-14CB062C
+      - 🏁 未知-D75CF7AA
+      - 🏁 未知-0550B7EA
+      - 🏁 未知-13B3F7DA
+      - 🏁 未知-94FA843E
+      - 🏁 未知-1B6D48DD
+      - 🏁 未知-75636F57
+      - 🏁 未知-CB42B351
+      - 🇮🇱 以色列-B3D4568A
+      - 🏁 未知-9F841B8F
+      - 🏁 未知-A84723A5
+      - 🏁 未知-0DA5B829
+      - 🇳🇱 荷兰-36FA140B
+      - 🏁 未知-6EFB79C8
+      - 🇬🇧 英国-920EDAD3
+      - 🇮🇷 伊朗-F010A450
+      - 🏁 未知-6B469CBF
+      - 🏁 未知-E7362AEB
+      - 🏁 未知-45FFA923
+      - 🇦🇺 澳大利亚-DBFDFA4B
+      - 🏁 未知-7EFAC16B
+      - 🏁 未知-34FC4D51
+      - 🏁 未知-31C27972
+      - 🏁 未知-896B9D41
+      - 🏁 未知-68F0E91D
+      - 🏁 未知-A63FCB48
+      - 🏁 未知-C78B031D
+      - 🇩🇪 德国-D00F02E7
+      - 🏁 未知-D992864B
+      - 🏁 未知-4F48FED7
+      - 🏁 未知-AF066795
+      - 🇳🇱 荷兰-1D63AE36
+      - 🏁 未知-3A29F028
+      - 🏁 未知-A393B7C9
+      - 🏁 未知-13FF32C6
+      - 🏁 未知-988F84B6
+      - 🏁 未知-AA0D5D10
+      - 🏁 未知-C5C01086
+      - 🇬🇧 英国-FA37F005
+      - 🏁 未知-E50C79A2
+      - 🏁 未知-D448FC67
+      - 🏁 未知-9B0A5A0F
+      - 🇳🇱 荷兰-900DA174
+      - 🏁 未知-F80EE80C
+      - 🏁 未知-5300DD9D
+      - 🏁 未知-C91D4E85
+      - 🏁 未知-3202120F
+      - 🇪🇸 西班牙-C2D79A90
+      - 🇹🇷 土耳其-9556F6B6
+      - 🏁 未知-17F0A864
+      - 🏁 未知-B5EE8E89
+      - 🇳🇱 荷兰-E0C6D61B
+      - 🇬🇧 英国-19EA134B
+      - 🏁 未知-746CE480
+      - 🏁 未知-F549FB70
+      - 🏁 未知-5AAF3C99
+      - 🏁 未知-B1DEF9A3
+      - 🏁 未知-5CB336DD
+      - 🏁 未知-24BBDC61
+      - 🏁 未知-91AA090A
+      - 🏁 未知-AC9D0DD8
+      - 🏁 未知-547022C7
+      - 🇮🇳 印度-523FD213
+      - 🏁 未知-7A517A24
+  - name: 🚑 故障转移
+    type: fallback
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    max-failed-times: 3
+    proxies:
+      - 🇹🇼 中国台湾省-17CA1FCF
+      - 🇯🇵 日本-6783195D
+      - 🇯🇵 日本-24FE6D00
+      - 🇯🇵 日本-45A288B0
+      - 🇰🇷 韩国-ADFE686B
+      - 🇰🇷 韩国-8C051E25
+      - 🇰🇷 韩国-B33A9C54
+      - 🏁 未知-C0D1F136
+      - 🇺🇸 美国-15728D4A
+      - 🏁 未知-53418137
+      - 🏁 未知-6A8A70AE
+      - 🇺🇸 美国-8A4F975E
+      - 🏁 未知-B44F8E82
+      - 🇺🇸 美国-4A5CF585
+      - 🏁 未知-5591547D
+      - 🇺🇸 美国-C7466887
+      - 🇺🇸 美国-D0E0EABF
+      - 🇺🇸 美国-54E01726
+      - 🇺🇸 美国-8D64F180
+      - 🏁 未知-DF922B23
+      - 🏁 未知-D45BC914
+      - 🇺🇸 美国-2DD9A906
+      - 🇺🇸 美国-781DC8A9
+      - 🇨🇦 加拿大-093F7F75
+      - 🏁 未知-B504CBC6
+      - 🏁 未知-0EAAB7E9
+      - 🇮🇪 爱尔兰-6FBC6B1D
+      - 🏁 未知-0ABA60D4
+      - 🏁 未知-8E2157EA
+      - 🏁 未知-A91A4C49
+      - 🇬🇧 英国-80BE1157
+      - 🇬🇧 英国-1DBB5F97
+      - 🇦🇺 澳大利亚-7844EF2B
+      - 🏁 未知-7A6409D1
+      - 🏁 未知-14ADBE5F
+      - 🏁 未知-3F678F4B
+      - 🏁 未知-ABD13DF2
+      - 🇬🇧 英国-E6C5B191
+      - 🇳🇱 荷兰-1ABDEDCF
+      - 🏁 未知-7908F1C6
+      - 🏁 未知-80E9E9C2
+      - 🏁 未知-A8A2CF28
+      - 🏁 未知-688F3685
+      - 🇳🇱 荷兰-E7B00D01
+      - 🏁 未知-7795AF7A
+      - 🇳🇱 荷兰-9657BB20
+      - 🏁 未知-2368B7BD
+      - 🏁 未知-4B07FBCA
+      - 🇬🇧 英国-045C7267
+      - 🏁 未知-FCD9872A
+      - 🇬🇧 英国-14CB062C
+      - 🏁 未知-D75CF7AA
+      - 🏁 未知-0550B7EA
+      - 🏁 未知-13B3F7DA
+      - 🏁 未知-94FA843E
+      - 🏁 未知-1B6D48DD
+      - 🏁 未知-75636F57
+      - 🏁 未知-CB42B351
+      - 🇮🇱 以色列-B3D4568A
+      - 🏁 未知-9F841B8F
+      - 🏁 未知-A84723A5
+      - 🏁 未知-0DA5B829
+      - 🇳🇱 荷兰-36FA140B
+      - 🏁 未知-6EFB79C8
+      - 🇬🇧 英国-920EDAD3
+      - 🇮🇷 伊朗-F010A450
+      - 🏁 未知-6B469CBF
+      - 🏁 未知-E7362AEB
+      - 🏁 未知-45FFA923
+      - 🇦🇺 澳大利亚-DBFDFA4B
+      - 🏁 未知-7EFAC16B
+      - 🏁 未知-34FC4D51
+      - 🏁 未知-31C27972
+      - 🏁 未知-896B9D41
+      - 🏁 未知-68F0E91D
+      - 🏁 未知-A63FCB48
+      - 🏁 未知-C78B031D
+      - 🇩🇪 德国-D00F02E7
+      - 🏁 未知-D992864B
+      - 🏁 未知-4F48FED7
+      - 🏁 未知-AF066795
+      - 🇳🇱 荷兰-1D63AE36
+      - 🏁 未知-3A29F028
+      - 🏁 未知-A393B7C9
+      - 🏁 未知-13FF32C6
+      - 🏁 未知-988F84B6
+      - 🏁 未知-AA0D5D10
+      - 🏁 未知-C5C01086
+      - 🇬🇧 英国-FA37F005
+      - 🏁 未知-E50C79A2
+      - 🏁 未知-D448FC67
+      - 🏁 未知-9B0A5A0F
+      - 🇳🇱 荷兰-900DA174
+      - 🏁 未知-F80EE80C
+      - 🏁 未知-5300DD9D
+      - 🏁 未知-C91D4E85
+      - 🏁 未知-3202120F
+      - 🇪🇸 西班牙-C2D79A90
+      - 🇹🇷 土耳其-9556F6B6
+      - 🏁 未知-17F0A864
+      - 🏁 未知-B5EE8E89
+      - 🇳🇱 荷兰-E0C6D61B
+      - 🇬🇧 英国-19EA134B
+      - 🏁 未知-746CE480
+      - 🏁 未知-F549FB70
+      - 🏁 未知-5AAF3C99
+      - 🏁 未知-B1DEF9A3
+      - 🏁 未知-5CB336DD
+      - 🏁 未知-24BBDC61
+      - 🏁 未知-91AA090A
+      - 🏁 未知-AC9D0DD8
+      - 🏁 未知-547022C7
+      - 🇮🇳 印度-523FD213
+      - 🏁 未知-7A517A24
+  - name: 🎯 全局直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+proxies:
+  - name: 🇹🇼 中国台湾省-17CA1FCF
+    type: ss
+    server: 185.189.160.105
+    port: 41632
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+    skip-cert-verify: false
+    udp: false
+  - name: 🇯🇵 日本-6783195D
+    type: ss
+    server: 149.22.87.204
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    udp: true
+  - name: 🇯🇵 日本-24FE6D00
+    type: ss
+    server: 149.22.87.240
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: 🇯🇵 日本-45A288B0
+    type: ss
+    server: 103.106.228.175
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+    skip-cert-verify: false
+    udp: false
+  - name: 🇰🇷 韩国-ADFE686B
+    type: ss
+    server: 27.255.82.134
+    port: 2078
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+    skip-cert-verify: false
+    udp: false
+  - name: 🇰🇷 韩国-8C051E25
+    type: ss
+    server: p141.panda001.net
+    port: 4652
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+    skip-cert-verify: false
+    udp: false
+  - name: 🇰🇷 韩国-B33A9C54
+    type: ss
+    server: 218.237.185.230
+    port: 4652
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-C0D1F136
+    type: ss
+    server: 107.172.219.230
+    port: 2096
+    cipher: chacha20-ietf-poly1305
+    password: 768b923a-4918-46ad-96e7-9cf5543ddc4c
+    skip-cert-verify: false
+    udp: false
+  - name: 🇺🇸 美国-15728D4A
+    type: ss
+    server: 216.105.168.18
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hCCWOcIsK5wrFz4OX70rWf
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-53418137
+    type: ss
+    server: 108.181.0.177
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: G5p6ww4o67HB
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-6A8A70AE
+    type: ss
+    server: 108.181.118.10
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: G5p6ww4o67HB
+    skip-cert-verify: false
+    udp: false
+  - name: 🇺🇸 美国-8A4F975E
+    type: ss
+    server: 173.244.56.9
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-B44F8E82
+    type: ss
+    server: 149.22.95.183
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🇺🇸 美国-4A5CF585
+    type: ss
+    server: 156.146.38.168
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: 🏁 未知-5591547D
+    type: ss
+    server: 156.146.38.169
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🇺🇸 美国-C7466887
+    type: ss
+    server: 156.146.38.167
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: 🇺🇸 美国-D0E0EABF
+    type: ss
+    server: 156.146.38.170
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: 🇺🇸 美国-54E01726
+    type: ss
+    server: 173.244.56.6
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    udp: true
+  - name: 🇺🇸 美国-8D64F180
+    type: ss
+    server: 172.234.202.34
+    port: 24833
+    cipher: chacha20-ietf-poly1305
+    password: hRd=IXkjozMEKLeGR_0q09jtwly5J2la2O
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-DF922B23
+    type: ss
+    server: 37.19.198.160
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-D45BC914
+    type: ss
+    server: 37.19.198.244
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🇺🇸 美国-2DD9A906
+    type: ss
+    server: 37.19.198.236
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    udp: true
+  - name: 🇺🇸 美国-781DC8A9
+    type: ss
+    server: 37.19.198.243
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: 🇨🇦 加拿大-093F7F75
+    type: ss
+    server: 137.184.174.93
+    port: 8080
+    cipher: rc4-md5
+    password: 14fFPrbezE3HDZzsMOr6
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-B504CBC6
+    type: ss
+    server: 198.98.53.130
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: eDfN7SODQceIOmIAbtJJtK
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-0EAAB7E9
+    type: ss
+    server: 149.22.87.241
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🇮🇪 爱尔兰-6FBC6B1D
+    type: ss
+    server: 20.166.25.13
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: Z6myLjn9ZqrCvo4j
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-0ABA60D4
+    type: ss
+    server: 158.173.24.73
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-8E2157EA
+    type: ss
+    server: 61.231.25.172
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-A91A4C49
+    type: ss
+    server: 141.98.101.182
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🇬🇧 英国-80BE1157
+    type: ss
+    server: 141.98.101.181
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🇬🇧 英国-1DBB5F97
+    type: ss
+    server: 94.156.250.148
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+    skip-cert-verify: false
+    udp: false
+  - name: 🇦🇺 澳大利亚-7844EF2B
+    type: ss
+    server: 104.156.233.234
+    port: 27116
+    cipher: chacha20-ietf-poly1305
+    password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-7A6409D1
+    type: ss
+    server: 154.223.16.96
+    port: 6697
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-14ADBE5F
+    type: ss
+    server: 45.77.232.213
+    port: 15675
+    cipher: chacha20-ietf-poly1305
+    password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-3F678F4B
+    type: ss
+    server: r3mrcg001286ek2.cybervena.com
+    port: 50099
+    cipher: chacha20-ietf-poly1305
+    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-ABD13DF2
+    type: ss
+    server: 141.98.101.178
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+    skip-cert-verify: false
+    udp: false
+  - name: 🇬🇧 英国-E6C5B191
+    type: ss
+    server: 141.98.101.179
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: 🇳🇱 荷兰-1ABDEDCF
+    type: ss
+    server: 109.201.152.181
+    port: 443
+    cipher: aes-128-cfb
+    password: shadowsocks
+  - name: 🏁 未知-7908F1C6
+    type: ss
+    server: 103.106.231.82
+    port: 5600
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-80E9E9C2
+    type: ss
+    server: 141.227.152.129
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: VJeAjiJ40F2Il17Elv285W
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-A8A2CF28
+    type: ss
+    server: 45.32.122.179
+    port: 23027
+    cipher: chacha20-ietf-poly1305
+    password: I-bP3lFh.dTG3XitF7XtVK83CZ7rI2Ut=n
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-688F3685
+    type: ss
+    server: 193.29.139.204
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🇳🇱 荷兰-E7B00D01
+    type: ss
+    server: 82.38.31.2
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-7795AF7A
+    type: ss
+    server: 108.61.156.158
+    port: 2
+    cipher: chacha20-ietf-poly1305
+    password: FhS_Go_TmiFytUwbAmIOvA
+    skip-cert-verify: false
+    udp: false
+  - name: 🇳🇱 荷兰-9657BB20
+    type: ss
+    server: 82.38.31.149
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    country: 🇬🇧GB
+    delay: 479
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: 🏁 未知-2368B7BD
+    type: ss
+    server: 193.29.139.235
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: 🏁 未知-4B07FBCA
+    type: ss
+    server: 91.108.254.252
+    port: 18982
+    cipher: chacha20-ietf-poly1305
+    password: IIMxFMyq3FwyPd21UGWgmNJCAiYN9m2vOo
+    skip-cert-verify: false
+    udp: false
+  - name: 🇬🇧 英国-045C7267
+    type: ss
+    server: 82.38.31.214
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-FCD9872A
+    type: ss
+    server: 82.38.31.192
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🇬🇧 英国-14CB062C
+    type: ss
+    server: 82.38.31.194
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-D75CF7AA
+    type: ss
+    server: 46.224.2.35
+    port: 47199
+    cipher: chacha20-ietf-poly1305
+    password: Jx2HKJK7kiti86e8AnQIbX
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-0550B7EA
+    type: ss
+    server: 167.150.100.115
+    port: 27755
+    cipher: 2022-blake3-aes-256-gcm
+    password: fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0=
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-13B3F7DA
+    type: ss
+    server: 82.38.31.211
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-94FA843E
+    type: ss
+    server: 82.38.31.212
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    network: tcp
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-1B6D48DD
+    type: ss
+    server: 82.38.31.191
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-75636F57
+    type: ss
+    server: 82.38.31.208
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-CB42B351
+    type: ss
+    server: 82.38.31.200
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🇮🇱 以色列-B3D4568A
+    type: ss
+    server: 82.38.31.204
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-9F841B8F
+    type: ss
+    server: 103.240.147.113
+    port: 14605
+    cipher: chacha20-ietf-poly1305
+    password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-A84723A5
+    type: ss
+    server: 82.38.31.206
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-0DA5B829
+    type: ss
+    server: 82.38.31.193
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🇳🇱 荷兰-36FA140B
+    type: ss
+    server: 82.38.31.184
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-6EFB79C8
+    type: ss
+    server: 38.180.221.143
+    port: 17283
+    cipher: chacha20-ietf-poly1305
+    password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+    skip-cert-verify: false
+    udp: false
+  - name: 🇬🇧 英国-920EDAD3
+    type: ss
+    server: 82.38.31.202
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🇮🇷 伊朗-F010A450
+    type: ss
+    server: 82.38.31.210
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-6B469CBF
+    type: ss
+    server: 82.38.31.17
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-E7362AEB
+    type: ss
+    server: 38.180.221.145
+    port: 17283
+    cipher: chacha20-ietf-poly1305
+    password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-45FFA923
+    type: ss
+    server: 82.38.31.207
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🇦🇺 澳大利亚-DBFDFA4B
+    type: ss
+    server: 67.219.106.119
+    port: 26286
+    cipher: chacha20-ietf-poly1305
+    password: xfscSDcb-SeEqqRb.omzVGgVgNpXh3bA1u
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-7EFAC16B
+    type: ss
+    server: 82.38.31.215
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-34FC4D51
+    type: ss
+    server: 82.38.31.217
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-31C27972
+    type: ss
+    server: 193.29.139.151
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-896B9D41
+    type: ss
+    server: 82.38.31.195
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-68F0E91D
+    type: ss
+    server: 185.213.23.63
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-A63FCB48
+    type: ss
+    server: 82.38.31.11
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-C78B031D
+    type: ss
+    server: 193.47.60.186
+    port: 28687
+    cipher: chacha20-ietf-poly1305
+    password: yKVMoB3AwiTEznpnoq2FYR
+  - name: 🇩🇪 德国-D00F02E7
+    type: ss
+    server: 209.46.102.22
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: 1hhrqrokj3ag
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-D992864B
+    type: ss
+    server: 82.38.31.203
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-4F48FED7
+    type: ss
+    server: 65.109.218.60
+    port: 8880
+    cipher: 2022-blake3-aes-256-gcm
+    network: tcp
+    password: kCs8h0xuSNfNngL1SeDLTGRAEWewDnTj/aw3uMmEbSU=:pfEiJ61zUL/GFl2QUg4OJR74kHmsjZ/WUXs8IGe+v9w=
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-AF066795
+    type: ss
+    server: 217.30.10.70
+    port: 9041
+    cipher: aes-256-cfb
+    password: U6qnYRhfyDmn8sgn
+    skip-cert-verify: false
+    udp: false
+  - name: 🇳🇱 荷兰-1D63AE36
+    type: ss
+    server: 82.38.31.176
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-3A29F028
+    type: ss
+    server: 217.30.10.70
+    port: 9026
+    cipher: aes-256-cfb
+    password: QWDDvVE9npNurQfA
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-A393B7C9
+    type: ss
+    server: 8.209.74.72
+    port: 20001
+    cipher: chacha20-ietf-poly1305
+    password: PWpjPo3tqhPN4yRZ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-13FF32C6
+    type: ss
+    server: 217.30.10.70
+    port: 9015
+    cipher: aes-256-cfb
+    password: ZpNDDKRu9MagNvaf
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-988F84B6
+    type: ss
+    server: 217.30.10.70
+    port: 9027
+    cipher: aes-256-cfb
+    password: EXN3S3eQpjE7EJu8
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-AA0D5D10
+    type: ss
+    server: 91.108.254.104
+    port: 13683
+    cipher: chacha20-ietf-poly1305
+    password: gWBgmKb8AL1uRK0jZ44AoOPaC5lVTOHZmi
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-C5C01086
+    type: ss
+    server: 38.180.221.147
+    port: 17283
+    cipher: chacha20-ietf-poly1305
+    password: bwjNPcwgz5+1gCyi+rB+nfqugw38B7tqVa
+    skip-cert-verify: false
+    udp: false
+  - name: 🇬🇧 英国-FA37F005
+    type: ss
+    server: 82.38.31.9
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-E50C79A2
+    type: ss
+    server: 103.241.66.76
+    port: 14605
+    cipher: chacha20-ietf-poly1305
+    password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-D448FC67
+    type: ss
+    server: 217.30.10.70
+    port: 9031
+    cipher: aes-256-cfb
+    password: BwcAUZk8hUFAkDGN
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-9B0A5A0F
+    type: ss
+    server: 140.174.184.5
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: qItG8SueYQcP
+    skip-cert-verify: false
+    udp: false
+  - name: 🇳🇱 荷兰-900DA174
+    type: ss
+    server: 193.29.139.144
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-F80EE80C
+    type: ss
+    server: 82.38.31.180
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    network: tcp
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-5300DD9D
+    type: ss
+    server: 185.213.20.110
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-C91D4E85
+    type: ss
+    server: 217.30.10.70
+    port: 9038
+    cipher: aes-256-cfb
+    password: gYCYXfkUQEs2TaJQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-3202120F
+    type: ss
+    server: 46.249.109.128
+    port: 56594
+    cipher: chacha20-ietf-poly1305
+    password: jR5Wg32XzEgCXk4MPCgvd1G1Ts8WHBLsXMUaqMa5DUXMuqMmdZgCbMipXDhoAmj73qA9oY85zXK35L5m631Tn7in2p3KLbWF
+    skip-cert-verify: false
+    udp: false
+  - name: 🇪🇸 西班牙-C2D79A90
+    type: ss
+    server: 108.181.121.226
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: WSyL4XTwNsdv
+    skip-cert-verify: false
+    udp: false
+  - name: 🇹🇷 土耳其-9556F6B6
+    type: ss
+    server: 185.123.101.64
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-17F0A864
+    type: ss
+    server: 193.168.175.56
+    port: 14605
+    cipher: chacha20-ietf-poly1305
+    password: Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-B5EE8E89
+    type: ss
+    server: 82.38.31.181
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🇳🇱 荷兰-E0C6D61B
+    type: ss
+    server: 82.38.31.15
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🇬🇧 英国-19EA134B
+    type: ss
+    server: 82.38.31.7
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-746CE480
+    type: ss
+    server: 130.94.92.62
+    port: 17216
+    cipher: chacha20-ietf-poly1305
+    password: ENxrMVhaagn43lKk0lcOwzo2-z8ShXiA-A
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-F549FB70
+    type: ss
+    server: 46.31.76.37
+    port: 4004
+    cipher: 2022-blake3-aes-256-gcm
+    password: bIp0spSuoM1jadkc20X5GBw1/xqE+tT32rxyQCRTdks=:Huf5VbS7uzTylCYqhqINu0cHsXe38LVGLEZ1/5jj/60=
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-5AAF3C99
+    type: ss
+    server: 102.133.165.160
+    port: 16233
+    cipher: chacha20-ietf-poly1305
+    password: Xsy8Ox4yOV3xLlpxtjzs3X
+  - name: 🏁 未知-B1DEF9A3
+    type: ss
+    server: 221.139.79.57
+    port: 13979
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-5CB336DD
+    type: ss
+    server: 102.37.156.224
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: aduB9HGxQHjA2SBMRjkHX6
+  - name: 🏁 未知-24BBDC61
+    type: ss
+    server: 82.38.31.213
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-91AA090A
+    type: ss
+    server: 38.54.93.66
+    port: 49692
+    cipher: rc4-md5
+    password: ad80f76711ec7213
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-AC9D0DD8
+    type: ss
+    server: 38.54.80.160
+    port: 16292
+    cipher: chacha20-ietf-poly1305
+    password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-547022C7
+    type: ss
+    server: 137.74.119.18
+    port: 10443
+    cipher: chacha20-ietf-poly1305
+    password: diOMBU5IDvJcFqyNPbRjYR
+    skip-cert-verify: false
+    udp: false
+  - name: 🇮🇳 印度-523FD213
+    type: ss
+    server: 103.120.178.193
+    port: 31348
+    cipher: chacha20-ietf-poly1305
+    password: EBDRo9THx4CqiFU7h5gfov76oNwzZURAh0ZwbWjBKddtUhvz
+    skip-cert-verify: false
+    udp: false
+  - name: 🏁 未知-7A517A24
+    type: ss
+    server: 146.70.61.37
+    port: 8080
+    cipher: rc4-md5
+    password: 14fFPrbezE3HDZzsMOr6
+    skip-cert-verify: false
+    udp: false
+rules:
+  - GEOIP,lan,🎯 全局直连,no-resolve
+  - GEOSITE,github,🚀 节点选择
+  - GEOSITE,twitter,🚀 节点选择
+  - GEOSITE,youtube,🚀 节点选择
+  - GEOSITE,google,🚀 节点选择
+  - GEOSITE,telegram,🚀 节点选择
+  - GEOSITE,netflix,🚀 节点选择
+  - GEOSITE,bilibili,🎯 全局直连
+  - GEOSITE,bahamut,🚀 节点选择
+  - GEOSITE,spotify,🚀 节点选择
+  - GEOSITE,CN,🎯 全局直连
+  - GEOSITE,geolocation-!cn,🐟 漏网之鱼
+  - GEOIP,google,🚀 节点选择
+  - GEOIP,netflix,🚀 节点选择
+  - GEOIP,telegram,🚀 节点选择
+  - GEOIP,twitter,🚀 节点选择
+  - GEOIP,CN,🎯 全局直连
+  - MATCH,🐟 漏网之鱼

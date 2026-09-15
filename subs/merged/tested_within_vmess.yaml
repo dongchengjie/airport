@@ -1,0 +1,678 @@
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+external-controller: 127.0.0.1:9090
+geox-url:
+  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb
+  asn: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  use-system-hosts: false
+  cache-algorithm: arc
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.lan
+    - +.local
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  respect-rules: true
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    geosite:private,cn,geolocation-cn:
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+    geosite:google,youtube,telegram,gfw,geolocation-!cn:
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+      - https://208.67.222.222/dns-query
+      - https://208.67.220.220/dns-query
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+      override-destination: true
+    TLS:
+      ports:
+        - 443
+        - 8443
+    QUIC:
+      ports:
+        - 443
+        - 8443
+  skip-domain:
+    - Mijia Cloud
+    - +.push.apple.com
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+      - 🇯🇵 日本-CC40E05D
+      - 🇰🇷 韩国-01958B5F
+      - 🏁 未知-94F4D60F
+      - 🏁 未知-B221E8B6
+      - 🇺🇸 美国-6AC568E3
+      - 🏁 未知-6F8782D8
+      - 🇺🇸 美国-07F16A90
+      - 🇺🇸 美国-C9357549
+      - 🇺🇸 美国-AF5490E4
+      - 🏁 未知-5F244B4A
+      - 🇺🇸 美国-2EC114C5
+      - 🇺🇸 美国-ADAF2D9F
+      - 🏁 未知-B3BAA575
+      - 🏁 未知-892BE4A4
+      - 🇨🇦 加拿大-8DAFEF46
+      - 🇺🇸 美国-20488C4F
+      - 🇺🇸 美国-98668394
+      - 🏁 未知-AF16F820
+      - 🏁 未知-A3DD0AD8
+      - 🇺🇸 美国-09F87439
+      - 🏁 未知-16E65477
+      - 🏁 未知-286E57CD
+      - 🏁 未知-02DD770D
+      - 🏁 未知-AABEE20A
+      - 🏁 未知-1E4E8879
+      - 🏁 未知-B4A5647A
+      - 🏁 未知-6E217116
+      - 🏁 未知-1BD6A4E0
+      - 🏁 未知-A9C8C724
+      - 🏁 未知-FCBC5D1C
+      - 🏁 未知-B40CAC94
+      - 🏁 未知-AACC94B0
+      - 🏁 未知-442D5737
+      - 🏁 未知-67C1FE41
+      - 🏁 未知-4D25BF26
+      - 🏁 未知-01E5A486
+      - 🏁 未知-39D94852
+      - 🏁 未知-A07A1232
+      - 🏁 未知-5DFDEEDF
+      - 🇬🇧 英国-E9AB5579
+      - 🇮🇹 意大利-D7E09F36
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    tolerance: 200
+    max-failed-times: 3
+    proxies:
+      - 🇯🇵 日本-CC40E05D
+      - 🇰🇷 韩国-01958B5F
+      - 🏁 未知-94F4D60F
+      - 🏁 未知-B221E8B6
+      - 🇺🇸 美国-6AC568E3
+      - 🏁 未知-6F8782D8
+      - 🇺🇸 美国-07F16A90
+      - 🇺🇸 美国-C9357549
+      - 🇺🇸 美国-AF5490E4
+      - 🏁 未知-5F244B4A
+      - 🇺🇸 美国-2EC114C5
+      - 🇺🇸 美国-ADAF2D9F
+      - 🏁 未知-B3BAA575
+      - 🏁 未知-892BE4A4
+      - 🇨🇦 加拿大-8DAFEF46
+      - 🇺🇸 美国-20488C4F
+      - 🇺🇸 美国-98668394
+      - 🏁 未知-AF16F820
+      - 🏁 未知-A3DD0AD8
+      - 🇺🇸 美国-09F87439
+      - 🏁 未知-16E65477
+      - 🏁 未知-286E57CD
+      - 🏁 未知-02DD770D
+      - 🏁 未知-AABEE20A
+      - 🏁 未知-1E4E8879
+      - 🏁 未知-B4A5647A
+      - 🏁 未知-6E217116
+      - 🏁 未知-1BD6A4E0
+      - 🏁 未知-A9C8C724
+      - 🏁 未知-FCBC5D1C
+      - 🏁 未知-B40CAC94
+      - 🏁 未知-AACC94B0
+      - 🏁 未知-442D5737
+      - 🏁 未知-67C1FE41
+      - 🏁 未知-4D25BF26
+      - 🏁 未知-01E5A486
+      - 🏁 未知-39D94852
+      - 🏁 未知-A07A1232
+      - 🏁 未知-5DFDEEDF
+      - 🇬🇧 英国-E9AB5579
+      - 🇮🇹 意大利-D7E09F36
+  - name: 🚑 故障转移
+    type: fallback
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    max-failed-times: 3
+    proxies:
+      - 🇯🇵 日本-CC40E05D
+      - 🇰🇷 韩国-01958B5F
+      - 🏁 未知-94F4D60F
+      - 🏁 未知-B221E8B6
+      - 🇺🇸 美国-6AC568E3
+      - 🏁 未知-6F8782D8
+      - 🇺🇸 美国-07F16A90
+      - 🇺🇸 美国-C9357549
+      - 🇺🇸 美国-AF5490E4
+      - 🏁 未知-5F244B4A
+      - 🇺🇸 美国-2EC114C5
+      - 🇺🇸 美国-ADAF2D9F
+      - 🏁 未知-B3BAA575
+      - 🏁 未知-892BE4A4
+      - 🇨🇦 加拿大-8DAFEF46
+      - 🇺🇸 美国-20488C4F
+      - 🇺🇸 美国-98668394
+      - 🏁 未知-AF16F820
+      - 🏁 未知-A3DD0AD8
+      - 🇺🇸 美国-09F87439
+      - 🏁 未知-16E65477
+      - 🏁 未知-286E57CD
+      - 🏁 未知-02DD770D
+      - 🏁 未知-AABEE20A
+      - 🏁 未知-1E4E8879
+      - 🏁 未知-B4A5647A
+      - 🏁 未知-6E217116
+      - 🏁 未知-1BD6A4E0
+      - 🏁 未知-A9C8C724
+      - 🏁 未知-FCBC5D1C
+      - 🏁 未知-B40CAC94
+      - 🏁 未知-AACC94B0
+      - 🏁 未知-442D5737
+      - 🏁 未知-67C1FE41
+      - 🏁 未知-4D25BF26
+      - 🏁 未知-01E5A486
+      - 🏁 未知-39D94852
+      - 🏁 未知-A07A1232
+      - 🏁 未知-5DFDEEDF
+      - 🇬🇧 英国-E9AB5579
+      - 🇮🇹 意大利-D7E09F36
+  - name: 🎯 全局直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+proxies:
+  - name: 🇯🇵 日本-CC40E05D
+    type: vmess
+    server: 103.127.243.60
+    port: 55386
+    alterId: 0
+    cipher: auto
+    client-fingerprint: chrome
+    http-opts:
+      headers: {}
+      path:
+        - /ABCDE
+    network: http
+    tls: false
+    uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+  - name: 🇰🇷 韩国-01958B5F
+    type: vmess
+    server: 140.238.2.250
+    port: 443
+    alterId: 0
+    cipher: auto
+    country: 🇰🇷KR
+    h2-opts: {}
+    http-opts: {}
+    network: none
+    skip-cert-verify: true
+    uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  - name: 🏁 未知-94F4D60F
+    type: vmess
+    server: 82.198.246.97
+    port: 180
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  - name: 🏁 未知-B221E8B6
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  - name: 🇺🇸 美国-6AC568E3
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    alterId: "0"
+    cipher: auto
+    client-fingerprint: chrome
+    network: tcp
+    packet-encoding: xudp
+    skip-cert-verify: false
+    tls: false
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - name: 🏁 未知-6F8782D8
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  - name: 🇺🇸 美国-07F16A90
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  - name: 🇺🇸 美国-C9357549
+    type: vmess
+    server: 165.140.216.141
+    port: 443
+    alpn:
+      - ""
+    alterId: "0"
+    cipher: auto
+    client-fingerprint: chrome
+    network: tcp
+    packet-encoding: xudp
+    skip-cert-verify: false
+    tls: false
+    udp: true
+    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+    xudp: true
+  - name: 🇺🇸 美国-AF5490E4
+    type: vmess
+    server: 104.233.214.176
+    port: 13581
+    alterId: 0
+    cipher: auto
+    network: none
+    tls: false
+    uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
+  - name: 🏁 未知-5F244B4A
+    type: vmess
+    server: 84.17.41.2
+    port: 18000
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🇺🇸 美国-2EC114C5
+    type: vmess
+    server: 129.146.77.248
+    port: 39495
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+    ws-opts:
+      headers: {}
+      path: /cctv13.m3u8
+  - name: 🇺🇸 美国-ADAF2D9F
+    type: vmess
+    server: 216.106.185.141
+    port: 22324
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: ""
+    tls: false
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  - name: 🏁 未知-B3BAA575
+    type: vmess
+    server: 129.146.143.80
+    port: 48111
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  - name: 🏁 未知-892BE4A4
+    type: vmess
+    server: 67.220.85.46
+    port: 18000
+    alterId: 0
+    cipher: aes-128-gcm
+    network: tcp
+    udp: true
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🇨🇦 加拿大-8DAFEF46
+    type: vmess
+    server: 23.162.200.198
+    port: 18000
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🇺🇸 美国-20488C4F
+    type: vmess
+    server: 67.220.95.3
+    port: 18000
+    alterId: 0
+    cipher: aes-128-gcm
+    network: tcp
+    tls: false
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🇺🇸 美国-98668394
+    type: vmess
+    server: 38.91.107.49
+    port: 18000
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🏁 未知-AF16F820
+    type: vmess
+    server: 134.195.196.211
+    port: 18000
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🏁 未知-A3DD0AD8
+    type: vmess
+    server: 38.110.1.246
+    port: 18000
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🇺🇸 美国-09F87439
+    type: vmess
+    server: 216.106.183.35
+    port: 22324
+    alterId: 1
+    cipher: auto
+    network: tcp
+    skip-cert-verify: true
+    tls: false
+    udp: true
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  - name: 🏁 未知-16E65477
+    type: vmess
+    server: 172.104.80.66
+    port: 22324
+    alterId: 1
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  - name: 🏁 未知-286E57CD
+    type: vmess
+    server: 153.121.73.175
+    port: 32221
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: b06054ae-f249-438e-998a-8e67bd8df653
+  - name: 🏁 未知-02DD770D
+    type: vmess
+    server: 153.121.73.175
+    port: 49803
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
+  - name: 🏁 未知-AABEE20A
+    type: vmess
+    server: 38.114.123.42
+    port: 18000
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🏁 未知-1E4E8879
+    type: vmess
+    server: 165.154.195.38
+    port: 35034
+    alterId: 0
+    cipher: auto
+    client-fingerprint: ""
+    network: tcp
+    tls: false
+    uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  - name: 🏁 未知-B4A5647A
+    type: vmess
+    server: 149.88.23.202
+    port: 18000
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🏁 未知-6E217116
+    type: vmess
+    server: 104.253.134.92
+    port: 13932
+    alterId: 0
+    cipher: auto
+    client-fingerprint: ""
+    network: tcp
+    tls: false
+    uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+  - name: 🏁 未知-1BD6A4E0
+    type: vmess
+    server: 85.90.217.42
+    port: 22324
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  - name: 🏁 未知-A9C8C724
+    type: vmess
+    server: 132.145.80.230
+    port: 80
+    alterId: 0
+    cipher: auto
+    network: ws
+    udp: true
+    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+    ws-opts:
+      headers:
+        Host: kr02.a0a.xyz
+      path: /cctv13.m3u8
+  - name: 🏁 未知-FCBC5D1C
+    type: vmess
+    server: 149.88.23.207
+    port: 18000
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  - name: 🏁 未知-B40CAC94
+    type: vmess
+    server: 172.111.146.64
+    port: 80
+    alterId: 0
+    cipher: auto
+    client-fingerprint: ""
+    network: ws
+    tls: false
+    uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+    ws-opts:
+      headers: {}
+      path: /vmess/
+  - name: 🏁 未知-AACC94B0
+    type: vmess
+    server: 159.223.13.109
+    port: 1234
+    alterId: 0
+    cipher: aes-128-gcm
+    client-fingerprint: chrome
+    network: tcp
+    servername: supervpn.super.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  - name: 🏁 未知-442D5737
+    type: vmess
+    server: 146.56.112.110
+    port: 8888
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+    uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  - name: 🏁 未知-67C1FE41
+    type: vmess
+    server: 45.90.106.24
+    port: 1234
+    alterId: 0
+    cipher: aes-128-gcm
+    network: tcp
+    servername: 45.90.106.24
+    skip-cert-verify: true
+    tls: true
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  - name: 🏁 未知-4D25BF26
+    type: vmess
+    server: 5.188.190.252
+    port: 22324
+    alterId: 0
+    cipher: auto
+    client-fingerprint: chrome
+    network: tcp
+    tls: false
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  - name: 🏁 未知-01E5A486
+    type: vmess
+    server: 141.95.65.9
+    port: 1234
+    alterId: 0
+    cipher: aes-128-gcm
+    client-fingerprint: chrome
+    network: tcp
+    servername: supervpn.super.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  - name: 🏁 未知-39D94852
+    type: vmess
+    server: 162.19.204.71
+    port: 1234
+    alterId: 0
+    cipher: auto
+    client-fingerprint: chrome
+    network: tcp
+    servername: supervpn.super.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+    uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  - name: 🏁 未知-A07A1232
+    type: vmess
+    server: 140.83.51.161
+    port: 25686
+    alterId: 0
+    cipher: auto
+    network: ws
+    udp: true
+    uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+    ws-opts:
+      headers:
+        Host: jp02.a0a.xyz
+      path: /cctv13.m3u8
+  - name: 🏁 未知-5DFDEEDF
+    type: vmess
+    server: 62.60.151.41
+    port: 57865
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: false
+    uuid: 3c61ea53-a550-4252-8211-956f9f7dc2d0
+    ws-opts:
+      headers: {}
+      path: /
+  - name: 🇬🇧 英国-E9AB5579
+    type: vmess
+    server: 66.163.117.58
+    port: 22324
+    alterId: 0
+    cipher: auto
+    network: tcp
+    tls: false
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  - name: 🇮🇹 意大利-D7E09F36
+    type: vmess
+    server: 57.131.32.191
+    port: 8443
+    alterId: 0
+    cipher: auto
+    client-fingerprint: ""
+    network: ws
+    servername: OV-Italy1.09vpn.com
+    tls: true
+    uuid: 848af33c-81f2-40c9-93b2-4681d056936b
+    ws-opts:
+      headers: {}
+      path: /vmess/
+rules:
+  - GEOIP,lan,🎯 全局直连,no-resolve
+  - GEOSITE,github,🚀 节点选择
+  - GEOSITE,twitter,🚀 节点选择
+  - GEOSITE,youtube,🚀 节点选择
+  - GEOSITE,google,🚀 节点选择
+  - GEOSITE,telegram,🚀 节点选择
+  - GEOSITE,netflix,🚀 节点选择
+  - GEOSITE,bilibili,🎯 全局直连
+  - GEOSITE,bahamut,🚀 节点选择
+  - GEOSITE,spotify,🚀 节点选择
+  - GEOSITE,CN,🎯 全局直连
+  - GEOSITE,geolocation-!cn,🐟 漏网之鱼
+  - GEOIP,google,🚀 节点选择
+  - GEOIP,netflix,🚀 节点选择
+  - GEOIP,telegram,🚀 节点选择
+  - GEOIP,twitter,🚀 节点选择
+  - GEOIP,CN,🎯 全局直连
+  - MATCH,🐟 漏网之鱼
