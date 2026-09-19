@@ -1,0 +1,5 @@
+proxies:
+  - {"name":"YouTube顺丰资源 美国_1","type":"vless","server":"35.212.182.82","port":55012,"uuid":"0e119284-a44d-45a2-807a-bdb718d82e51","tls":false,"network":"tcp","skip-cert-verify":false,"udp":true,"servername":"apple.com"}
+  - {"name":"YouTube顺丰资源 美国_2","type":"vmess","server":"35.212.182.82","port":2095,"uuid":"0e119284-a44d-45a2-807a-bdb718d82e51","tls":false,"network":"ws","alterId":0,"cipher":"auto","ws-opts":{"path":"/0e119284-a44d-45a2-807a-bdb718d82e51-vm","headers":{"Host":"www.bing.com"}},"udp":true}
+  - {"name":"YouTube顺丰资源 美国_4","type":"hysteria2","server":"35.212.182.82","port":32039,"password":"0e119284-a44d-45a2-807a-bdb718d82e51","sni":"www.bing.com","udp":true,"skip-cert-verify":false,"alpn":["h3"]}
+  - {"name":"YouTube顺丰资源 美国_5","type":"tuic","server":"35.212.182.82","port":45894,"password":"0e119284-a44d-45a2-807a-bdb718d82e51","sni":"www.bing.com","udp":true,"skip-cert-verify":true,"alpn":["h3"],"congestion-controller":"cubic","udp-relay-mode":"native","version":5}
