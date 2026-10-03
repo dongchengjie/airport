@@ -1,0 +1,920 @@
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+external-controller: 127.0.0.1:9090
+geox-url:
+  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb
+  asn: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  use-system-hosts: false
+  cache-algorithm: arc
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.lan
+    - +.local
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  respect-rules: true
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    geosite:private,cn,geolocation-cn:
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+    geosite:google,youtube,telegram,gfw,geolocation-!cn:
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+      - https://208.67.222.222/dns-query
+      - https://208.67.220.220/dns-query
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+      override-destination: true
+    TLS:
+      ports:
+        - 443
+        - 8443
+    QUIC:
+      ports:
+        - 443
+        - 8443
+  skip-domain:
+    - Mijia Cloud
+    - +.push.apple.com
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+      - 🇭🇰 香港-1E3D1CFC
+      - 🇰🇷 韩国-A8F0A049
+      - 🇺🇸 美国-76C728BF
+      - 🇺🇸 美国-49F299CB
+      - 🏁 未知-535DDB12
+      - 🇺🇸 美国-B78D5857
+      - 🇺🇸 美国-5A5B3045
+      - 🇫🇷 法国-0589E305
+      - 🇦🇺 澳大利亚-43311E6E
+      - 🇷🇴 罗马尼亚-31AA0468
+      - 🇷🇴 罗马尼亚-6F2EA36F
+      - 🇷🇴 罗马尼亚-BB6FE7AB
+      - 🇷🇴 罗马尼亚-92A1C841
+      - 🇷🇴 罗马尼亚-DF4D881C
+      - 🇷🇴 罗马尼亚-7112DD44
+      - 🇷🇴 罗马尼亚-A1103FFB
+      - 🇷🇴 罗马尼亚-7139EA68
+      - 🇷🇴 罗马尼亚-9C6BE5E9
+      - 🇷🇴 罗马尼亚-DC6BEB50
+      - 🇷🇴 罗马尼亚-0A6652EF
+      - 🇷🇴 罗马尼亚-BB3AD2B2
+      - 🇷🇴 罗马尼亚-294A8582
+      - 🇷🇴 罗马尼亚-FDAABDC7
+      - 🇷🇴 罗马尼亚-3875FC9F
+      - 🇷🇴 罗马尼亚-C9A664C0
+      - 🇷🇴 罗马尼亚-7B5940AE
+      - 🇷🇴 罗马尼亚-7ABB06EF
+      - 🇷🇴 罗马尼亚-70B71F2C
+      - 🇷🇴 罗马尼亚-7817A88D
+      - 🇷🇴 罗马尼亚-AA6ADB2E
+      - 🇷🇴 罗马尼亚-82A9083B
+      - 🇷🇴 罗马尼亚-6267002F
+      - 🇷🇴 罗马尼亚-E41E79CC
+      - 🇷🇴 罗马尼亚-8B15EF18
+      - 🇷🇴 罗马尼亚-26449896
+      - 🇷🇴 罗马尼亚-91B449B1
+      - 🇷🇴 罗马尼亚-BF05A647
+      - 🇷🇴 罗马尼亚-32140830
+      - 🇷🇴 罗马尼亚-114AEF48
+      - 🇷🇴 罗马尼亚-002057EC
+      - 🇷🇴 罗马尼亚-764A599C
+      - 🇷🇴 罗马尼亚-7798090C
+      - 🇷🇴 罗马尼亚-FF52935E
+      - 🇷🇴 罗马尼亚-860D116B
+      - 🇷🇴 罗马尼亚-27BA3DF8
+      - 🇷🇴 罗马尼亚-C180F418
+      - 🇷🇴 罗马尼亚-88784180
+      - 🏁 未知-4B5E5F42
+      - 🇷🇴 罗马尼亚-0903D57D
+      - 🇷🇴 罗马尼亚-79ABF0C2
+      - 🇷🇴 罗马尼亚-3E9BC3C8
+      - 🇷🇴 罗马尼亚-14BD8041
+      - 🇷🇴 罗马尼亚-DC296ABE
+      - 🇷🇴 罗马尼亚-E872A5D7
+      - 🇷🇴 罗马尼亚-A1C17CEB
+      - 🇷🇴 罗马尼亚-448E0826
+      - 🇷🇴 罗马尼亚-7E3ED11C
+      - 🇷🇴 罗马尼亚-9173CD2C
+      - 🇷🇴 罗马尼亚-F18C456E
+      - 🇷🇴 罗马尼亚-788320FD
+      - 🇷🇴 罗马尼亚-5ECDDAFA
+      - 🇷🇴 罗马尼亚-6A89CF96
+      - 🇷🇴 罗马尼亚-A6A723F0
+      - 🇷🇴 罗马尼亚-DC100997
+      - 🇷🇴 罗马尼亚-29BF1100
+      - 🇷🇴 罗马尼亚-168A5030
+      - 🇷🇴 罗马尼亚-ED09A442
+      - 🇷🇴 罗马尼亚-69133688
+      - 🇷🇴 罗马尼亚-8D7FA6D7
+      - 🇷🇴 罗马尼亚-4D5CCCEB
+      - 🇷🇴 罗马尼亚-FD9B4D22
+      - 🇷🇴 罗马尼亚-2763F7BE
+      - 🇷🇴 罗马尼亚-780C168C
+      - 🇷🇴 罗马尼亚-6E78D533
+      - 🇷🇴 罗马尼亚-85B7DEDF
+      - 🇷🇴 罗马尼亚-4D937929
+      - 🇷🇴 罗马尼亚-7DA1C500
+      - 🇷🇴 罗马尼亚-9663BA60
+      - 🇷🇴 罗马尼亚-D1DD7315
+      - 🇷🇴 罗马尼亚-5A7730E8
+      - 🇷🇴 罗马尼亚-B312F1E8
+      - 🇷🇴 罗马尼亚-F480C763
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    tolerance: 200
+    max-failed-times: 3
+    proxies:
+      - 🇭🇰 香港-1E3D1CFC
+      - 🇰🇷 韩国-A8F0A049
+      - 🇺🇸 美国-76C728BF
+      - 🇺🇸 美国-49F299CB
+      - 🏁 未知-535DDB12
+      - 🇺🇸 美国-B78D5857
+      - 🇺🇸 美国-5A5B3045
+      - 🇫🇷 法国-0589E305
+      - 🇦🇺 澳大利亚-43311E6E
+      - 🇷🇴 罗马尼亚-31AA0468
+      - 🇷🇴 罗马尼亚-6F2EA36F
+      - 🇷🇴 罗马尼亚-BB6FE7AB
+      - 🇷🇴 罗马尼亚-92A1C841
+      - 🇷🇴 罗马尼亚-DF4D881C
+      - 🇷🇴 罗马尼亚-7112DD44
+      - 🇷🇴 罗马尼亚-A1103FFB
+      - 🇷🇴 罗马尼亚-7139EA68
+      - 🇷🇴 罗马尼亚-9C6BE5E9
+      - 🇷🇴 罗马尼亚-DC6BEB50
+      - 🇷🇴 罗马尼亚-0A6652EF
+      - 🇷🇴 罗马尼亚-BB3AD2B2
+      - 🇷🇴 罗马尼亚-294A8582
+      - 🇷🇴 罗马尼亚-FDAABDC7
+      - 🇷🇴 罗马尼亚-3875FC9F
+      - 🇷🇴 罗马尼亚-C9A664C0
+      - 🇷🇴 罗马尼亚-7B5940AE
+      - 🇷🇴 罗马尼亚-7ABB06EF
+      - 🇷🇴 罗马尼亚-70B71F2C
+      - 🇷🇴 罗马尼亚-7817A88D
+      - 🇷🇴 罗马尼亚-AA6ADB2E
+      - 🇷🇴 罗马尼亚-82A9083B
+      - 🇷🇴 罗马尼亚-6267002F
+      - 🇷🇴 罗马尼亚-E41E79CC
+      - 🇷🇴 罗马尼亚-8B15EF18
+      - 🇷🇴 罗马尼亚-26449896
+      - 🇷🇴 罗马尼亚-91B449B1
+      - 🇷🇴 罗马尼亚-BF05A647
+      - 🇷🇴 罗马尼亚-32140830
+      - 🇷🇴 罗马尼亚-114AEF48
+      - 🇷🇴 罗马尼亚-002057EC
+      - 🇷🇴 罗马尼亚-764A599C
+      - 🇷🇴 罗马尼亚-7798090C
+      - 🇷🇴 罗马尼亚-FF52935E
+      - 🇷🇴 罗马尼亚-860D116B
+      - 🇷🇴 罗马尼亚-27BA3DF8
+      - 🇷🇴 罗马尼亚-C180F418
+      - 🇷🇴 罗马尼亚-88784180
+      - 🏁 未知-4B5E5F42
+      - 🇷🇴 罗马尼亚-0903D57D
+      - 🇷🇴 罗马尼亚-79ABF0C2
+      - 🇷🇴 罗马尼亚-3E9BC3C8
+      - 🇷🇴 罗马尼亚-14BD8041
+      - 🇷🇴 罗马尼亚-DC296ABE
+      - 🇷🇴 罗马尼亚-E872A5D7
+      - 🇷🇴 罗马尼亚-A1C17CEB
+      - 🇷🇴 罗马尼亚-448E0826
+      - 🇷🇴 罗马尼亚-7E3ED11C
+      - 🇷🇴 罗马尼亚-9173CD2C
+      - 🇷🇴 罗马尼亚-F18C456E
+      - 🇷🇴 罗马尼亚-788320FD
+      - 🇷🇴 罗马尼亚-5ECDDAFA
+      - 🇷🇴 罗马尼亚-6A89CF96
+      - 🇷🇴 罗马尼亚-A6A723F0
+      - 🇷🇴 罗马尼亚-DC100997
+      - 🇷🇴 罗马尼亚-29BF1100
+      - 🇷🇴 罗马尼亚-168A5030
+      - 🇷🇴 罗马尼亚-ED09A442
+      - 🇷🇴 罗马尼亚-69133688
+      - 🇷🇴 罗马尼亚-8D7FA6D7
+      - 🇷🇴 罗马尼亚-4D5CCCEB
+      - 🇷🇴 罗马尼亚-FD9B4D22
+      - 🇷🇴 罗马尼亚-2763F7BE
+      - 🇷🇴 罗马尼亚-780C168C
+      - 🇷🇴 罗马尼亚-6E78D533
+      - 🇷🇴 罗马尼亚-85B7DEDF
+      - 🇷🇴 罗马尼亚-4D937929
+      - 🇷🇴 罗马尼亚-7DA1C500
+      - 🇷🇴 罗马尼亚-9663BA60
+      - 🇷🇴 罗马尼亚-D1DD7315
+      - 🇷🇴 罗马尼亚-5A7730E8
+      - 🇷🇴 罗马尼亚-B312F1E8
+      - 🇷🇴 罗马尼亚-F480C763
+  - name: 🚑 故障转移
+    type: fallback
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    max-failed-times: 3
+    proxies:
+      - 🇭🇰 香港-1E3D1CFC
+      - 🇰🇷 韩国-A8F0A049
+      - 🇺🇸 美国-76C728BF
+      - 🇺🇸 美国-49F299CB
+      - 🏁 未知-535DDB12
+      - 🇺🇸 美国-B78D5857
+      - 🇺🇸 美国-5A5B3045
+      - 🇫🇷 法国-0589E305
+      - 🇦🇺 澳大利亚-43311E6E
+      - 🇷🇴 罗马尼亚-31AA0468
+      - 🇷🇴 罗马尼亚-6F2EA36F
+      - 🇷🇴 罗马尼亚-BB6FE7AB
+      - 🇷🇴 罗马尼亚-92A1C841
+      - 🇷🇴 罗马尼亚-DF4D881C
+      - 🇷🇴 罗马尼亚-7112DD44
+      - 🇷🇴 罗马尼亚-A1103FFB
+      - 🇷🇴 罗马尼亚-7139EA68
+      - 🇷🇴 罗马尼亚-9C6BE5E9
+      - 🇷🇴 罗马尼亚-DC6BEB50
+      - 🇷🇴 罗马尼亚-0A6652EF
+      - 🇷🇴 罗马尼亚-BB3AD2B2
+      - 🇷🇴 罗马尼亚-294A8582
+      - 🇷🇴 罗马尼亚-FDAABDC7
+      - 🇷🇴 罗马尼亚-3875FC9F
+      - 🇷🇴 罗马尼亚-C9A664C0
+      - 🇷🇴 罗马尼亚-7B5940AE
+      - 🇷🇴 罗马尼亚-7ABB06EF
+      - 🇷🇴 罗马尼亚-70B71F2C
+      - 🇷🇴 罗马尼亚-7817A88D
+      - 🇷🇴 罗马尼亚-AA6ADB2E
+      - 🇷🇴 罗马尼亚-82A9083B
+      - 🇷🇴 罗马尼亚-6267002F
+      - 🇷🇴 罗马尼亚-E41E79CC
+      - 🇷🇴 罗马尼亚-8B15EF18
+      - 🇷🇴 罗马尼亚-26449896
+      - 🇷🇴 罗马尼亚-91B449B1
+      - 🇷🇴 罗马尼亚-BF05A647
+      - 🇷🇴 罗马尼亚-32140830
+      - 🇷🇴 罗马尼亚-114AEF48
+      - 🇷🇴 罗马尼亚-002057EC
+      - 🇷🇴 罗马尼亚-764A599C
+      - 🇷🇴 罗马尼亚-7798090C
+      - 🇷🇴 罗马尼亚-FF52935E
+      - 🇷🇴 罗马尼亚-860D116B
+      - 🇷🇴 罗马尼亚-27BA3DF8
+      - 🇷🇴 罗马尼亚-C180F418
+      - 🇷🇴 罗马尼亚-88784180
+      - 🏁 未知-4B5E5F42
+      - 🇷🇴 罗马尼亚-0903D57D
+      - 🇷🇴 罗马尼亚-79ABF0C2
+      - 🇷🇴 罗马尼亚-3E9BC3C8
+      - 🇷🇴 罗马尼亚-14BD8041
+      - 🇷🇴 罗马尼亚-DC296ABE
+      - 🇷🇴 罗马尼亚-E872A5D7
+      - 🇷🇴 罗马尼亚-A1C17CEB
+      - 🇷🇴 罗马尼亚-448E0826
+      - 🇷🇴 罗马尼亚-7E3ED11C
+      - 🇷🇴 罗马尼亚-9173CD2C
+      - 🇷🇴 罗马尼亚-F18C456E
+      - 🇷🇴 罗马尼亚-788320FD
+      - 🇷🇴 罗马尼亚-5ECDDAFA
+      - 🇷🇴 罗马尼亚-6A89CF96
+      - 🇷🇴 罗马尼亚-A6A723F0
+      - 🇷🇴 罗马尼亚-DC100997
+      - 🇷🇴 罗马尼亚-29BF1100
+      - 🇷🇴 罗马尼亚-168A5030
+      - 🇷🇴 罗马尼亚-ED09A442
+      - 🇷🇴 罗马尼亚-69133688
+      - 🇷🇴 罗马尼亚-8D7FA6D7
+      - 🇷🇴 罗马尼亚-4D5CCCEB
+      - 🇷🇴 罗马尼亚-FD9B4D22
+      - 🇷🇴 罗马尼亚-2763F7BE
+      - 🇷🇴 罗马尼亚-780C168C
+      - 🇷🇴 罗马尼亚-6E78D533
+      - 🇷🇴 罗马尼亚-85B7DEDF
+      - 🇷🇴 罗马尼亚-4D937929
+      - 🇷🇴 罗马尼亚-7DA1C500
+      - 🇷🇴 罗马尼亚-9663BA60
+      - 🇷🇴 罗马尼亚-D1DD7315
+      - 🇷🇴 罗马尼亚-5A7730E8
+      - 🇷🇴 罗马尼亚-B312F1E8
+      - 🇷🇴 罗马尼亚-F480C763
+  - name: 🎯 全局直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+proxies:
+  - name: 🇭🇰 香港-1E3D1CFC
+    type: http
+    server: 47.238.199.39
+    port: 36735
+    password: VCYBW8pH4z
+    tls: false
+    username: 2XPTvGKBjj
+  - name: 🇰🇷 韩国-A8F0A049
+    type: http
+    server: 701489ed-t9zts0-tan99f-1rdqg.kr.oshuawei.com
+    port: 31433
+    password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+    sni: 701489ed-t9zts0-tan99f-1rdqg.kr.oshuawei.com
+    tls: true
+    username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  - name: 🇺🇸 美国-76C728BF
+    type: http
+    server: 65d28bb6-t9zts0-tan99f-1rdqg.sjc.oshuawei.com
+    port: 443
+    password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+    sni: 65d28bb6-t9zts0-tan99f-1rdqg.sjc.oshuawei.com
+    tls: true
+    username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  - name: 🇺🇸 美国-49F299CB
+    type: http
+    server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+    port: 443
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+    tls: true
+    username: 1b609740-eec2-11ef-8543-f23c93136cb3
+  - name: 🏁 未知-535DDB12
+    type: http
+    server: 154.26.192.123
+    port: 10988
+    password: gs4BXwT6SW
+    tls: false
+    username: fQ67Dpe5dU
+  - name: 🇺🇸 美国-B78D5857
+    type: http
+    server: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com
+    port: 443
+    password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+    sni: d6a15dd2-tegxs0-tejxhc-1rdqg.se.oshuawei.com
+    tls: true
+    username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  - name: 🇺🇸 美国-5A5B3045
+    type: http
+    server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+    port: 5443
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+    tls: true
+    username: 1b609740-eec2-11ef-8543-f23c93136cb3
+  - name: 🇫🇷 法国-0589E305
+    type: http
+    server: fe01bdcc-t9zts0-tan99f-1rdqg.fr.oshuawei.com
+    port: 443
+    password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+    sni: fe01bdcc-t9zts0-tan99f-1rdqg.fr.oshuawei.com
+    tls: true
+    username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+  - name: 🇦🇺 澳大利亚-43311E6E
+    type: http
+    server: 103.62.50.130
+    port: 443
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-31AA0468
+    type: http
+    server: 193.176.84.39
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-6F2EA36F
+    type: http
+    server: 193.176.84.27
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-BB6FE7AB
+    type: http
+    server: 193.176.84.24
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-92A1C841
+    type: http
+    server: 193.176.84.32
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-DF4D881C
+    type: http
+    server: 193.176.84.19
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-7112DD44
+    type: http
+    server: 193.176.84.26
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-A1103FFB
+    type: http
+    server: 193.176.84.31
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-7139EA68
+    type: http
+    server: 193.176.84.37
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-9C6BE5E9
+    type: http
+    server: 84.239.49.225
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-DC6BEB50
+    type: http
+    server: 84.239.49.155
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-0A6652EF
+    type: http
+    server: 84.239.49.233
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-BB3AD2B2
+    type: http
+    server: 84.239.49.235
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-294A8582
+    type: http
+    server: 84.239.49.249
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-FDAABDC7
+    type: http
+    server: 84.239.14.152
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-3875FC9F
+    type: http
+    server: 84.239.49.55
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-C9A664C0
+    type: http
+    server: 84.239.14.158
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-7B5940AE
+    type: http
+    server: 84.239.49.163
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-7ABB06EF
+    type: http
+    server: 84.239.14.147
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-70B71F2C
+    type: http
+    server: 84.239.49.171
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-7817A88D
+    type: http
+    server: 84.239.14.149
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-AA6ADB2E
+    type: http
+    server: 84.239.49.175
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-82A9083B
+    type: http
+    server: 84.239.49.164
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-6267002F
+    type: http
+    server: 84.239.14.159
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-E41E79CC
+    type: http
+    server: 84.239.49.58
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-8B15EF18
+    type: http
+    server: 84.239.14.154
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-26449896
+    type: http
+    server: 84.239.49.202
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-91B449B1
+    type: http
+    server: 84.239.49.180
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-BF05A647
+    type: http
+    server: 84.239.49.223
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-32140830
+    type: http
+    server: 84.239.49.156
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-114AEF48
+    type: http
+    server: 84.239.49.160
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-002057EC
+    type: http
+    server: 84.239.49.159
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-764A599C
+    type: http
+    server: 84.239.49.173
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-7798090C
+    type: http
+    server: 84.239.49.178
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-FF52935E
+    type: http
+    server: 84.239.49.184
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-860D116B
+    type: http
+    server: 84.239.49.231
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-27BA3DF8
+    type: http
+    server: 84.239.49.240
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-C180F418
+    type: http
+    server: 193.176.84.20
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-88784180
+    type: http
+    server: 193.176.84.25
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🏁 未知-4B5E5F42
+    type: http
+    server: 193.176.84.36
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 🇷🇴 罗马尼亚-0903D57D
+    type: http
+    server: 84.239.14.157
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-79ABF0C2
+    type: http
+    server: 193.176.84.40
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-3E9BC3C8
+    type: http
+    server: 84.239.49.183
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-14BD8041
+    type: http
+    server: 84.239.49.161
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-DC296ABE
+    type: http
+    server: 84.239.49.176
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-E872A5D7
+    type: http
+    server: 84.239.49.191
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-A1C17CEB
+    type: http
+    server: 84.239.49.211
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-448E0826
+    type: http
+    server: 84.239.49.154
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-7E3ED11C
+    type: http
+    server: 84.239.49.57
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-9173CD2C
+    type: http
+    server: 84.239.49.170
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-F18C456E
+    type: http
+    server: 84.239.49.166
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-788320FD
+    type: http
+    server: 193.176.84.34
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-5ECDDAFA
+    type: http
+    server: 84.239.49.196
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-6A89CF96
+    type: http
+    server: 84.239.49.234
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-A6A723F0
+    type: http
+    server: 84.239.49.242
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-DC100997
+    type: http
+    server: 84.239.14.146
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-29BF1100
+    type: http
+    server: 84.239.49.162
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-168A5030
+    type: http
+    server: 84.239.49.224
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-ED09A442
+    type: http
+    server: 84.239.49.182
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-69133688
+    type: http
+    server: 84.239.49.245
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-8D7FA6D7
+    type: http
+    server: 84.239.49.254
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-4D5CCCEB
+    type: http
+    server: 84.239.14.148
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-FD9B4D22
+    type: http
+    server: 84.239.49.238
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-2763F7BE
+    type: http
+    server: 84.239.49.239
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-780C168C
+    type: http
+    server: 84.239.49.199
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-6E78D533
+    type: http
+    server: 84.239.49.219
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-85B7DEDF
+    type: http
+    server: 84.239.49.204
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-4D937929
+    type: http
+    server: 84.239.49.39
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-7DA1C500
+    type: http
+    server: 84.239.49.207
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-9663BA60
+    type: http
+    server: 84.239.49.241
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-D1DD7315
+    type: http
+    server: 84.239.14.160
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+  - name: 🇷🇴 罗马尼亚-5A7730E8
+    type: http
+    server: 84.239.49.253
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-B312F1E8
+    type: http
+    server: 84.239.49.42
+    port: 9002
+    skip-cert-verify: true
+    tls: true
+  - name: 🇷🇴 罗马尼亚-F480C763
+    type: http
+    server: 84.239.49.40
+    port: 9002
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: true
+rules:
+  - GEOIP,lan,🎯 全局直连,no-resolve
+  - GEOSITE,github,🚀 节点选择
+  - GEOSITE,twitter,🚀 节点选择
+  - GEOSITE,youtube,🚀 节点选择
+  - GEOSITE,google,🚀 节点选择
+  - GEOSITE,telegram,🚀 节点选择
+  - GEOSITE,netflix,🚀 节点选择
+  - GEOSITE,bilibili,🎯 全局直连
+  - GEOSITE,bahamut,🚀 节点选择
+  - GEOSITE,spotify,🚀 节点选择
+  - GEOSITE,CN,🎯 全局直连
+  - GEOSITE,geolocation-!cn,🐟 漏网之鱼
+  - GEOIP,google,🚀 节点选择
+  - GEOIP,netflix,🚀 节点选择
+  - GEOIP,telegram,🚀 节点选择
+  - GEOIP,twitter,🚀 节点选择
+  - GEOIP,CN,🎯 全局直连
+  - MATCH,🐟 漏网之鱼
