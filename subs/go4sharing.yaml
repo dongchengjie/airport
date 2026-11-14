@@ -1,0 +1,8 @@
+proxies:
+  - {"name":"中国 - Hefei - 1","server":"112.132.215.108","type":"vmess","country":"🇨🇳CN","port":50002,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"delay":150,"udp":true,"servername":"112.132.215.108"}
+  - {"name":"加拿大 - Montréal - 1","server":"3.97.16.160","type":"ss","country":"🇨🇦CA","port":443,"password":"amazonskr05","cipher":"aes-256-cfb","delay":592,"udp":true}
+  - {"name":"法国 - Paris - 1","server":"95.170.13.47","port":65443,"type":"ss","cipher":"aes-256-cfb","password":"7eadc6dbe2ae","udp":true,"delay":1318}
+  - {"name":"美国 - Buffalo - 2","server":"v4.hdacd.com","type":"vmess","country":"🇨🇳CN","port":30804,"uuid":"cbb3f877-d1fb-344c-87a9-d153bffd5484","alterId":2,"cipher":"auto","network":"tcp","http-opts":{},"h2-opts":{},"skip-cert-verify":true,"delay":1031,"udp":true,"servername":"v4.hdacd.com"}
+  - {"name":"美国 - Los Angeles - 1","server":"121.46.230.233","port":65443,"type":"ss","cipher":"aes-256-cfb","password":"7eadc6dbe2ae","udp":true,"delay":353}
+  - {"name":"美国 - Los Angeles - 3","server":"www.361371.xyz","type":"vmess","country":"🇺🇸US","port":443,"uuid":"da77c564-3815-468c-8867-0aea0b397027","alterId":0,"cipher":"auto","network":"ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true,"ws-opts":{"path":"/ws-6rm27y","headers":{"HOST":"www.361371.xyz"}},"delay":1797,"udp":true,"servername":"www.361371.xyz"}
+  - {"name":"马来西亚 - Cyberjaya - 1","server":"118.107.222.231","port":65443,"type":"ss","cipher":"aes-256-cfb","password":"7eadc6dbe2ae","udp":true,"delay":1048}
