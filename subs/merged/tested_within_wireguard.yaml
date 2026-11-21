@@ -1,0 +1,844 @@
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+external-controller: 127.0.0.1:9090
+geox-url:
+  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb
+  asn: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  use-system-hosts: false
+  cache-algorithm: arc
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.lan
+    - +.local
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  respect-rules: true
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    geosite:private,cn,geolocation-cn:
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+    geosite:google,youtube,telegram,gfw,geolocation-!cn:
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+      - https://208.67.222.222/dns-query
+      - https://208.67.220.220/dns-query
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+      override-destination: true
+    TLS:
+      ports:
+        - 443
+        - 8443
+    QUIC:
+      ports:
+        - 443
+        - 8443
+  skip-domain:
+    - Mijia Cloud
+    - +.push.apple.com
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+      - 🇺🇸 美国-052B7F40
+      - 🏁 未知-C1A8FD06
+      - 🇺🇸 美国-13412B59
+      - 🇺🇸 美国-1140B13E
+      - 🇺🇸 美国-5FE41F38
+      - 🇺🇸 美国-FB561741
+      - 🇺🇸 美国-B1E74C72
+      - 🇺🇸 美国-C81B4C3F
+      - 🇺🇸 美国-0123380F
+      - 🇺🇸 美国-185E8060
+      - 🏁 未知-F9464FD6
+      - 🇺🇸 美国-1C854A23
+      - 🇺🇸 美国-1018BFB3
+      - 🇺🇸 美国-62B886B6
+      - 🇺🇸 美国-DAD68AEB
+      - 🇨🇦 加拿大-39ED079C
+      - 🇺🇸 美国-8142360E
+      - 🇺🇸 美国-C5883E60
+      - 🇨🇦 加拿大-0DE2CB15
+      - 🏁 未知-20BF05D2
+      - 🇨🇦 加拿大-64A1A7AF
+      - 🇨🇦 加拿大-4AB4CA83
+      - 🏁 未知-CF2ACCA0
+      - 🇺🇸 美国-475756D0
+      - 🇨🇦 加拿大-F14A7A92
+      - 🏁 未知-8A9D0B9C
+      - 🇺🇸 美国-35005C01
+      - 🇺🇸 美国-2C1996B5
+      - 🏁 未知-9B6828D4
+      - 🏁 未知-4A562C25
+      - 🇨🇦 加拿大-08D0995E
+      - 🏁 未知-B2718582
+      - 🏁 未知-10E78D28
+      - 🏁 未知-096B9834
+      - 🇨🇦 加拿大-1BBED2C2
+      - 🇨🇦 加拿大-810F58F7
+      - 🇨🇦 加拿大-22C5780E
+      - 🇨🇦 加拿大-391C51B6
+      - 🇨🇦 加拿大-16CF7064
+      - 🇨🇦 加拿大-52A221D5
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    tolerance: 200
+    max-failed-times: 3
+    proxies:
+      - 🇺🇸 美国-052B7F40
+      - 🏁 未知-C1A8FD06
+      - 🇺🇸 美国-13412B59
+      - 🇺🇸 美国-1140B13E
+      - 🇺🇸 美国-5FE41F38
+      - 🇺🇸 美国-FB561741
+      - 🇺🇸 美国-B1E74C72
+      - 🇺🇸 美国-C81B4C3F
+      - 🇺🇸 美国-0123380F
+      - 🇺🇸 美国-185E8060
+      - 🏁 未知-F9464FD6
+      - 🇺🇸 美国-1C854A23
+      - 🇺🇸 美国-1018BFB3
+      - 🇺🇸 美国-62B886B6
+      - 🇺🇸 美国-DAD68AEB
+      - 🇨🇦 加拿大-39ED079C
+      - 🇺🇸 美国-8142360E
+      - 🇺🇸 美国-C5883E60
+      - 🇨🇦 加拿大-0DE2CB15
+      - 🏁 未知-20BF05D2
+      - 🇨🇦 加拿大-64A1A7AF
+      - 🇨🇦 加拿大-4AB4CA83
+      - 🏁 未知-CF2ACCA0
+      - 🇺🇸 美国-475756D0
+      - 🇨🇦 加拿大-F14A7A92
+      - 🏁 未知-8A9D0B9C
+      - 🇺🇸 美国-35005C01
+      - 🇺🇸 美国-2C1996B5
+      - 🏁 未知-9B6828D4
+      - 🏁 未知-4A562C25
+      - 🇨🇦 加拿大-08D0995E
+      - 🏁 未知-B2718582
+      - 🏁 未知-10E78D28
+      - 🏁 未知-096B9834
+      - 🇨🇦 加拿大-1BBED2C2
+      - 🇨🇦 加拿大-810F58F7
+      - 🇨🇦 加拿大-22C5780E
+      - 🇨🇦 加拿大-391C51B6
+      - 🇨🇦 加拿大-16CF7064
+      - 🇨🇦 加拿大-52A221D5
+  - name: 🚑 故障转移
+    type: fallback
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    max-failed-times: 3
+    proxies:
+      - 🇺🇸 美国-052B7F40
+      - 🏁 未知-C1A8FD06
+      - 🇺🇸 美国-13412B59
+      - 🇺🇸 美国-1140B13E
+      - 🇺🇸 美国-5FE41F38
+      - 🇺🇸 美国-FB561741
+      - 🇺🇸 美国-B1E74C72
+      - 🇺🇸 美国-C81B4C3F
+      - 🇺🇸 美国-0123380F
+      - 🇺🇸 美国-185E8060
+      - 🏁 未知-F9464FD6
+      - 🇺🇸 美国-1C854A23
+      - 🇺🇸 美国-1018BFB3
+      - 🇺🇸 美国-62B886B6
+      - 🇺🇸 美国-DAD68AEB
+      - 🇨🇦 加拿大-39ED079C
+      - 🇺🇸 美国-8142360E
+      - 🇺🇸 美国-C5883E60
+      - 🇨🇦 加拿大-0DE2CB15
+      - 🏁 未知-20BF05D2
+      - 🇨🇦 加拿大-64A1A7AF
+      - 🇨🇦 加拿大-4AB4CA83
+      - 🏁 未知-CF2ACCA0
+      - 🇺🇸 美国-475756D0
+      - 🇨🇦 加拿大-F14A7A92
+      - 🏁 未知-8A9D0B9C
+      - 🇺🇸 美国-35005C01
+      - 🇺🇸 美国-2C1996B5
+      - 🏁 未知-9B6828D4
+      - 🏁 未知-4A562C25
+      - 🇨🇦 加拿大-08D0995E
+      - 🏁 未知-B2718582
+      - 🏁 未知-10E78D28
+      - 🏁 未知-096B9834
+      - 🇨🇦 加拿大-1BBED2C2
+      - 🇨🇦 加拿大-810F58F7
+      - 🇨🇦 加拿大-22C5780E
+      - 🇨🇦 加拿大-391C51B6
+      - 🇨🇦 加拿大-16CF7064
+      - 🇨🇦 加拿大-52A221D5
+  - name: 🎯 全局直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+proxies:
+  - name: 🇺🇸 美国-052B7F40
+    type: wireguard
+    server: 8.6.112.5
+    port: 955
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🏁 未知-C1A8FD06
+    type: wireguard
+    server: 162.159.192.1
+    port: 500
+    ip: 172.16.0.2/32
+    mtu: 1280
+    presharedkey: ""
+    private-key: cMxekgAnVSNb+rgOySV+74ogaJhqpJtShZaECZCY6k4=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 236
+      - 210
+      - 245
+    udp: true
+  - name: 🇺🇸 美国-13412B59
+    type: wireguard
+    server: 8.6.112.207
+    port: 8742
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    udp: true
+  - name: 🇺🇸 美国-1140B13E
+    type: wireguard
+    server: 8.6.112.200
+    port: 4198
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    udp: true
+  - name: 🇺🇸 美国-5FE41F38
+    type: wireguard
+    server: 8.6.112.23
+    port: 928
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    udp: true
+  - name: 🇺🇸 美国-FB561741
+    type: wireguard
+    server: 8.6.112.7
+    port: 7152
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇺🇸 美国-B1E74C72
+    type: wireguard
+    server: 8.6.112.100
+    port: 878
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇺🇸 美国-C81B4C3F
+    type: wireguard
+    server: 8.6.112.10
+    port: 894
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇺🇸 美国-0123380F
+    type: wireguard
+    server: 8.6.112.181
+    port: 946
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇺🇸 美国-185E8060
+    type: wireguard
+    server: 8.6.112.246
+    port: 1180
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    udp: true
+  - name: 🏁 未知-F9464FD6
+    type: wireguard
+    server: 188.114.97.6
+    port: 7281
+    ip: 172.16.0.2/32
+    mtu: 1420
+    presharedkey: ""
+    private-key: mNL2pg8LMMi2bIjoSR0fRSL6QO1BMvfsr8/Zog6ZW0c=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇺🇸 美国-1C854A23
+    type: wireguard
+    server: 8.6.112.48
+    port: 1070
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇺🇸 美国-1018BFB3
+    type: wireguard
+    server: 8.6.112.251
+    port: 1387
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:87d9:118e:a4cc:8d4d:f827/128
+    mtu: 1280
+    private-key: x54c2sqnoNG/zWZxtShcWQqc9qMbPrp0bZw1TehnbaY=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    udp: true
+  - name: 🇺🇸 美国-62B886B6
+    type: wireguard
+    server: 8.6.112.58
+    port: 908
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    udp: true
+  - name: 🇺🇸 美国-DAD68AEB
+    type: wireguard
+    server: 8.6.112.100
+    port: 955
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    udp: true
+  - name: 🇨🇦 加拿大-39ED079C
+    type: wireguard
+    server: 162.159.192.7
+    port: 500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: KAVFtrqtH6RDA0JBlZ4rISv5rDMaywO1btSJIxi+vn8=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 61
+      - 7
+      - 252
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇺🇸 美国-8142360E
+    type: wireguard
+    server: 8.6.112.134
+    port: 3854
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+    mtu: 1280
+    private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 0
+      - 0
+      - 0
+    udp: true
+  - name: 🇺🇸 美国-C5883E60
+    type: wireguard
+    server: 8.6.112.141
+    port: 3476
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇨🇦 加拿大-0DE2CB15
+    type: wireguard
+    server: 162.159.192.2
+    port: 4500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: sLd5tWe8IhWTDvMbhdfEbu4+AwbAIVT3iURvlM6bc2g=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 230
+      - 149
+      - 72
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🏁 未知-20BF05D2
+    type: wireguard
+    server: 162.159.192.5
+    port: 500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: SLQM1iGPVovYSVkSPiyHJo7for5BfVoXBdhB+mPFxUE=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 220
+      - 50
+      - 126
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇨🇦 加拿大-64A1A7AF
+    type: wireguard
+    server: 162.159.192.4
+    port: 500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: 6MOHNyxgcVe2ohk/L50VCvNoAD1dKsVQ+DO/r0GLgk8=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 228
+      - 192
+      - 229
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇨🇦 加拿大-4AB4CA83
+    type: wireguard
+    server: 162.159.192.3
+    port: 4500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: AF2nx4tmsO5yJFZHnTkUxGAcnWMhKUWrhfCgJJ79Ylg=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 4
+      - 150
+      - 196
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🏁 未知-CF2ACCA0
+    type: wireguard
+    server: 162.159.192.2
+    port: 500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: +AYnqJYinZIJ6yZwIjmirctmPqzfctf6H2fTqywa/XM=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 39
+      - 4
+      - 107
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇺🇸 美国-475756D0
+    type: wireguard
+    server: 8.6.112.35
+    port: 1180
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇨🇦 加拿大-F14A7A92
+    type: wireguard
+    server: 162.159.192.2
+    port: 2408
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: oDBa7PDoBqN5gYRO5pL59noH6dQpXt40AETlDNlNtl8=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 121
+      - 1
+      - 112
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🏁 未知-8A9D0B9C
+    type: wireguard
+    server: 162.159.192.11
+    port: 3581
+    ip: 172.16.0.2/32
+    mtu: 1380
+    presharedkey: ""
+    private-key: 2FaqTm+aXdVK00dvbeuMW/t741BWYu9lNOOVtMI4R3Y=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 80
+      - 103
+      - 64
+    udp: true
+  - name: 🇺🇸 美国-35005C01
+    type: wireguard
+    server: 8.6.112.30
+    port: 1014
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🇺🇸 美国-2C1996B5
+    type: wireguard
+    server: 8.6.112.51
+    port: 7559
+    ip: 172.16.0.2/32
+    ipv6: 2606:4700:110:8af2:447b:a9b9:b420:ebff/128
+    mtu: 1420
+    private-key: eGpcqvonUvA7/m1lcaERbf2opGESbp375ieSliLc3WU=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    udp: true
+  - name: 🏁 未知-9B6828D4
+    type: wireguard
+    server: 188.114.97.6
+    port: 987
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    presharedkey: ""
+    private-key: GJTd46xB/fjfi6vyJmpxUiNrNdjZTW0Qhi7b0PkER1Y=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 175
+      - 93
+      - 41
+    udp: true
+    wnoise: quic
+    wnoisecount: "15"
+    wnoisedelay: 1-2
+    wpayloadsize: 5-10
+  - name: 🏁 未知-4A562C25
+    type: wireguard
+    server: 162.159.192.6
+    port: 500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: mHj04J164X9hgzAVq4BlB0hc/SK3QPbgl7JF+/anXU0=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 99
+      - 166
+      - 252
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇨🇦 加拿大-08D0995E
+    type: wireguard
+    server: 162.159.192.6
+    port: 4500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: 6LvJU33ZnWgR0r4A51ApYLHh+AT4v7Ft/SZ7vZHml3Y=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 128
+      - 217
+      - 102
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🏁 未知-B2718582
+    type: wireguard
+    server: 162.159.192.6
+    port: 2408
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: GGdi0j+S7ypUOCm+Rj/h5R3ifRHRyQHcKkK8rZeE+Ho=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 247
+      - 153
+      - 203
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🏁 未知-10E78D28
+    type: wireguard
+    server: 162.159.192.3
+    port: 500
+    ip: 172.16.0.2/32
+    mtu: 1280
+    presharedkey: ""
+    private-key: 2D+QMolgGWVRVGdJJvsQ4VBDCcZTym0c1sFN00PeMUs=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 213
+      - 74
+      - 19
+    udp: true
+  - name: 🏁 未知-096B9834
+    type: wireguard
+    server: 162.159.195.4
+    port: 2371
+    ip: 172.16.0.2/32
+    mtu: 1380
+    presharedkey: ""
+    private-key: CBMxaub4dG7Q9W91x4+lUCqtF9eV1BN+4osBfWZNXHs=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 225
+      - 17
+      - 205
+    udp: true
+  - name: 🇨🇦 加拿大-1BBED2C2
+    type: wireguard
+    server: 162.159.192.4
+    port: 4500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: EH18t6hUfxFfP5cUXKBNGXgLS9wTgQ/iMNSTOlBCDHs=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 114
+      - 58
+      - 245
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇨🇦 加拿大-810F58F7
+    type: wireguard
+    server: 162.159.192.7
+    port: 4500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: 2DpN1E4RZmiBm7x2vlr6vFcIkjixfcTYZtGMlKYPZEM=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 125
+      - 168
+      - 120
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇨🇦 加拿大-22C5780E
+    type: wireguard
+    server: 162.159.192.1
+    port: 4500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: QN9e//MZcXBdaz7vDo7hX6tY5xh2yFzlActftLGlA10=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 255
+      - 89
+      - 117
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇨🇦 加拿大-391C51B6
+    type: wireguard
+    server: 162.159.192.5
+    port: 2408
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: QA9tXp3mpp1GVAmE1wF/KAI4vT/pj6QaLaY4Lt1sXV0=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 149
+      - 115
+      - 173
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇨🇦 加拿大-16CF7064
+    type: wireguard
+    server: 162.159.192.3
+    port: 2408
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: iP43+YO4O28eA8W6YRhSasNI0fggDS6efGoSL4AAIU4=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 213
+      - 69
+      - 137
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+  - name: 🇨🇦 加拿大-52A221D5
+    type: wireguard
+    server: 162.159.192.5
+    port: 4500
+    ip: 172.16.0.2/32
+    keepalive: "5"
+    mtu: 1280
+    persistent-keepalive: "5"
+    private-key: QB+xyMCK7DvH59ditStC1knU3bhSVJfbzpgvbSj/plI=
+    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+    reserved:
+      - 111
+      - 85
+      - 82
+    udp: true
+    wnoise: quic
+    wnoisecount: "5"
+    wnoisedelay: "5"
+    wpayloadsize: 40-90
+rules:
+  - GEOIP,lan,🎯 全局直连,no-resolve
+  - GEOSITE,github,🚀 节点选择
+  - GEOSITE,twitter,🚀 节点选择
+  - GEOSITE,youtube,🚀 节点选择
+  - GEOSITE,google,🚀 节点选择
+  - GEOSITE,telegram,🚀 节点选择
+  - GEOSITE,netflix,🚀 节点选择
+  - GEOSITE,bilibili,🎯 全局直连
+  - GEOSITE,bahamut,🚀 节点选择
+  - GEOSITE,spotify,🚀 节点选择
+  - GEOSITE,CN,🎯 全局直连
+  - GEOSITE,geolocation-!cn,🐟 漏网之鱼
+  - GEOIP,google,🚀 节点选择
+  - GEOIP,netflix,🚀 节点选择
+  - GEOIP,telegram,🚀 节点选择
+  - GEOIP,twitter,🚀 节点选择
+  - GEOIP,CN,🎯 全局直连
+  - MATCH,🐟 漏网之鱼

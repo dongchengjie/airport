@@ -1,0 +1,563 @@
+mixed-port: 7890
+ipv6: true
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+external-controller: 127.0.0.1:9090
+geox-url:
+  geoip: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat
+  geosite: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat
+  mmdb: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb
+  asn: https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/GeoLite2-ASN.mmdb
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  use-system-hosts: false
+  cache-algorithm: arc
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.lan
+    - +.local
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  respect-rules: true
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    geosite:private,cn,geolocation-cn:
+      - https://dns.alidns.com/dns-query
+      - https://doh.pub/dns-query
+    geosite:google,youtube,telegram,gfw,geolocation-!cn:
+      - https://1.1.1.1/dns-query
+      - https://1.0.0.1/dns-query
+      - https://208.67.222.222/dns-query
+      - https://208.67.220.220/dns-query
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+      override-destination: true
+    TLS:
+      ports:
+        - 443
+        - 8443
+    QUIC:
+      ports:
+        - 443
+        - 8443
+  skip-domain:
+    - Mijia Cloud
+    - +.push.apple.com
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+      - 🇭🇰 香港-C6E7A7E9
+      - 🇯🇵 日本-9E217BF6
+      - 🏁 未知-798A29E5
+      - 🇺🇸 美国-2844BECE
+      - 🇺🇸 美国-B46B5253
+      - 🏁 未知-CF9724B9
+      - 🇺🇸 美国-3810121C
+      - 🏁 未知-339BAA0B
+      - 🏁 未知-F8D1C073
+      - 🇩🇪 德国-5D57222D
+      - 🏁 未知-D92FC47D
+      - 🏁 未知-A2E19C45
+      - 🏁 未知-23A66182
+      - 🇫🇮 芬兰-4E929A80
+      - 🇺🇸 美国-185EF251
+      - 🏁 未知-4846E964
+      - 🏁 未知-01EEBF1E
+      - 🏁 未知-91A471F0
+      - 🏁 未知-1F3DCBFE
+      - 🏁 未知-7374DBEE
+      - 🏁 未知-B96CBC30
+      - 🏁 未知-E89F8CF2
+      - 🏁 未知-8DF9B1D2
+      - 🇺🇸 美国-15E672A5
+      - 🏁 未知-C7A4B7F4
+      - 🏁 未知-A135173C
+      - 🏁 未知-4DC3BE7F
+      - 🏁 未知-BF4FC3D3
+      - 🏁 未知-17909372
+      - 🏁 未知-6F72A411
+      - 🏁 未知-F5208FE7
+      - 🏁 未知-7B6AE454
+      - 🇲🇦 摩洛哥-51CE01F1
+      - 🇲🇦 摩洛哥-610DE0EC
+      - 🏁 未知-FD467CE6
+      - 🇨🇳 中国-D0742003
+      - 🏁 未知-DD311F61
+      - 🏁 未知-B5978DF2
+      - 🏁 未知-B3C15113
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    tolerance: 200
+    max-failed-times: 3
+    proxies:
+      - 🇭🇰 香港-C6E7A7E9
+      - 🇯🇵 日本-9E217BF6
+      - 🏁 未知-798A29E5
+      - 🇺🇸 美国-2844BECE
+      - 🇺🇸 美国-B46B5253
+      - 🏁 未知-CF9724B9
+      - 🇺🇸 美国-3810121C
+      - 🏁 未知-339BAA0B
+      - 🏁 未知-F8D1C073
+      - 🇩🇪 德国-5D57222D
+      - 🏁 未知-D92FC47D
+      - 🏁 未知-A2E19C45
+      - 🏁 未知-23A66182
+      - 🇫🇮 芬兰-4E929A80
+      - 🇺🇸 美国-185EF251
+      - 🏁 未知-4846E964
+      - 🏁 未知-01EEBF1E
+      - 🏁 未知-91A471F0
+      - 🏁 未知-1F3DCBFE
+      - 🏁 未知-7374DBEE
+      - 🏁 未知-B96CBC30
+      - 🏁 未知-E89F8CF2
+      - 🏁 未知-8DF9B1D2
+      - 🇺🇸 美国-15E672A5
+      - 🏁 未知-C7A4B7F4
+      - 🏁 未知-A135173C
+      - 🏁 未知-4DC3BE7F
+      - 🏁 未知-BF4FC3D3
+      - 🏁 未知-17909372
+      - 🏁 未知-6F72A411
+      - 🏁 未知-F5208FE7
+      - 🏁 未知-7B6AE454
+      - 🇲🇦 摩洛哥-51CE01F1
+      - 🇲🇦 摩洛哥-610DE0EC
+      - 🏁 未知-FD467CE6
+      - 🇨🇳 中国-D0742003
+      - 🏁 未知-DD311F61
+      - 🏁 未知-B5978DF2
+      - 🏁 未知-B3C15113
+  - name: 🚑 故障转移
+    type: fallback
+    url: https://cp.cloudflare.com/generate_204
+    lazy: true
+    interval: 180
+    timeout: 3000
+    max-failed-times: 3
+    proxies:
+      - 🇭🇰 香港-C6E7A7E9
+      - 🇯🇵 日本-9E217BF6
+      - 🏁 未知-798A29E5
+      - 🇺🇸 美国-2844BECE
+      - 🇺🇸 美国-B46B5253
+      - 🏁 未知-CF9724B9
+      - 🇺🇸 美国-3810121C
+      - 🏁 未知-339BAA0B
+      - 🏁 未知-F8D1C073
+      - 🇩🇪 德国-5D57222D
+      - 🏁 未知-D92FC47D
+      - 🏁 未知-A2E19C45
+      - 🏁 未知-23A66182
+      - 🇫🇮 芬兰-4E929A80
+      - 🇺🇸 美国-185EF251
+      - 🏁 未知-4846E964
+      - 🏁 未知-01EEBF1E
+      - 🏁 未知-91A471F0
+      - 🏁 未知-1F3DCBFE
+      - 🏁 未知-7374DBEE
+      - 🏁 未知-B96CBC30
+      - 🏁 未知-E89F8CF2
+      - 🏁 未知-8DF9B1D2
+      - 🇺🇸 美国-15E672A5
+      - 🏁 未知-C7A4B7F4
+      - 🏁 未知-A135173C
+      - 🏁 未知-4DC3BE7F
+      - 🏁 未知-BF4FC3D3
+      - 🏁 未知-17909372
+      - 🏁 未知-6F72A411
+      - 🏁 未知-F5208FE7
+      - 🏁 未知-7B6AE454
+      - 🇲🇦 摩洛哥-51CE01F1
+      - 🇲🇦 摩洛哥-610DE0EC
+      - 🏁 未知-FD467CE6
+      - 🇨🇳 中国-D0742003
+      - 🏁 未知-DD311F61
+      - 🏁 未知-B5978DF2
+      - 🏁 未知-B3C15113
+  - name: 🎯 全局直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚑 故障转移
+      - DIRECT
+proxies:
+  - name: 🇭🇰 香港-C6E7A7E9
+    type: hysteria2
+    server: 202.146.222.174
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    skip-cert-verify: true
+    sni: https://t.me/WangCai2🇨🇳
+    tfo: false
+  - name: 🇯🇵 日本-9E217BF6
+    type: hysteria2
+    server: 13.231.108.76
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    skip-cert-verify: true
+    sni: https://t.me/WangCai2🇨🇳
+    tfo: false
+  - name: 🏁 未知-798A29E5
+    type: hysteria2
+    server: 155.248.209.237
+    port: 33333
+    password: bce6c821-200d-421f-bf3d-7159e5246ea0
+    skip-cert-verify: true
+    sni: hy2.123266.xyz
+    tfo: false
+  - name: 🇺🇸 美国-2844BECE
+    type: hysteria2
+    server: hy2.123266.xyz
+    port: 33333
+    password: bce6c821-200d-421f-bf3d-7159e5246ea0
+    skip-cert-verify: true
+    sni: hy2.123266.xyz
+    tfo: false
+  - name: 🇺🇸 美国-B46B5253
+    type: hysteria2
+    server: 185.106.96.231
+    port: 443
+    password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+    skip-cert-verify: false
+    sni: s559.ccgfw.top
+    tfo: false
+  - name: 🏁 未知-CF9724B9
+    type: hysteria2
+    server: 157.230.222.46
+    port: 8443
+    password: MySecurePassword123
+    skip-cert-verify: false
+    sni: wuhantravel.duckdns.org
+    tfo: false
+  - name: 🇺🇸 美国-3810121C
+    type: hysteria2
+    server: wuhantravel.duckdns.org
+    port: 8443
+    alpn:
+      - h3
+    password: MySecurePassword123
+    sni: wuhantravel.duckdns.org
+    udp: true
+  - name: 🏁 未知-339BAA0B
+    type: hysteria2
+    server: 198.105.112.118
+    port: 443
+    obfs: salamander
+    obfs-password: EsimObfs_9mK2x7
+    password: EsimHy2Game_7xK9mPq2
+    skip-cert-verify: false
+    sni: nl.esimpson.org
+    tfo: false
+  - name: 🏁 未知-F8D1C073
+    type: hysteria2
+    server: 103.251.167.168
+    port: 443
+    obfs: salamander
+    obfs-password: 2a7e8084206388f4
+    password: gdubbi2zb6gdp0c8
+    skip-cert-verify: false
+    sni: gettestin.xxee.ru
+    tfo: false
+  - name: 🇩🇪 德国-5D57222D
+    type: hysteria2
+    server: 193.222.99.51
+    port: 443
+    password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+    skip-cert-verify: false
+    sni: argg1.auragg.org
+    tfo: false
+  - name: 🏁 未知-D92FC47D
+    type: hysteria2
+    server: 3.66.236.81
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    tfo: false
+  - name: 🏁 未知-A2E19C45
+    type: hysteria2
+    server: 3.79.47.137
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    tfo: false
+  - name: 🏁 未知-23A66182
+    type: hysteria2
+    server: 3.123.41.86
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    tfo: false
+  - name: 🇫🇮 芬兰-4E929A80
+    type: hysteria2
+    server: 65.109.177.191
+    port: 443
+    obfs: salamander
+    obfs-password: t-me-V2RayyNGvpn
+    password: t-me-V2RayyNGvpn
+    skip-cert-verify: true
+    sni: www.oracle.com
+    tfo: false
+  - name: 🇺🇸 美国-185EF251
+    type: hysteria2
+    server: hy2-new.aspidnet.xyz
+    port: 443
+    obfs: salamander
+    obfs-password: c1b4086fea89914496c7e10967a419216566
+    password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+    skip-cert-verify: true
+    sni: hy2-new.aspidnet.xyz
+    tfo: false
+  - name: 🏁 未知-4846E964
+    type: hysteria2
+    server: 54.254.116.49
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-01EEBF1E
+    type: hysteria2
+    server: 52.77.209.136
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-91A471F0
+    type: hysteria2
+    server: 54.254.241.184
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-1F3DCBFE
+    type: hysteria2
+    server: 13.229.106.122
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-7374DBEE
+    type: hysteria2
+    server: 13.212.61.62
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-B96CBC30
+    type: hysteria2
+    server: 13.250.63.183
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-E89F8CF2
+    type: hysteria2
+    server: 13.228.23.253
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-8DF9B1D2
+    type: hysteria2
+    server: 13.212.245.111
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🇺🇸 美国-15E672A5
+    type: hysteria2
+    server: 161.104.88.46
+    port: 443
+    password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
+    skip-cert-verify: true
+    sni: k71530.w-mebel.pro
+    tfo: false
+  - name: 🏁 未知-C7A4B7F4
+    type: hysteria2
+    server: 54.251.212.188
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-A135173C
+    type: hysteria2
+    server: 47.128.145.209
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-4DC3BE7F
+    type: hysteria2
+    server: 13.229.110.73
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-BF4FC3D3
+    type: hysteria2
+    server: 47.129.0.40
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-17909372
+    type: hysteria2
+    server: 13.213.12.36
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-6F72A411
+    type: hysteria2
+    server: 13.212.83.43
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-F5208FE7
+    type: hysteria2
+    server: 47.129.163.76
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-7B6AE454
+    type: hysteria2
+    server: 54.255.180.226
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🇲🇦 摩洛哥-51CE01F1
+    type: hysteria2
+    server: ma-ybu7mswk.9966690.xyz
+    port: 10000
+    insecure: "1"
+    mport: 10000-19999
+    obfs: salamander
+    obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    skip-cert-verify: true
+    sni: ma-ybu7mswk.9966690.xyz
+  - name: 🇲🇦 摩洛哥-610DE0EC
+    type: hysteria2
+    server: ma-ybu7mswk.9966690.xyz
+    port: 20000
+    insecure: "1"
+    mport: 20000-29999
+    obfs: salamander
+    obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    skip-cert-verify: true
+    sni: ma-ybu7mswk.9966690.xyz
+  - name: 🏁 未知-FD467CE6
+    type: hysteria2
+    server: 13.212.110.106
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🇨🇳 中国-D0742003
+    type: hysteria2
+    server: 103.115.109.49
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    skip-cert-verify: true
+    sni: https://t.me/WangCai2🇨🇳
+    tfo: false
+  - name: 🏁 未知-DD311F61
+    type: hysteria2
+    server: 13.213.19.29
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-B5978DF2
+    type: hysteria2
+    server: 13.229.54.181
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+  - name: 🏁 未知-B3C15113
+    type: hysteria2
+    server: 13.250.29.150
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    skip-cert-verify: true
+    sni: vpn-sg-001.fastervpn.world
+    tfo: false
+rules:
+  - GEOIP,lan,🎯 全局直连,no-resolve
+  - GEOSITE,github,🚀 节点选择
+  - GEOSITE,twitter,🚀 节点选择
+  - GEOSITE,youtube,🚀 节点选择
+  - GEOSITE,google,🚀 节点选择
+  - GEOSITE,telegram,🚀 节点选择
+  - GEOSITE,netflix,🚀 节点选择
+  - GEOSITE,bilibili,🎯 全局直连
+  - GEOSITE,bahamut,🚀 节点选择
+  - GEOSITE,spotify,🚀 节点选择
+  - GEOSITE,CN,🎯 全局直连
+  - GEOSITE,geolocation-!cn,🐟 漏网之鱼
+  - GEOIP,google,🚀 节点选择
+  - GEOIP,netflix,🚀 节点选择
+  - GEOIP,telegram,🚀 节点选择
+  - GEOIP,twitter,🚀 节点选择
+  - GEOIP,CN,🎯 全局直连
+  - MATCH,🐟 漏网之鱼
